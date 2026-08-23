@@ -103,7 +103,10 @@
       { "sense": "female ejaculation", "gloss": "A wave-based euphemism in the same family as 💦, considerably less common.", "confidence": "low" }
     ],
     "🦄": [
-      { "sense": "unicorn", "gloss": "Feeling horny", "confidence": "low" }
+      { "sense": "unicorn", "gloss": "Feeling frisky or naughty, horny.", "confidence": "low" }
+    ],
+    "😈": [
+      { "sense": "devil", "gloss": "Feeling frisky or naughty.", "confidence": "high" }
     ],
     "🍫": [
       { "sense": "skin-tone compliment", "gloss": "Used as a compliment about complexion in flirtation; read by many as fetishising rather than flattering.", "confidence": "low" }
