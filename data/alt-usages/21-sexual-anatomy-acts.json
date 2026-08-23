@@ -103,10 +103,19 @@
       { "sense": "female ejaculation", "gloss": "A wave-based euphemism in the same family as 💦, considerably less common.", "confidence": "low" }
     ],
     "🦄": [
-      { "sense": "unicorn", "gloss": "Feeling frisky or naughty, horny.", "confidence": "low" }
+      { "sense": "horny", "gloss": "Feeling frisky or naughty, horny.", "confidence": "low" }
     ],
     "😈": [
-      { "sense": "devil", "gloss": "Feeling frisky or naughty.", "confidence": "high" }
+      { "sense": "naughty", "gloss": "Feeling frisky or naughty.", "confidence": "high" }
+    ],
+    "🍜": [
+      { "sense": "nudes", "gloss": "Nudes, which are often called 'noods'.", "confidence": "low" }
+    ],
+    "🔨": [
+      { "sense": "hammer", "gloss": "Sexual activity, banging.", "confidence": "low" }
+    ],
+    "👀": [
+      { "sense": "eyes", "gloss": "Looking at something with interest or desire.", "confidence": "low" }
     ],
     "🍫": [
       { "sense": "skin-tone compliment", "gloss": "Used as a compliment about complexion in flirtation; read by many as fetishising rather than flattering.", "confidence": "low" }
