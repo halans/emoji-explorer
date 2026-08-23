@@ -149,10 +149,10 @@ Three things worth knowing:
 
 ```
 $ node --test 'test/*.test.mjs'
-ℹ tests 89
-ℹ pass 89
+ℹ tests 94
+ℹ pass 94
 ℹ fail 0
-ℹ duration_ms 5340.118427
+ℹ duration_ms 5602.441907
 ```
 
 | File | Covers |
@@ -160,7 +160,7 @@ $ node --test 'test/*.test.mjs'
 | `test/parse.test.mjs` | every upstream format, against fixtures |
 | `test/dataset.test.mjs` | integrity: counts vs upstream, independent recomputation of byte sizes, key uniqueness, tone-family bijection, curated-key resolution, version cross-validation against the historical snapshots |
 | `test/search.test.mjs` | tokeniser, numeric predicates, edit distance, ranking, the explicit gate (including three exhaustive sweeps), a per-keystroke latency guard |
-| `test/bundle.test.mjs` | the source-transform functions, verbatim embedding, hydration fidelity, and a **cross-surface equivalence sweep** |
+| `test/bundle.test.mjs` | the source-transform functions, verbatim embedding, hydration fidelity, the **mobile layout affordances**, and a **cross-surface equivalence sweep** |
 | `test/cli.test.mjs` | CLI output, `--json` validity, the gate, and that every entry point survives a closed stdout (`\| head`) |
 
 The equivalence sweep is the one that keeps the project honest. It boots the
@@ -200,6 +200,25 @@ gloss containing "imp**lying**". The scoped `alt:` field deliberately has **no**
 mid-word fallback at all — a scoped query is a precise intent, so a fragment
 buried in unrelated prose is noise rather than recall. Free text still falls
 back, ranked last.
+
+### Change the mobile layout
+
+Mobile is a separate *shape*, not a scaled-down desktop. The breakpoint is
+`820px`, declared once in `MOBILE_Q` in `src/app.mjs` and mirrored by the media
+query in `src/shell.html` — change both together.
+
+- Row shape: `buildCard` (mobile) vs `buildRow` (desktop), chosen in
+  `paintRows`. Both are fixed-height (`ROW_H_MOBILE` / `ROW_H_DESKTOP`) so the
+  virtualiser needs no special case.
+- Detail: the same `renderDetail` fills `#detailBody` in both modes; on mobile
+  `#detail` is a fixed bottom sheet toggled by `openSheet` / `closeSheet`.
+- Mobile-only controls (`#helpToggle`, `#msort`, `#sheetClose`, `#scrim`) exist
+  in the DOM at every width and are hidden by CSS on desktop, so the wiring in
+  `boot()` is unconditional.
+
+Do not reach for `navigator.userAgent` — a test fails the build if you do. It
+misreports desktop-mode-on-phone and never updates on resize; `matchMedia` does
+both correctly.
 
 ### Add a UI column
 

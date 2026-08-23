@@ -8,7 +8,7 @@ import { stripExports, stripImports, safeJson } from '../build/bundle.mjs';
 import { buildIndex, search } from '../src/search.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const html = await readFile(join(ROOT, 'dist', 'emoji17.html'), 'utf8');
+const html = await readFile(join(ROOT, 'dist', 'index.html'), 'utf8');
 const engineSrc = await readFile(join(ROOT, 'src', 'search.mjs'), 'utf8');
 const appSrc = await readFile(join(ROOT, 'src', 'app.mjs'), 'utf8');
 const dataset = JSON.parse(await readFile(join(ROOT, 'data', 'dataset.json'), 'utf8'));
@@ -87,6 +87,64 @@ test('the page contains no network references', () => {
   assert.equal(/<link[^>]+rel=["']?stylesheet/i.test(body), false, 'external stylesheet');
   assert.equal(/@import\s/i.test(body), false, 'CSS @import');
   assert.equal(/\bfetch\s*\(/.test(body), false, 'runtime fetch call');
+});
+
+// ---------------------------------------------------------------------------
+// Mobile layout affordances
+// ---------------------------------------------------------------------------
+
+test('the page ships a mobile layout, not just a squeezed desktop one', () => {
+  // The desktop shell is a fixed three-pane app. Without these, a phone gets a
+  // 67%-tall header and a zero-height table — which is exactly what it did.
+  const checks = {
+    'viewport meta': /<meta[^>]+name="viewport"[^>]+width=device-width/i,
+    'mobile breakpoint': /@media\s*\(max-width:820px\)/,
+    'dvh units (URL-bar-safe height)': /100dvh/,
+    'card list replaces the column grid': /\.thead\{display:none\}/,
+    'bottom sheet': /#detail\.open\{transform:translateY\(0\)\}/,
+    'safe-area inset': /env\(safe-area-inset-bottom\)/,
+    'reduced-motion respected': /prefers-reduced-motion/,
+    'coarse-pointer tap targets': /@media\s*\(pointer:coarse\)/,
+  };
+  for (const [what, re] of Object.entries(checks)) {
+    assert.ok(re.test(html), `missing: ${what}`);
+  }
+});
+
+test('the mobile search input is 16px, so iOS does not zoom on focus', () => {
+  // Below 16px, Safari zooms the page when the field takes focus and the user
+  // cannot zoom back out. This is the single most common mobile-form defect.
+  const mobileBlock = html.slice(html.indexOf('@media (max-width:820px)'));
+  assert.match(mobileBlock, /#q\{font-size:16px/, 'mobile #q is not 16px');
+});
+
+test('the app shell owns its own box', () => {
+  // The publish host injects its own iframes as <body> children; without this
+  // the app is squeezed by whatever the embedding page adds.
+  assert.match(html, /<div id="shell">/);
+  assert.match(html, /#shell\{flex:1 1 auto;min-height:0/);
+  assert.match(html, /#shell\{position:fixed;inset:0;height:100dvh\}/);
+});
+
+test('mobile-only controls exist in the DOM and are hidden on desktop', () => {
+  for (const id of ['helpToggle', 'msort', 'sheetClose', 'scrim', 'sortSel', 'dirBtn', 'detailBody']) {
+    assert.ok(html.includes(`id="${id}"`), `missing element #${id}`);
+  }
+  // Hidden by default, revealed only inside the mobile media query.
+  for (const sel of ['#helpToggle', '#msort', '#sheetClose', '#scrim']) {
+    assert.ok(html.includes(`${sel}{display:none}`), `${sel} is not hidden by default`);
+  }
+  // The scrim must still honour its hidden attribute.
+  assert.match(html, /#scrim\[hidden\]\{display:none!important\}/);
+});
+
+test('the UI switches row shape by breakpoint, not by user agent', () => {
+  // UA sniffing breaks on desktop-mode-on-phone and on resize; matchMedia does
+  // not, and it lets the same virtualiser serve both shapes.
+  assert.match(appSrc, /matchMedia\(MOBILE_Q\)/);
+  assert.match(appSrc, /const rowHeight = \(\) => \(isMobile\(\)/);
+  assert.match(appSrc, /isMobile\(\) \? buildCard : buildRow/);
+  assert.ok(!/navigator\.userAgent/i.test(appSrc), 'UI is sniffing the user agent');
 });
 
 // ---------------------------------------------------------------------------

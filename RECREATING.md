@@ -24,7 +24,7 @@ plus their SHA-256 manifest), `data/dataset.json` built, and
 `dist/emoji17.html` built. So from an unzipped copy you can go straight to:
 
 ```bash
-node --test 'test/*.test.mjs'   # 89 tests, no network
+node --test 'test/*.test.mjs'   # 94 tests, no network
 open dist/emoji17.html          # works immediately
 ```
 
@@ -57,7 +57,7 @@ src/shell.html         markup + CSS
 data/alt-usages/*.json the curated layer, 17 registers over 23 files
                        (hand-written, not derivable from any source)
 build/stdio.mjs        closed-pipe tolerance for every entry point
-test/*.test.mjs        89 tests
+test/*.test.mjs        94 tests
 ```
 
 `data/raw/`, `data/dataset.json` and `dist/emoji17.html` are all generated and
@@ -82,9 +82,9 @@ curated senses total: 823
 ```
 
 ```
-dist/emoji17.html  2.57 MB  (5225 records inlined)
-ℹ tests 89
-ℹ pass 89
+dist/emoji17.html  2.58 MB  (5225 records inlined)
+ℹ tests 94
+ℹ pass 94
 ℹ fail 0
 ```
 

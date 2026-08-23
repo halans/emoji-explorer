@@ -34,11 +34,12 @@ any curated alternate senses.
 node build/fetch.mjs      # download + checksum upstream sources (once)
 node build/dataset.mjs    # parse, join, compute -> data/dataset.json
 node build/bundle.mjs     # inline everything -> dist/emoji17.html
-node --test 'test/*.test.mjs'   # 89 tests
+node --test 'test/*.test.mjs'   # 94 tests
 ```
 
 Or `npm run verify` to do all four. Then open `dist/emoji17.html` in a browser —
-no server needed.
+no server needed. It works on a phone as well as a desktop; see
+[Responsive layout](#responsive-layout).
 
 There is also a CLI over the identical engine:
 
@@ -136,6 +137,40 @@ sense from both directions, including one that separates a real leak from a
 label word that legitimately appears in the same emoji's ungated text.
 
 Adding your own is a JSON edit — see [DATA.md](DATA.md#extending-the-curated-layer).
+
+## Responsive layout
+
+The page serves two layouts from one codebase, switched on a `matchMedia`
+breakpoint at **820px** — never on user-agent sniffing, which breaks on
+desktop-mode-on-phone and on resize.
+
+| | Desktop (>820px) | Mobile (≤820px) |
+|---|---|---|
+| Results | 9-column sortable grid, 44px rows | Card list, 76px rows — glyph, name, metric strip |
+| Detail | 380px side panel, always visible | Bottom sheet over a scrim, opens on tap |
+| Sorting | Click a column header | `sort` select + direction button |
+| Query help | 24 chips always visible | Collapsed behind a disclosure, capped and scrollable |
+| Search input | 13px | **16px** — below that, iOS Safari zooms on focus and traps the user |
+
+Both layouts are fed by the same engine and the same virtualiser: the card is
+fixed-height too, so windowing is unchanged. Nothing is removed on mobile —
+every field, filter and gated-register toggle is still reachable.
+
+Three details that mattered more than they look:
+
+- **The column grid needed 430px minimum.** On a 390px screen it clipped 50px
+  off every row with `overflow-x: hidden`, so the byte and version columns were
+  unreachable. Cards have no fixed columns and nothing to clip.
+- **`100dvh`, not `100vh`.** The mobile URL bar changes `vh` mid-scroll and
+  strands content off-screen.
+- **The app shell owns its own box.** `#shell` is `position: fixed` on mobile
+  because an embedding host can inject its own `<body>` children — the publish
+  wrapper injects two 154px iframes, which squeezed `main` from 575px to 267px
+  and left the table with **zero** height.
+
+`test/bundle.test.mjs` guards all of this: viewport meta, the breakpoint, dvh,
+the sheet, safe-area insets, reduced-motion, the 16px input, the shell wrapper,
+and that the UI never reads `navigator.userAgent`.
 
 ## Documentation
 
