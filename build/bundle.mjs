@@ -125,6 +125,11 @@ export async function bundle() {
   await mkdir(join(ROOT, 'dist'), { recursive: true });
   const out = join(ROOT, 'dist', 'emoji17.html');
   await writeFile(out, html);
+  // Cloudflare Pages (and other static hosts) look for index.html at the
+  // output root; the app itself is served as emoji17.html so it still opens
+  // directly from disk. This rewrite (200, not a redirect) maps / to it
+  // without changing the URL.
+  await writeFile(join(ROOT, 'dist', '_redirects'), '/ /emoji17.html 200\n');
   return { out, bytes: Buffer.byteLength(html), records: dataset.records.length };
 }
 
