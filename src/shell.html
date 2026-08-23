@@ -21,6 +21,10 @@ body{
   -webkit-font-smoothing:antialiased;
   display:flex;flex-direction:column;overflow:hidden;
 }
+/* The app owns its own box rather than trusting body's flex flow. An embedding
+   host can inject its own children into <body> — the publish wrapper injects
+   two 154px iframes — and those would otherwise squeeze the layout. */
+#shell{flex:1 1 auto;min-height:0;display:flex;flex-direction:column;overflow:hidden}
 
 /* ---------- header ---------- */
 header{
@@ -208,19 +212,192 @@ main{flex:1 1 auto;display:flex;min-height:0}
 ::-webkit-scrollbar-thumb{background:#252c36;border-radius:5px;border:2px solid var(--bg)}
 ::-webkit-scrollbar-thumb:hover{background:#333c48}
 
-@media (max-width:1000px){
+/* ---------- desktop-only affordances, hidden by default on mobile ---------- */
+#helpToggle{display:none}
+#msort{display:none}
+#sheetClose{display:none}
+#scrim{display:none}
+#scrim[hidden]{display:none!important}
+
+/* ---------- narrow desktop / tablet ---------- */
+@media (max-width:1000px) and (min-width:821px){
   #detail{flex:0 0 320px}
   .thead,.row{grid-template-columns:36px 46px minmax(140px,2fr) 52px 80px 56px}
   .c-group,.c-cp,.thead>div:nth-child(4),.thead>div:nth-child(9),.row>.c-ver,.thead>div:nth-child(8){display:none}
 }
-@media (max-width:760px){
-  main{flex-direction:column}
-  #detail{flex:0 0 auto;max-height:45vh;border-left:none;border-top:1px solid var(--line)}
+
+/* ---------- mobile ----------------------------------------------------------
+   The desktop layout is a fixed three-pane app shell, which cannot survive a
+   phone: the header alone took 67% of the screen and the table collapsed to
+   zero height. Mobile gets a different shape entirely — a scrolling card list
+   with a bottom-sheet detail view — while every row still comes from the same
+   engine and the same virtualiser.
+---------------------------------------------------------------------------- */
+@media (max-width:820px){
+  html{-webkit-text-size-adjust:100%}
+  /* dvh, not vh: the mobile URL bar changes vh mid-scroll and strands content. */
+  body{height:100dvh}
+  /* Pinned, so host-injected body children cannot take flow space from it. */
+  #shell{position:fixed;inset:0;height:100dvh}
+
+  header{padding:9px 14px 0}
+  .brandrow{gap:8px;flex-wrap:nowrap;align-items:center}
+  h1{font-size:14px;flex:0 0 auto}
+  /* One line, ellipsised: this is informational and was wrapping to two. */
+  #meta{font-size:10px;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+
+  .searchrow{margin-top:8px;gap:8px}
+  .qwrap{flex:1 1 100%}
+  /* 16px exactly: anything smaller makes iOS Safari zoom the page on focus and
+     the user then cannot get back out. */
+  #q{font-size:16px;padding:12px 12px 12px 34px}
+  .slash{display:none}
+
+  /* One row, not three. Wrapping cost 98px of a 640px-tall screen. */
+  .toggles{width:100%;gap:9px;flex-wrap:nowrap;align-items:center}
+  label.tg{font-size:11.5px;min-height:42px;white-space:nowrap;flex:0 0 auto;gap:5px}
+  select{min-height:42px;font-size:11.5px;flex:1 1 auto;min-width:0;padding:6px}
+
+  /* Query help is 24 chips — genuinely useful on desktop, and the single
+     biggest space thief on a phone. Collapsed behind a disclosure. */
+  #helpToggle{
+    display:block;width:100%;margin:10px 0 0;padding:11px 12px;
+    background:var(--panel2);border:1px solid var(--line);border-radius:7px;
+    color:var(--dim);font:11.5px/1 var(--mono);text-align:left;cursor:pointer;
+  }
+  #helpToggle::after{content:" ▾";float:right}
+  #helpToggle[aria-expanded="true"]{color:var(--accent);border-color:var(--accent)}
+  #helpToggle[aria-expanded="true"]::after{content:" ▴"}
+  #queryhelp{display:none;padding-bottom:4px}
+  /* Capped and self-scrolling: expanded, 24 chips would otherwise push the
+     header to 741px of an 844px screen and bury the results again. */
+  #queryhelp.open{display:block;max-height:38dvh;overflow-y:auto;overscroll-behavior:contain}
+  #fieldref{margin-top:8px}
+  .fieldchip,.kw{padding:9px 11px;font-size:12px}
+  .ex{padding:9px 11px}
+  #examples{margin-bottom:10px}
+
+  main{flex-direction:column;position:relative}
+  #left{flex:1 1 auto;min-height:0}
+
+  #status{padding:7px 14px;font-size:11px}
+
+  /* The column grid needs 430px minimum, which clipped 50px off every row on a
+     390px screen. Cards replace it: no fixed columns, nothing to clip. */
+  .thead{display:none}
+  #msort{
+    display:flex;align-items:center;gap:8px;padding:8px 14px;flex:0 0 auto;
+    border-bottom:1px solid var(--line);background:var(--panel2);
+  }
+  #msort label{font:10.5px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}
+  #msort select{flex:1 1 auto;min-height:40px}
+  #dirBtn{
+    flex:0 0 auto;min-width:44px;min-height:40px;background:var(--bg);
+    border:1px solid var(--line);border-radius:6px;color:var(--ink);
+    font:13px/1 var(--mono);cursor:pointer;
+  }
+  #dirBtn:active{border-color:var(--accent);color:var(--accent)}
+
+  #viewport{-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+
+  .row{
+    display:flex;align-items:center;gap:12px;padding:0 14px;
+    border-bottom:1px solid #171c23;
+  }
+  .row>div{padding:0}
+  .c-idx,.c-group,.c-num,.c-ver,.c-cp{display:none}
+  .c-emoji{flex:0 0 44px;text-align:center}
+  .glyph{font-size:30px}
+  .c-name{flex:1 1 auto;display:block;min-width:0}
+  .nm{
+    display:block;font-size:14px;line-height:1.25;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  }
+  .m-meta{
+    display:flex;gap:8px;margin-top:3px;font:10.5px/1.3 var(--mono);
+    color:var(--dim);flex-wrap:wrap;align-items:center;
+  }
+  .m-meta b{color:var(--ink);font-weight:600}
+  .alt-badge{max-width:none;font-size:10px;padding:3px 6px;margin-top:4px;display:inline-block}
+  .tone-badge{font-size:10px;padding:3px 5px}
+  .m-chev{flex:0 0 auto;color:var(--dimmer);font-size:16px}
+
+  /* Detail becomes a bottom sheet. On desktop it is a side panel that is always
+     visible; on a phone that would sit below the fold and read as broken. */
+  #detail{
+    position:fixed;left:0;right:0;bottom:0;z-index:30;
+    height:min(82dvh,720px);max-height:82dvh;
+    border-left:none;border-top:1px solid var(--accent);
+    border-radius:14px 14px 0 0;
+    padding:16px 16px calc(28px + env(safe-area-inset-bottom));
+    box-shadow:0 -12px 40px rgba(0,0,0,.6);
+    transform:translateY(102%);transition:transform .22s ease-out;
+    overscroll-behavior:contain;
+    /* The sheet is both scrollable (overflow-y:auto, set in the base #detail
+       rule) and transformed for the slide animation. iOS Safari needs this
+       spelled out on a transformed scroll container, or touch drags inside it
+       don't register as scrolling and fall through to #scrim underneath,
+       which reads as a dead layer that closes the sheet instead of scrolling. */
+    -webkit-overflow-scrolling:touch;
+  }
+  #detail.open{transform:translateY(0)}
+  #sheetClose{
+    display:block;position:sticky;top:-16px;margin:-16px -16px 8px auto;
+    width:52px;height:48px;background:var(--panel);border:none;
+    border-bottom:1px solid var(--line);border-left:1px solid var(--line);
+    border-radius:0 14px 0 10px;color:var(--dim);font-size:17px;cursor:pointer;z-index:2;
+  }
+  #scrim{
+    display:block;position:fixed;inset:0;z-index:25;background:rgba(0,0,0,.55);
+    opacity:0;pointer-events:none;transition:opacity .22s ease-out;
+  }
+  #scrim.open{opacity:1;pointer-events:auto}
+
+  .sizes{grid-template-columns:repeat(2,1fr);gap:8px}
+  .szn{font-size:19px}
+  .szl{font-size:10.5px}
+  .d-glyph{font-size:52px}
+  .kv{grid-template-columns:1fr;gap:3px;margin-bottom:9px}
+  .kv .k{font-size:11px}
+  .kv .v{padding:9px 8px;font-size:11px}
+  /* min-height, not just padding: pointer:coarse is not always reported, so
+     the tap target must not depend on it being detected. */
+  .copy{padding:7px 10px;font-size:10.5px;min-height:36px}
+  .famitem{padding:9px 11px;min-height:40px}
+  .gloss{font-size:12.5px}
+}
+
+/* Short screens (landscape phones, small handsets): the header must not take
+   half the viewport. Trim the informational line and tighten the search row. */
+@media (max-width:820px) and (max-height:700px){
+  #meta{display:none}
+  #q{padding-top:10px;padding-bottom:10px}
+  #helpToggle{margin-top:8px;padding:9px 12px}
+  label.tg,select{min-height:38px}
+  #msort{padding:6px 14px}
+  #msort select,#dirBtn{min-height:36px}
+}
+
+/* Very small phones: drop the metric strip to essentials. */
+@media (max-width:360px){
+  .m-meta .m-units,.m-meta .m-sub{display:none}
+  .glyph{font-size:26px}
+  .c-emoji{flex:0 0 38px}
+}
+
+/* Coarse pointers get real tap targets regardless of width. */
+@media (pointer:coarse){
+  .copy,.kw,.fieldchip,.famitem,#dirBtn{min-height:40px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  #detail,#scrim{transition:none}
 }
 </style>
 </head>
 <body>
 
+<div id="shell">
 <header>
   <div class="brandrow">
     <h1>Emoji <span class="v">17.0</span> Explorer</h1>
@@ -247,8 +424,11 @@ main{flex:1 1 auto;display:flex;min-height:0}
     </div>
   </div>
 
-  <div id="fieldref"></div>
-  <div id="examples"></div>
+  <button id="helpToggle" aria-expanded="false" aria-controls="queryhelp">Query syntax &amp; examples</button>
+  <div id="queryhelp">
+    <div id="fieldref"></div>
+    <div id="examples"></div>
+  </div>
 </header>
 
 <main>
@@ -265,10 +445,28 @@ main{flex:1 1 auto;display:flex;min-height:0}
       <div data-sort="version">ver</div>
       <div>code points</div>
     </div>
+    <div id="msort">
+      <label for="sortSel">sort</label>
+      <select id="sortSel">
+        <option value="relevance">relevance</option>
+        <option value="name">name</option>
+        <option value="group">subgroup</option>
+        <option value="bytes">UTF-8 bytes</option>
+        <option value="cps">code points</option>
+        <option value="units">UTF-16 units</option>
+        <option value="version">version</option>
+      </select>
+      <button id="dirBtn" aria-label="Toggle sort direction">↑</button>
+    </div>
     <div id="viewport"><div id="spacer"><div id="rows"></div></div></div>
   </div>
-  <aside id="detail"></aside>
+  <aside id="detail" aria-label="Emoji detail">
+    <button id="sheetClose" aria-label="Close detail">✕</button>
+    <div id="detailBody"></div>
+  </aside>
 </main>
+</div>
+<div id="scrim" hidden></div>
 
 <!--APP-->
 </body>

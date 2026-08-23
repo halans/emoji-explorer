@@ -74,34 +74,87 @@ function execute() {
 // Virtualised table
 // ---------------------------------------------------------------------------
 
-const ROW_H = 44;
+// Mobile renders the same results as cards rather than grid rows: the desktop
+// column grid needs ~430px minimum and clipped every row on a 390px screen.
+// Both shapes are fixed-height, so the virtualiser is unchanged either way.
+const MOBILE_Q = '(max-width: 820px)';
+const mobileMQ = typeof matchMedia === 'function' ? matchMedia(MOBILE_Q) : null;
+const isMobile = () => Boolean(mobileMQ && mobileMQ.matches);
+
+const ROW_H_DESKTOP = 44;
+const ROW_H_MOBILE = 76;
+const rowHeight = () => (isMobile() ? ROW_H_MOBILE : ROW_H_DESKTOP);
+
 const OVERSCAN = 8;
 let viewport, spacer, rowLayer;
 
 function renderTable() {
-  spacer.style.height = state.results.length * ROW_H + 'px';
+  spacer.style.height = state.results.length * rowHeight() + 'px';
   paintRows();
 }
 
 function paintRows() {
+  const h = rowHeight();
   const scrollTop = viewport.scrollTop;
   const height = viewport.clientHeight;
-  const first = Math.max(0, Math.floor(scrollTop / ROW_H) - OVERSCAN);
-  const last = Math.min(state.results.length, Math.ceil((scrollTop + height) / ROW_H) + OVERSCAN);
+  const first = Math.max(0, Math.floor(scrollTop / h) - OVERSCAN);
+  const last = Math.min(state.results.length, Math.ceil((scrollTop + height) / h) + OVERSCAN);
 
   rowLayer.textContent = '';
-  rowLayer.style.transform = `translateY(${first * ROW_H}px)`;
+  rowLayer.style.transform = `translateY(${first * h}px)`;
 
+  const build = isMobile() ? buildCard : buildRow;
   for (let i = first; i < last; i++) {
-    rowLayer.appendChild(buildRow(state.results[i], i));
+    rowLayer.appendChild(build(state.results[i], i));
   }
+}
+
+/** Mobile row: glyph, name, and a compact metric strip. No column grid. */
+function buildCard(result) {
+  const rec = result.rec;
+  const row = el('div', 'row' + (state.selected === rec.id ? ' sel' : ''));
+  row.dataset.id = rec.id;
+  row.style.height = ROW_H_MOBILE + 'px';
+
+  const g = el('div', 'c-emoji');
+  g.appendChild(el('span', 'glyph', rec.emoji));
+  row.appendChild(g);
+
+  const body = el('div', 'c-name');
+  body.appendChild(el('span', 'nm', rec.name));
+
+  const meta = el('div', 'm-meta');
+  const stat = (cls, n, unit) => {
+    const s = el('span', cls);
+    s.appendChild(el('b', null, String(n)));
+    s.appendChild(document.createTextNode(' ' + unit));
+    return s;
+  };
+  meta.appendChild(stat('m-bytes', rec.utf8Bytes, 'B'));
+  meta.appendChild(stat('m-cps', rec.cpCount, 'cp'));
+  meta.appendChild(stat('m-units', rec.utf16Units, 'u16'));
+  meta.appendChild(el('span', 'm-sub', 'E' + rec.version));
+
+  const senses = visibleSenses(rec, state.showExplicit);
+  if (senses.length) {
+    meta.appendChild(el('span', 'alt-badge', senses.length === 1 ? senses[0].sense : `${senses.length} senses`));
+  }
+  if (rec.toneVariants.length && state.collapseTones) {
+    meta.appendChild(el('span', 'tone-badge', `+${rec.toneVariants.length}`));
+  }
+  body.appendChild(meta);
+  row.appendChild(body);
+
+  row.appendChild(el('div', 'm-chev', '›'));
+  row.addEventListener('click', () => selectRow(rec.id));
+  return row;
 }
 
 function buildRow(result, i) {
   const rec = result.rec;
   const row = el('div', 'row' + (state.selected === rec.id ? ' sel' : ''));
   row.dataset.id = rec.id;
-  row.style.height = ROW_H + 'px';
+  row.style.height = ROW_H_DESKTOP + 'px';
 
   row.appendChild(el('div', 'c-idx', String(i + 1)));
 
@@ -144,6 +197,24 @@ function selectRow(id) {
   state.selected = id;
   paintRows();
   renderDetail(byId.get(id));
+  if (isMobile()) openSheet();
+}
+
+// ---------------------------------------------------------------------------
+// Bottom sheet (mobile only)
+// ---------------------------------------------------------------------------
+
+function openSheet() {
+  $('#detail').classList.add('open');
+  $('#scrim').hidden = false;
+  requestAnimationFrame(() => $('#scrim').classList.add('open'));
+  $('#sheetClose').focus({ preventScroll: true });
+}
+
+function closeSheet() {
+  $('#detail').classList.remove('open');
+  $('#scrim').classList.remove('open');
+  setTimeout(() => { if (!$('#detail').classList.contains('open')) $('#scrim').hidden = true; }, 250);
 }
 
 // ---------------------------------------------------------------------------
@@ -173,7 +244,9 @@ function copyable(label, value) {
 }
 
 function renderDetail(rec) {
-  const panel = $('#detail');
+  // Content goes in #detailBody, not #detail — the sheet's close button is a
+  // sibling that must survive re-render.
+  const panel = $('#detailBody');
   panel.textContent = '';
   if (!rec) {
     panel.appendChild(el('div', 'empty', 'Select a row to inspect its encoding, keywords and alternate senses.'));
@@ -302,6 +375,7 @@ function renderDetail(rec) {
   }
 
   panel.scrollTop = 0;
+  $('#detail').scrollTop = 0;
 }
 
 // ---------------------------------------------------------------------------
@@ -368,6 +442,11 @@ function boot() {
       else { state.sort = key; state.dir = 'asc'; }
       document.querySelectorAll('[data-sort]').forEach((o) => o.classList.remove('asc', 'desc'));
       if (key !== 'relevance') th.classList.add(state.dir);
+      // Keep the mobile control in step, so crossing the breakpoint is not
+      // confusing.
+      const sel = $('#sortSel');
+      if (sel && [...sel.options].some((o) => o.value === state.sort)) sel.value = state.sort;
+      $('#dirBtn').textContent = state.dir === 'asc' ? '↑' : '↓';
       execute();
     });
   });
@@ -394,9 +473,45 @@ function boot() {
     ref.appendChild(b);
   }
 
+  // ---- mobile-only controls ----
+  // The disclosure, the sort select and the sheet exist in the DOM at every
+  // width; CSS hides them on desktop, so this wiring is harmless there.
+  $('#helpToggle').addEventListener('click', () => {
+    const btn = $('#helpToggle');
+    const open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    $('#queryhelp').classList.toggle('open', !open);
+  });
+
+  const sortSel = $('#sortSel');
+  sortSel.addEventListener('change', () => { state.sort = sortSel.value; execute(); });
+  $('#dirBtn').addEventListener('click', () => {
+    state.dir = state.dir === 'asc' ? 'desc' : 'asc';
+    $('#dirBtn').textContent = state.dir === 'asc' ? '↑' : '↓';
+    execute();
+  });
+
+  $('#sheetClose').addEventListener('click', closeSheet);
+  $('#scrim').addEventListener('click', closeSheet);
+
+  // Switching orientation or resizing across the breakpoint changes row height
+  // and row shape, so the virtualiser has to be told to redraw.
+  const onBreakpoint = () => {
+    if (!isMobile()) closeSheet();
+    renderTable();
+    renderStatus();
+  };
+  if (mobileMQ) {
+    if (mobileMQ.addEventListener) mobileMQ.addEventListener('change', onBreakpoint);
+    else if (mobileMQ.addListener) mobileMQ.addListener(onBreakpoint);
+  }
+
   document.addEventListener('keydown', (e) => {
     if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); }
-    if (e.key === 'Escape') { $('#q').blur(); }
+    if (e.key === 'Escape') {
+      if ($('#detail').classList.contains('open')) { closeSheet(); return; }
+      $('#q').blur();
+    }
   });
 
   $('#meta').textContent = `Emoji ${DATA.meta.emojiVersion} · ${DATA.meta.totals.byStatus['fully-qualified'].toLocaleString()} fully-qualified · ${DATA.meta.altUsageSenses} curated senses across ${Object.keys(DATA.meta.altRegisters).length} registers`;
