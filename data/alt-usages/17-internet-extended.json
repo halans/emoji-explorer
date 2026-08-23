@@ -1,0 +1,127 @@
+{
+  "register": "internet",
+  "explicit": false,
+  "provenance": "Second pass on meme-derived senses, covering formats and coinages not in 03-internet-slang.json. Where a sense originates in a datable event or platform behaviour it is named.",
+  "entries": {
+    "🗿": [
+      { "sense": "the moai reaction", "gloss": "Deadpan non-response, and in some corners an aggressively stoic 'gigachad' posture.", "confidence": "high" }
+    ],
+    "🥩": [
+      { "sense": "carnivore-diet posting", "gloss": "In bios, signals a whole cluster of online health and masculinity positions.", "confidence": "low" }
+    ],
+    "🧌": [
+      { "sense": "trolling behaviour", "gloss": "Applied to a person's posting style rather than to folklore.", "confidence": "medium" }
+    ],
+    "📼": [
+      { "sense": "nostalgia marker", "gloss": "Signals a retro or analogue aesthetic rather than the medium.", "confidence": "medium" }
+    ],
+    "☎️": [
+      { "sense": "dated deliberately", "gloss": "The rotary phone is used to mark something as old-fashioned on purpose.", "confidence": "low" }
+    ],
+    "🛎️": [
+      { "sense": "attention-seeking", "gloss": "'Ding' for a notification, or mocking someone ringing for service.", "confidence": "low" }
+    ],
+    "🚀": [
+      { "sense": "shipping a product", "gloss": "In tech and startup posting the rocket means launch, quite separate from the crypto price sense.", "confidence": "high" }
+    ],
+    "🫵": [
+      { "sense": "the pointing meme", "gloss": "Accusatory 'you' with a laughing face, from the Spider-Man pointing format.", "confidence": "high" }
+    ],
+    "🤡": [
+      { "sense": "clown-to-clown communication", "gloss": "Framing a whole exchange as farcical.", "confidence": "medium" }
+    ],
+    "🎪": [
+      { "sense": "a spectacle or shambles", "gloss": "'A whole circus', applied to institutions and comment sections.", "confidence": "medium" }
+    ],
+    "🍽️": [
+      { "sense": "she ate", "gloss": "'Ate and left no crumbs' as high praise for a performance; the cutlery completes the phrase.", "confidence": "high" }
+    ],
+    "🧂": [
+      { "sense": "bitterness", "gloss": "'Salty', for someone visibly aggrieved about losing.", "confidence": "high" }
+    ],
+    "🐟": [
+      { "sense": "something suspicious", "gloss": "'Fishy'; also a low insult in some gaming and drag contexts.", "confidence": "low" }
+    ],
+    "🦐": [
+      { "sense": "shrimp as an insult or self-deprecation", "gloss": "Small and inconsequential; overlaps with the crypto wallet-size tier.", "confidence": "low" }
+    ],
+    "🐖": [
+      { "sense": "greed", "gloss": "Applied to corporate behaviour and consumption.", "confidence": "low" }
+    ],
+    "🦆": [
+      { "sense": "the duck test", "gloss": "'If it looks like a duck' — invoking obviousness in an argument.", "confidence": "low" }
+    ],
+    "🧻": [
+      { "sense": "2020 panic-buying reference", "gloss": "The toilet roll became a durable shorthand for irrational scarcity behaviour, separate from the finance sense.", "confidence": "medium" }
+    ],
+    "📺": [
+      { "sense": "brainrot content", "gloss": "Signals passive, low-quality consumption.", "confidence": "low" }
+    ],
+    "🧠": [
+      { "sense": "brainrot", "gloss": "The 2024 Oxford word of the year, referring to degraded attention from low-quality feeds.", "confidence": "high" }
+    ],
+    "🪫": [
+      { "sense": "no social energy", "gloss": "The low-battery emoji, added in 2021, was adopted almost immediately for personal exhaustion.", "confidence": "high" }
+    ],
+    "🔋": [
+      { "sense": "recharged", "gloss": "The positive counterpart to 🪫.", "confidence": "medium" }
+    ],
+    "🫙": [
+      { "sense": "emptiness", "gloss": "The empty jar used for having nothing left to give.", "confidence": "low" }
+    ],
+    "🎢": [
+      { "sense": "emotional volatility", "gloss": "'A rollercoaster', for a situation or a person.", "confidence": "medium" }
+    ],
+    "🧩": [
+      { "sense": "things clicking into place", "gloss": "Realising how facts connect; also, contentiously, an autism-awareness symbol many autistic people reject.", "confidence": "medium" }
+    ],
+    "♾️": [
+      { "sense": "neurodiversity", "gloss": "The rainbow infinity symbol is the neurodiversity movement's preferred emblem, explicitly offered as an alternative to the puzzle piece.", "confidence": "high" }
+    ],
+    "🎭": [
+      { "sense": "performativity", "gloss": "Accusing someone of putting on an act.", "confidence": "medium" }
+    ],
+    "📎": [
+      { "sense": "intrusive assistant", "gloss": "Clippy, invoked whenever software helps unasked.", "confidence": "medium" }
+    ],
+    "🫧": [
+      { "sense": "clean-girl aesthetic", "gloss": "A visual register marker in beauty and lifestyle posting.", "confidence": "low" }
+    ],
+    "🎀": [
+      { "sense": "coquette aesthetic", "gloss": "The bow became a whole visual subculture marker from 2023.", "confidence": "medium" }
+    ],
+    "🪞": [
+      { "sense": "self-examination, or vanity", "gloss": "Both the introspective and the narcissistic reading.", "confidence": "low" }
+    ],
+    "🛼": [
+      { "sense": "pandemic-era hobby signifier", "gloss": "Roller skating as a 2020 lockdown trend marker.", "confidence": "low" }
+    ],
+    "🪱": [
+      { "sense": "worms as absurdist affection", "gloss": "Part of a genre of deliberately strange creature-posting.", "confidence": "low" }
+    ],
+    "🦝": [
+      { "sense": "trash-panda chaos", "gloss": "Self-applied for someone thriving in mess.", "confidence": "medium" }
+    ],
+    "🐈‍⬛": [
+      { "sense": "goth or chaotic-cat energy", "gloss": "The black cat has its own aesthetic register distinct from 🐈.", "confidence": "low" }
+    ],
+    "🦖": [
+      { "sense": "outdated but proud", "gloss": "Self-deprecating admission of being behind the times.", "confidence": "low" }
+    ],
+    "🫠": [
+      { "sense": "the melting reaction", "gloss": "The single most-adopted new emoji of the 2020s for describing one's own state.", "confidence": "high" }
+    ],
+    "📌": [
+      { "sense": "for the record", "gloss": "Marking a statement to be remembered against someone later.", "confidence": "low" }
+    ],
+    "🔗": [
+      { "sense": "link in bio", "gloss": "Platform convention for circumventing link restrictions.", "confidence": "medium" }
+    ],
+    "🤖": [
+      { "sense": "AI-generated accusation", "gloss": "Applied to text or images suspected of being machine-made.", "confidence": "high" }
+    ],
+    "🥸": [
+      { "sense": "an alt account", "gloss": "Admitting or accusing someone of posting under a second identity.", "confidence": "low" }
+    ]
+  }
+}

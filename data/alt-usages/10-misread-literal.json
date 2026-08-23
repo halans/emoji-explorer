@@ -1,0 +1,136 @@
+{
+  "register": "misread",
+  "explicit": false,
+  "provenance": "Emoji whose official Unicode name describes something most users have never known it to be. These are not slang senses so much as widespread misidentification, and they are the cases where searching by CLDR name reliably fails.",
+  "entries": {
+    "😤": [
+      { "sense": "commonly read as angry", "gloss": "Officially 'face with steam from nose', originally a manga convention for triumph or pride. Almost universally read as anger or indignation instead.", "confidence": "high" }
+    ],
+    "😴": [
+      { "sense": "the Z is a manga convention", "gloss": "Sleeping 'Zzz' is a Western comics convention that the emoji exports globally.", "confidence": "medium" }
+    ],
+    "💢": [
+      { "sense": "anger vein", "gloss": "Officially 'anger symbol'; it depicts the popped forehead vein used in manga, which is opaque to readers unfamiliar with the convention.", "confidence": "high" }
+    ],
+    "💫": [
+      { "sense": "dizziness", "gloss": "Officially 'dizzy'; often mistaken for a shooting star or generic sparkle.", "confidence": "high" }
+    ],
+    "💤": [
+      { "sense": "sleep or boredom", "gloss": "Not a speech bubble; the 'zzz' glyph as an independent symbol.", "confidence": "medium" }
+    ],
+    "😪": [
+      { "sense": "sleepy, not crying", "gloss": "The bubble is a manga snot bubble indicating sleep, widely misread as a tear.", "confidence": "high" }
+    ],
+    "🥸": [
+      { "sense": "disguise", "gloss": "Groucho glasses; sometimes misread as a genuine face.", "confidence": "medium" }
+    ],
+    "🤠": [
+      { "sense": "not simply a cowboy", "gloss": "Used almost entirely for tone rather than to depict a cowboy.", "confidence": "medium" }
+    ],
+    "🙌": [
+      { "sense": "not high fives", "gloss": "Officially 'raising hands' in celebration; commonly misread as two people high-fiving.", "confidence": "high" }
+    ],
+    "🙏": [
+      { "sense": "not high fives", "gloss": "The same misreading applies here, and more persistently.", "confidence": "high" }
+    ],
+    "😇": [
+      { "sense": "halo, not a headband", "gloss": "Occasionally misread as a hair accessory.", "confidence": "low" }
+    ],
+    "🤢": [
+      { "sense": "disgust at an idea", "gloss": "Rarely literal nausea; usually a reaction to an opinion.", "confidence": "medium" }
+    ],
+    "🍢": [
+      { "sense": "oden", "gloss": "A Japanese winter stew on skewers, widely misread as a kebab.", "confidence": "high" }
+    ],
+    "🍘": [
+      { "sense": "senbei", "gloss": "A rice cracker, frequently misidentified as a cookie or biscuit.", "confidence": "high" }
+    ],
+    "🍠": [
+      { "sense": "roasted sweet potato", "gloss": "A specific Japanese street food, not a generic vegetable.", "confidence": "medium" }
+    ],
+    "🍮": [
+      { "sense": "purin", "gloss": "Japanese custard pudding; often read as flan or crème caramel, which is close but not identical.", "confidence": "medium" }
+    ],
+    "🎐": [
+      { "sense": "furin", "gloss": "A Japanese summer wind chime, a seasonal marker rather than decoration.", "confidence": "high" }
+    ],
+    "🎑": [
+      { "sense": "Tsukimi", "gloss": "The Japanese moon-viewing ceremony; the Unicode name 'moon viewing ceremony' is accurate but opaque.", "confidence": "high" }
+    ],
+    "🔰": [
+      { "sense": "Japanese beginner driver badge", "gloss": "The Shoshinsha mark. Used online to mean 'newbie', which is a reasonable extension of a very specific road sign.", "confidence": "high" }
+    ],
+    "🈚": [
+      { "sense": "free of charge", "gloss": "Japanese signage for 'without cost'.", "confidence": "high" }
+    ],
+    "🅰️": [
+      { "sense": "blood type A", "gloss": "The blood-type letters are a Japanese personality-typing convention, not general-purpose letters.", "confidence": "high" }
+    ],
+    "🆎": [
+      { "sense": "blood type AB", "gloss": "Same Japanese blood-type convention.", "confidence": "high" }
+    ],
+    "🈷️": [
+      { "sense": "monthly amount", "gloss": "Japanese signage glyph.", "confidence": "medium" }
+    ],
+    "㊗️": [
+      { "sense": "congratulations", "gloss": "A circled Japanese ideograph, invisible in meaning to non-readers.", "confidence": "high" }
+    ],
+    "🀄": [
+      { "sense": "mahjong red dragon", "gloss": "One specific tile, not the game in general.", "confidence": "high" }
+    ],
+    "🃏": [
+      { "sense": "joker", "gloss": "Also 'wildcard' or an unpredictable person.", "confidence": "medium" }
+    ],
+    "♠️": [
+      { "sense": "asexuality", "gloss": "The ace of spades is an ace-community identity marker alongside its card meaning.", "confidence": "medium" }
+    ],
+    "🧿": [
+      { "sense": "not a generic eye", "gloss": "A specific Turkish and Greek nazar amulet.", "confidence": "high" }
+    ],
+    "🪆": [
+      { "sense": "nesting or layered complexity", "gloss": "Matryoshka dolls used as a metaphor for nested structures.", "confidence": "low" }
+    ],
+    "🛗": [
+      { "sense": "accessibility marker", "gloss": "The elevator emoji is often used to signal step-free access rather than the machine.", "confidence": "low" }
+    ],
+    "♿": [
+      { "sense": "accessibility generally", "gloss": "Stands for accessibility as a concept, not only wheelchair users.", "confidence": "medium" }
+    ],
+    "🚹": [
+      { "sense": "signage, not people", "gloss": "Restroom wayfinding glyphs that read as gender symbols out of context.", "confidence": "medium" }
+    ],
+    "🆘": [
+      { "sense": "genuine distress signal", "gloss": "Used sincerely often enough that platforms surface crisis resources against it.", "confidence": "medium" }
+    ],
+    "🔯": [
+      { "sense": "not the Star of David", "gloss": "Officially 'dotted six-pointed star', a distinct symbol from ✡️ though constantly substituted for it.", "confidence": "high" }
+    ],
+    "🛐": [
+      { "sense": "place of worship, generic", "gloss": "Deliberately non-denominational, which makes it hard to read.", "confidence": "medium" }
+    ],
+    "📿": [
+      { "sense": "prayer beads across faiths", "gloss": "Covers rosary, misbaha and mala; the single glyph flattens three traditions.", "confidence": "medium" }
+    ],
+    "🎗️": [
+      { "sense": "generic awareness cause", "gloss": "The reminder ribbon is colour-neutral by design, so the cause is entirely contextual.", "confidence": "medium" }
+    ],
+    "🔱": [
+      { "sense": "trident emblem", "gloss": "Officially an anchor-adjacent emblem; read variously as Poseidon, Ukraine's tryzub, or a naval insignia.", "confidence": "medium" }
+    ],
+    "☢️": [
+      { "sense": "toxic person or take", "gloss": "Figurative hazard marking.", "confidence": "low" }
+    ],
+    "☣️": [
+      { "sense": "figurative contamination", "gloss": "Same figurative extension as ☢️.", "confidence": "low" }
+    ],
+    "🅿️": [
+      { "sense": "parking, or a rap ad-lib", "gloss": "Gunna's 2022 'pushin P' made the P button a slang marker for authenticity.", "confidence": "medium" }
+    ],
+    "🈸": [
+      { "sense": "application form", "gloss": "Japanese administrative signage.", "confidence": "medium" }
+    ],
+    "🔣": [
+      { "sense": "input symbols", "gloss": "A keyboard-interface glyph rather than a concept.", "confidence": "low" }
+    ]
+  }
+}

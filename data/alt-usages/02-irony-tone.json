@@ -1,0 +1,121 @@
+{
+  "register": "irony",
+  "explicit": false,
+  "provenance": "Tone-marking and ironic senses. This is the largest single source of drift between an emoji's CLDR name and its actual use, and the reason literal-name search fails so often. Attested through platform-level usage shifts widely covered in the press (the 💀/😭 displacement of 😂, the generational reading of 🙂 and 👍).",
+  "entries": {
+    "💀": [
+      { "sense": "dying of laughter", "gloss": "The dominant reading since roughly 2020. 'I'm dead' compressed into a glyph; almost never signals actual death or danger.", "confidence": "high" },
+      { "sense": "mortified", "gloss": "Secondary sense of cringing embarrassment.", "confidence": "medium" }
+    ],
+    "😭": [
+      { "sense": "laughing hard", "gloss": "Displaced 😂 as the standard laughter marker among younger users, despite depicting sobbing.", "confidence": "high" },
+      { "sense": "sincere distress", "gloss": "The literal reading survives, and the ambiguity between the two is itself a common source of misfire.", "confidence": "high" }
+    ],
+    "😂": [
+      { "sense": "dated laughter", "gloss": "Oxford's 2015 Word of the Year, now widely read as a marker of being older or out of touch. Its decline is generational, not semantic.", "confidence": "high" }
+    ],
+    "🙂": [
+      { "sense": "passive aggression", "gloss": "Read as strained, disappointed or thinly veiled contempt rather than happy. The most reliable tonal inversion in the set.", "confidence": "high" }
+    ],
+    "🙃": [
+      { "sense": "resigned exasperation", "gloss": "'This is fine' while it is plainly not fine.", "confidence": "high" }
+    ],
+    "😊": [
+      { "sense": "sincere warmth", "gloss": "Occupies the slot 🙂 vacated; the emoji people reach for when they actually mean to be pleasant.", "confidence": "high" }
+    ],
+    "👍": [
+      { "sense": "dismissive or hostile acknowledgement", "gloss": "Read by many younger users as curt, sarcastic or conversation-ending. Repeatedly the subject of workplace-communication news coverage.", "confidence": "high" }
+    ],
+    "🫡": [
+      { "sense": "resigned compliance", "gloss": "'Understood, I hate it.' Deference performed with visible reluctance; rarely a sincere salute.", "confidence": "high" }
+    ],
+    "🤡": [
+      { "sense": "self-directed foolishness", "gloss": "Marks the speaker, or their target, as having behaved absurdly. 'Clown behaviour'.", "confidence": "high" }
+    ],
+    "🤪": [
+      { "sense": "unhinged enthusiasm", "gloss": "Deliberately performed chaos rather than literal zaniness.", "confidence": "medium" }
+    ],
+    "😅": [
+      { "sense": "concealed panic", "gloss": "A smile over genuine discomfort; often signals that something has gone wrong.", "confidence": "high" }
+    ],
+    "😬": [
+      { "sense": "awkward acknowledgement", "gloss": "Marks a social misstep, usually the speaker's own.", "confidence": "high" }
+    ],
+    "🥲": [
+      { "sense": "smiling through pain", "gloss": "Cheerfulness maintained over evident distress. Rapidly adopted after its 2020 release.", "confidence": "high" }
+    ],
+    "😌": [
+      { "sense": "smugness", "gloss": "Self-satisfaction rather than the CLDR reading of relief.", "confidence": "medium" }
+    ],
+    "🥹": [
+      { "sense": "moved, or pleading", "gloss": "Splits between genuine emotion and manipulative cuteness.", "confidence": "medium" }
+    ],
+    "🥺": [
+      { "sense": "wheedling", "gloss": "The 'puppy eyes' request. Read as manipulative-cute rather than sad.", "confidence": "high" }
+    ],
+    "✨": [
+      { "sense": "sarcasm quotes", "gloss": "Bracketing a word in sparkles marks it as ironic: 'a ✨great✨ idea'. A genuine punctuation innovation with no literal counterpart.", "confidence": "high" },
+      { "sense": "emphasis or specialness", "gloss": "Non-ironic decorative emphasis, the older sense.", "confidence": "high" }
+    ],
+    "🧍": [
+      { "sense": "stunned inaction", "gloss": "'I just stood there'. Marks a moment of social paralysis.", "confidence": "medium" }
+    ],
+    "🗿": [
+      { "sense": "stoic indifference", "gloss": "Deadpan non-reaction; in some corners a marker of aggressive stoicism.", "confidence": "medium" }
+    ],
+    "😐": [
+      { "sense": "pointed non-reaction", "gloss": "Silence used as judgement.", "confidence": "high" }
+    ],
+    "😑": [
+      { "sense": "exhausted patience", "gloss": "An intensified 😐.", "confidence": "high" }
+    ],
+    "🫠": [
+      { "sense": "overwhelmed dissolution", "gloss": "'I am melting'. Burnout or embarrassment rendered physically.", "confidence": "high" }
+    ],
+    "😶‍🌫️": [
+      { "sense": "dissociating", "gloss": "Brain fog or checked-out numbness.", "confidence": "medium" }
+    ],
+    "🤨": [
+      { "sense": "suspicion of innuendo", "gloss": "Frequently flags that the previous message could be read sexually.", "confidence": "high" }
+    ],
+    "😳": [
+      { "sense": "scandalised delight", "gloss": "Performed shock at something risqué.", "confidence": "high" }
+    ],
+    "🫥": [
+      { "sense": "feeling invisible", "gloss": "Social erasure or wanting to disappear.", "confidence": "medium" }
+    ],
+    "🙄": [
+      { "sense": "contempt", "gloss": "Considerably harsher in text than a physical eye-roll usually is.", "confidence": "high" }
+    ],
+    "😏": [
+      { "sense": "innuendo", "gloss": "Marks the preceding statement as suggestive.", "confidence": "high" }
+    ],
+    "🤠": [
+      { "sense": "grim cheerfulness", "gloss": "Used when a situation is bad and the speaker has decided to be weird about it instead.", "confidence": "medium" }
+    ],
+    "🫤": [
+      { "sense": "unconvinced", "gloss": "Mild scepticism, softer than 🤨.", "confidence": "medium" }
+    ],
+    "😮‍💨": [
+      { "sense": "relief or exasperation", "gloss": "The exhale is ambiguous between the two by design.", "confidence": "medium" }
+    ],
+    "🫨": [
+      { "sense": "rattled", "gloss": "Shaken by news; the shaking face was added in Emoji 15.0 and took this sense immediately.", "confidence": "medium" }
+    ],
+    "🥴": [
+      { "sense": "overwhelmed", "gloss": "Non-sexual reading: dazed by workload or exhaustion.", "confidence": "medium" }
+    ],
+    "😤": [
+      { "sense": "determined indignation", "gloss": "Read as huffy resolve rather than literal triumph, despite the CLDR name 'face with steam from nose'.", "confidence": "high" }
+    ],
+    "🤧": [
+      { "sense": "emotionally overcome", "gloss": "Detached from illness; signals being touched by something sweet.", "confidence": "low" }
+    ],
+    "😔": [
+      { "sense": "performative disappointment", "gloss": "Often mock-sad rather than sad.", "confidence": "medium" }
+    ],
+    "🤷": [
+      { "sense": "refusal of responsibility", "gloss": "Sharper than a literal shrug; declines to engage.", "confidence": "high" }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "register": "platform",
+  "explicit": false,
+  "provenance": "Cases where an emoji's meaning depends on which vendor renders it, or where a vendor's redesign changed the meaning in flight. These are documented design changes, not folk usage.",
+  "entries": {
+    "🔫": [
+      { "sense": "water pistol on every major platform", "gloss": "Apple changed its realistic revolver to a green water pistol in iOS 10 (2016); Samsung, Twitter, Google, Microsoft, Facebook and WhatsApp all followed by 2018. The Unicode name remains 'pistol', so the glyph's name and its universal appearance no longer agree.", "confidence": "high" }
+    ],
+    "🍑": [
+      { "sense": "shape drift", "gloss": "Apple's iOS 10 beta made the peach flatter and more fruit-like; the change was reversed before release after users objected that it broke the euphemism.", "confidence": "high" }
+    ],
+    "🤝": [
+      { "sense": "skin tone impossible until 2022", "gloss": "The single-glyph handshake could not take two different tones. Emoji 14.0 added 🫱🏻‍🫲🏽 as a ZWJ sequence specifically to allow it.", "confidence": "high" }
+    ],
+    "🥲": [
+      { "sense": "vendor divergence", "gloss": "Some vendors draw a single tear and a broad smile, others a barely-there tear, which shifts the emoji between 'bravely coping' and 'genuinely fine'.", "confidence": "medium" }
+    ],
+    "😬": [
+      { "sense": "vendor divergence", "gloss": "Rendered anywhere from mild awkwardness to outright terror depending on platform, a long-standing source of cross-device misreading.", "confidence": "medium" }
+    ],
+    "🙃": [
+      { "sense": "no upside-down variant of other faces", "gloss": "The only inverted face in the set, which is why it carries the whole burden of sarcasm.", "confidence": "medium" }
+    ],
+    "☺️": [
+      { "sense": "text-default presentation", "gloss": "Defaults to monochrome text rendering unless followed by U+FE0F, so it often appears as a black-and-white outline where authors expected colour.", "confidence": "high" }
+    ],
+    "❤️": [
+      { "sense": "requires a variation selector", "gloss": "U+2764 alone is a text-presentation dingbat. Only U+2764 U+FE0F renders as the familiar red heart, which is why hearts sometimes arrive as flat black glyphs.", "confidence": "high" }
+    ],
+    "#️⃣": [
+      { "sense": "keycap, not a hashtag", "gloss": "A three-code-point sequence of digit, variation selector and combining enclosing keycap. Frequently mistaken for the hashtag character.", "confidence": "high" }
+    ],
+    "🏳️‍🌈": [
+      { "sense": "ZWJ sequence with graceful degradation", "gloss": "On systems lacking the sequence it breaks into a white flag followed by a rainbow, which reads very differently from the intended pride flag.", "confidence": "high" }
+    ],
+    "🏳️‍⚧️": [
+      { "sense": "newer and less supported", "gloss": "The transgender flag, added in Emoji 13.0, still degrades to flag-plus-symbol on older systems.", "confidence": "medium" }
+    ],
+    "🇺🇳": [
+      { "sense": "not a country", "gloss": "The UN flag is a regional-indicator pair like national flags, but UN is not an ISO country code in the ordinary sense; some pickers omit it.", "confidence": "medium" }
+    ],
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿": [
+      { "sense": "tag sequence with poor support", "gloss": "Scotland is a seven-code-point tag sequence. Only England, Scotland and Wales exist as RGI tag flags, and unsupported systems show a plain black flag.", "confidence": "high" }
+    ],
+    "👨‍👩‍👧‍👦": [
+      { "sense": "degrades into a crowd", "gloss": "Where the ZWJ sequence is unsupported, the family renders as four separate people standing in a row.", "confidence": "high" }
+    ],
+    "🧑‍🤝‍🧑": [
+      { "sense": "gender-neutral by construction", "gloss": "Built from neutral person glyphs specifically to avoid the gendered defaults of older couple emoji.", "confidence": "medium" }
+    ],
+    "⚧️": [
+      { "sense": "symbol not a flag", "gloss": "The transgender symbol exists independently of the flag sequence and is often used alone as an identity marker.", "confidence": "medium" }
+    ],
+    "🫯": [
+      { "sense": "brand-new and unrendered", "gloss": "The 'fight cloud' was added in Emoji 17.0 (September 2025), so on many devices it still appears as a tofu box. New emoji stay practically unusable for months or years after standardisation.", "confidence": "high" }
+    ],
+    "🫪": [
+      { "sense": "brand-new and unrendered", "gloss": "The 'distorted face', another Emoji 17.0 addition; expect missing-glyph boxes on systems that have not shipped the new font.", "confidence": "high" }
+    ],
+    "‼️": [
+      { "sense": "legacy dingbat turned emoji", "gloss": "Predates emoji entirely as a typographic mark, which is why it needs U+FE0F to render in colour.", "confidence": "medium" }
+    ],
+    "©️": [
+      { "sense": "not really an emoji", "gloss": "The copyright sign is emoji-presentable but semantically a legal mark; its inclusion is a compatibility artefact of Japanese carrier sets.", "confidence": "high" }
+    ],
+    "®️": [
+      { "sense": "not really an emoji", "gloss": "As with ©️, a legacy compatibility inclusion rather than a designed pictograph.", "confidence": "high" }
+    ],
+    "™️": [
+      { "sense": "not really an emoji", "gloss": "Same legacy status; also used online as an ironic suffix marking a phrase as a branded cliché.", "confidence": "high" }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "emoji17-explorer",
+  "version": "1.0.0",
+  "description": "Single-page explorer for the complete Emoji 17.0 set, with code point counts, UTF-8 byte sizes and a curated layer of alternate/slang usages. Zero runtime dependencies.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "bin": { "emoji17": "./src/cli.mjs" },
+  "scripts": {
+    "fetch": "node build/fetch.mjs",
+    "fetch:force": "node build/fetch.mjs --force",
+    "dataset": "node build/dataset.mjs",
+    "bundle": "node build/bundle.mjs",
+    "build": "npm run fetch && npm run dataset && npm run bundle",
+    "test": "node --test \"test/*.test.mjs\"",
+    "verify": "npm run build && npm test",
+    "search": "node src/cli.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

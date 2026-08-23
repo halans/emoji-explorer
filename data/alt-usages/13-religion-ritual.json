@@ -1,0 +1,115 @@
+{
+  "register": "religion",
+  "explicit": false,
+  "provenance": "Religious, devotional and ritual senses. Unicode's religious symbol set is thin and unevenly distributed, so communities routinely repurpose neighbouring glyphs — which is why several entries here describe a substitution rather than a designed meaning.",
+  "entries": {
+    "🤲": [
+      { "sense": "dua", "gloss": "The cupped-palms supplication posture of Islamic prayer. Widely used by Muslim users where 🙏 would misrepresent the gesture, and the closest thing the set has to a dedicated dua glyph.", "confidence": "high" }
+    ],
+    "🕋": [
+      { "sense": "Hajj, Umrah or Mecca", "gloss": "The Kaaba marks pilgrimage posts and, by extension, the direction of prayer.", "confidence": "high" }
+    ],
+    "🕌": [
+      { "sense": "Islam generally", "gloss": "Often stands for the faith or community rather than a building.", "confidence": "medium" }
+    ],
+    "☪️": [
+      { "sense": "Muslim identity", "gloss": "An identity marker in bios; also appropriated in harassment campaigns against Muslim users.", "confidence": "medium" }
+    ],
+    "🌙": [
+      { "sense": "Ramadan", "gloss": "The crescent marks the fasting month; a completely separate convention from the crypto 'to the moon' sense.", "confidence": "high" }
+    ],
+    "🌛": [
+      { "sense": "Ramadan greeting", "gloss": "Used in Ramadan Mubarak and Eid posts across the Muslim world.", "confidence": "medium" }
+    ],
+    "🪔": [
+      { "sense": "Diwali", "gloss": "The diya oil lamp. Added in Emoji 12.0 precisely because the set had no way to mark one of the world's largest festivals.", "confidence": "high" }
+    ],
+    "🕉️": [
+      { "sense": "Om", "gloss": "Sacred in Hinduism, Jainism and Buddhism. Decorative use by non-practitioners is widely read as appropriative, particularly in wellness marketing.", "confidence": "high" }
+    ],
+    "🛕": [
+      { "sense": "Hindu temple", "gloss": "Added in Emoji 12.0; before it, users substituted 🕌 or 🏛️.", "confidence": "medium" }
+    ],
+    "🪯": [
+      { "sense": "Sikhism", "gloss": "The Khanda, added in Emoji 15.0 after long advocacy. Sikh users previously had no representative symbol at all.", "confidence": "high" }
+    ],
+    "✡️": [
+      { "sense": "Jewish identity", "gloss": "Identity marker, and a frequent target of antisemitic harassment including the triple-parenthesis convention.", "confidence": "medium" }
+    ],
+    "🕎": [
+      { "sense": "Hanukkah", "gloss": "The menorah as a festival marker.", "confidence": "high" }
+    ],
+    "🔯": [
+      { "sense": "mistaken for the Star of David", "gloss": "Officially 'dotted six-pointed star', a distinct symbol, but constantly substituted for ✡️ because it appears earlier in many pickers.", "confidence": "high" }
+    ],
+    "✝️": [
+      { "sense": "Christian identity", "gloss": "In bios a faith declaration; in some political contexts a cultural-conservative alignment marker.", "confidence": "medium" }
+    ],
+    "☦️": [
+      { "sense": "Orthodox Christianity", "gloss": "Used specifically to distinguish Orthodox from Western Christian identity.", "confidence": "medium" }
+    ],
+    "📿": [
+      { "sense": "prayer beads across three traditions", "gloss": "One glyph covers the Catholic rosary, the Islamic misbaha and the Buddhist mala, flattening distinctions its users care about.", "confidence": "high" }
+    ],
+    "🧘": [
+      { "sense": "meditation, or performative calm", "gloss": "Sincere practice, or a sarcastic claim to be staying serene under provocation.", "confidence": "high" }
+    ],
+    "☸️": [
+      { "sense": "Buddhism, or Kubernetes", "gloss": "The dharma wheel is a genuine religious symbol that the devops world adopted as a stand-in for the Kubernetes logo, an unusually stark collision of registers.", "confidence": "high" }
+    ],
+    "🙏": [
+      { "sense": "genuine prayer", "gloss": "The devotional reading persists strongly among religious users even as secular users have repurposed it for thanks and pleading.", "confidence": "high" }
+    ],
+    "😇": [
+      { "sense": "the departed", "gloss": "In condolence posts the halo refers to someone who has died, not to innocence.", "confidence": "medium" }
+    ],
+    "🤍": [
+      { "sense": "mourning", "gloss": "White is the colour of mourning across much of East Asia, inverting the Western reading of the white heart as minimalist affection.", "confidence": "medium" }
+    ],
+    "⚰️": [
+      { "sense": "figurative death", "gloss": "'I'm in the coffin' as an intensified 💀 laughter marker, in the same lineage.", "confidence": "medium" }
+    ],
+    "🪦": [
+      { "sense": "RIP posts", "gloss": "Genuine memorial use alongside the ironic 'this trend is dead' sense.", "confidence": "medium" }
+    ],
+    "🕯️": [
+      { "sense": "vigil or remembrance", "gloss": "The standard glyph for public mourning after a disaster or death.", "confidence": "high" }
+    ],
+    "🧎": [
+      { "sense": "supplication or begging", "gloss": "Devotional kneeling, or comedic pleading.", "confidence": "medium" }
+    ],
+    "🛐": [
+      { "sense": "deliberately generic worship", "gloss": "Designed to be denominationally neutral, which makes it almost unreadable in practice.", "confidence": "medium" }
+    ],
+    "😈": [
+      { "sense": "no religious content whatsoever", "gloss": "Despite depicting a devil it is used for mischief and flirtation; the theological reading is essentially extinct online.", "confidence": "high" }
+    ],
+    "👼": [
+      { "sense": "infant loss, or innocence", "gloss": "Carries genuine weight in bereavement communities, quite apart from its casual use.", "confidence": "medium" }
+    ],
+    "🐐": [
+      { "sense": "scapegoat, and Satanic imagery", "gloss": "Both senses predate the GOAT acronym by millennia and still surface in religious and occult contexts.", "confidence": "low" }
+    ],
+    "🍞": [
+      { "sense": "communion or provision", "gloss": "Eucharistic and 'daily bread' references in Christian posting.", "confidence": "low" }
+    ],
+    "🍷": [
+      { "sense": "communion", "gloss": "Paired with 🍞 in the same register.", "confidence": "low" }
+    ],
+    "🌿": [
+      { "sense": "Palm Sunday or ritual herbs", "gloss": "Liturgical use, distinct from both the botanical reading and the gated slang sense recorded elsewhere in this dataset.", "confidence": "low" }
+    ],
+    "🐟": [
+      { "sense": "Ichthys", "gloss": "The early Christian fish sign, still used as a quiet faith marker.", "confidence": "medium" }
+    ],
+    "🧧": [
+      { "sense": "Lunar New Year blessing", "gloss": "The red envelope is a ritual gift object carrying luck, not merely stationery.", "confidence": "high" }
+    ],
+    "🎋": [
+      { "sense": "Tanabata wishes", "gloss": "Written wishes hung on bamboo, a Shinto-adjacent festival practice.", "confidence": "high" }
+    ],
+    "⛩️": [
+      { "sense": "Shinto, or 'Japan' generally", "gloss": "A religious gateway routinely used as a generic Japan signifier, which practitioners find flattening.", "confidence": "medium" }
+    ]
+  }
+}

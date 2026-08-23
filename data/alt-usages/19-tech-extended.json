@@ -1,0 +1,103 @@
+{
+  "register": "workplace",
+  "explicit": false,
+  "provenance": "Second pass on professional and technical convention: commit-message conventions (the gitmoji vocabulary), incident response, and the emerging visual grammar of AI product interfaces.",
+  "entries": {
+    "✨": [
+      { "sense": "new feature, in commit conventions", "gloss": "In the gitmoji convention sparkles specifically mean a new feature — which collides awkwardly with sparkles having become the universal AI-feature icon.", "confidence": "high" }
+    ],
+    "🐎": [
+      { "sense": "performance work", "gloss": "An older gitmoji for speed improvements, largely displaced by ⚡.", "confidence": "low" }
+    ],
+    "🚑": [
+      { "sense": "critical hotfix", "gloss": "A gitmoji marking an emergency patch to production.", "confidence": "medium" }
+    ],
+    "🔖": [
+      { "sense": "release tag", "gloss": "The gitmoji for cutting a version.", "confidence": "medium" }
+    ],
+    "🚨": [
+      { "sense": "fixing linter warnings", "gloss": "A specific gitmoji sense that sits oddly beside the same glyph meaning 'production incident' elsewhere.", "confidence": "medium" }
+    ],
+    "🔧": [
+      { "sense": "configuration change", "gloss": "Config-file edits in commit conventions.", "confidence": "medium" }
+    ],
+    "🏗️": [
+      { "sense": "architectural change", "gloss": "Structural refactoring rather than a feature.", "confidence": "medium" }
+    ],
+    "⬆️": [
+      { "sense": "dependency upgrade", "gloss": "Bumping a version; ⬇️ is the downgrade.", "confidence": "medium" }
+    ],
+    "🗑️": [
+      { "sense": "deprecation or deletion", "gloss": "Removing code or retiring a feature.", "confidence": "medium" }
+    ],
+    "💥": [
+      { "sense": "breaking change", "gloss": "The gitmoji warning that an API contract has changed.", "confidence": "high" }
+    ],
+    "🚀": [
+      { "sense": "deployment", "gloss": "Deploying, as distinct from 🚢 shipping a release.", "confidence": "high" }
+    ],
+    "🧪": [
+      { "sense": "experimental or behind a flag", "gloss": "Marks work not yet generally available.", "confidence": "medium" }
+    ],
+    "🟩": [
+      { "sense": "passing build", "gloss": "Green squares as CI status in dashboards and standups.", "confidence": "medium" }
+    ],
+    "🟧": [
+      { "sense": "degraded service", "gloss": "The middle tier of a status-page colour scheme.", "confidence": "low" }
+    ],
+    "🔺": [
+      { "sense": "severity one", "gloss": "Incident severity marking in on-call channels.", "confidence": "low" }
+    ],
+    "📟": [
+      { "sense": "being paged", "gloss": "The pager survives as the icon for on-call alerting long after the device disappeared.", "confidence": "medium" }
+    ],
+    "🕵️": [
+      { "sense": "root-cause investigation", "gloss": "Debugging an incident.", "confidence": "low" }
+    ],
+    "📋": [
+      { "sense": "post-mortem", "gloss": "The write-up after an incident.", "confidence": "low" }
+    ],
+    "🧯": [
+      { "sense": "firefighting", "gloss": "Reactive work displacing planned work.", "confidence": "medium" }
+    ],
+    "🪵": [
+      { "sense": "logs", "gloss": "A pun on log files that has become genuinely common in observability tooling.", "confidence": "medium" }
+    ],
+    "🔍": [
+      { "sense": "search or query", "gloss": "Interface metaphor, and a request to look something up.", "confidence": "low" }
+    ],
+    "🪄": [
+      { "sense": "generative feature", "gloss": "The magic wand became a standard AI-action affordance in product UI around 2023.", "confidence": "high" }
+    ],
+    "🧵": [
+      { "sense": "a thread of execution", "gloss": "In systems contexts the literal computing sense, colliding with the social-media 'thread of posts' reading.", "confidence": "medium" }
+    ],
+    "🧊": [
+      { "sense": "a frozen dependency", "gloss": "Pinned versions, alongside the icebox and cold-storage senses.", "confidence": "low" }
+    ],
+    "🧱": [
+      { "sense": "blocked", "gloss": "A dependency preventing progress, in standup notation.", "confidence": "medium" }
+    ],
+    "🪦": [
+      { "sense": "sunset or end-of-life", "gloss": "Marking a product or version as discontinued in changelogs.", "confidence": "medium" }
+    ],
+    "🤝": [
+      { "sense": "pairing", "gloss": "Pair programming, or a cross-team handoff.", "confidence": "low" }
+    ],
+    "🥕": [
+      { "sense": "an incentive", "gloss": "Carrot-and-stick framing in management writing.", "confidence": "low" }
+    ],
+    "📈": [
+      { "sense": "the only chart in the deck", "gloss": "Used sardonically about metrics chosen to flatter.", "confidence": "low" }
+    ],
+    "⏳": [
+      { "sense": "waiting on someone else", "gloss": "Blocked on review or approval rather than on work.", "confidence": "medium" }
+    ],
+    "🫡": [
+      { "sense": "acknowledging a decision one disagrees with", "gloss": "The distinctive corporate register of the salute: compliance without endorsement.", "confidence": "high" }
+    ],
+    "🙏": [
+      { "sense": "requesting a favour", "gloss": "In work channels this is a request marker, not gratitude and certainly not prayer.", "confidence": "high" }
+    ]
+  }
+}

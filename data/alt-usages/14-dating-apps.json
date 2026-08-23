@@ -1,0 +1,115 @@
+{
+  "register": "dating",
+  "explicit": false,
+  "provenance": "Conventions specific to dating-app profiles and early-stage messaging, where emoji do compressed disclosure work: a bio has severe space limits, so single glyphs stand for orientation, intent, lifestyle and dealbreakers. Widely documented in app-culture journalism and in the apps' own prompt design.",
+  "entries": {
+    "📍": [
+      { "sense": "location", "gloss": "Almost universal bio opener: pin followed by a city. Rarely a literal map reference.", "confidence": "high" }
+    ],
+    "📏": [
+      { "sense": "height", "gloss": "The ruler prefixes a height, a disclosure convention that emerged because height filtering is so contested.", "confidence": "high" }
+    ],
+    "🎓": [
+      { "sense": "education level", "gloss": "Signals a degree or institution as a compressed status claim.", "confidence": "medium" }
+    ],
+    "💼": [
+      { "sense": "occupation", "gloss": "Prefixes a job title in the same bio grammar.", "confidence": "medium" }
+    ],
+    "♑": [
+      { "sense": "star sign as compatibility shorthand", "gloss": "Zodiac glyphs in bios are a genuine filtering mechanism for a substantial share of users, and a joke for the rest. All twelve function identically.", "confidence": "high" }
+    ],
+    "🧿": [
+      { "sense": "spiritual-but-not-religious signal", "gloss": "Reads as an interest in astrology, energy and manifestation.", "confidence": "low" }
+    ],
+    "✈️": [
+      { "sense": "travel as a personality", "gloss": "The single most parodied bio emoji, to the point where using it sincerely now reads as self-aware.", "confidence": "high" }
+    ],
+    "🐕": [
+      { "sense": "dog person", "gloss": "Pet ownership is a stated dealbreaker often enough to warrant its own glyph.", "confidence": "high" }
+    ],
+    "🐈": [
+      { "sense": "cat person", "gloss": "The counterpart claim, and a mild tribal signal.", "confidence": "high" }
+    ],
+    "🚭": [
+      { "sense": "non-smoker", "gloss": "Compact statement of a lifestyle boundary.", "confidence": "medium" }
+    ],
+    "🍸": [
+      { "sense": "social drinker", "gloss": "Signals openness to bar dates.", "confidence": "low" }
+    ],
+    "🚫🍷": [
+      { "sense": "sober", "gloss": "Sobriety disclosure, increasingly common as a positive claim rather than an apology.", "confidence": "medium" }
+    ],
+    "🌱": [
+      { "sense": "vegan or vegetarian", "gloss": "Dietary disclosure, and by implication a values claim.", "confidence": "medium" }
+    ],
+    "♀️": [
+      { "sense": "gender or orientation marker", "gloss": "Paired gender symbols in a bio state who the user is looking for, more precisely than app filters allow.", "confidence": "medium" }
+    ],
+    "🏳️‍🌈": [
+      { "sense": "queer, not merely allied", "gloss": "In a dating bio specifically this reads as a statement about the user, unlike its use on corporate accounts.", "confidence": "high" }
+    ],
+    "💜": [
+      { "sense": "demisexual or ace-spectrum, in some communities", "gloss": "Colour-coded orientation signalling varies by platform and cohort; unreliable but real.", "confidence": "low" }
+    ],
+    "♠️": [
+      { "sense": "asexual", "gloss": "The ace of spades as an established ace-community identity marker.", "confidence": "medium" }
+    ],
+    "🤍": [
+      { "sense": "looking for something serious", "gloss": "Intent signalling; contrasted deliberately with the more casual hearts.", "confidence": "low" }
+    ],
+    "🔥": [
+      { "sense": "attractive", "gloss": "The most common compliment token in early messaging.", "confidence": "high" }
+    ],
+    "👀": [
+      { "sense": "interested but not committing", "gloss": "Low-risk expression of attention, deniable if unreciprocated.", "confidence": "high" }
+    ],
+    "🥺": [
+      { "sense": "soft pressure", "gloss": "Used to make a request hard to refuse; frequently read as manipulative.", "confidence": "high" }
+    ],
+    "😏": [
+      { "sense": "escalating to flirtation", "gloss": "The standard marker that a conversation is changing register.", "confidence": "high" }
+    ],
+    "🙈": [
+      { "sense": "bashful admission", "gloss": "Softens a confession or a bold suggestion.", "confidence": "medium" }
+    ],
+    "😅": [
+      { "sense": "damage control", "gloss": "Deployed after a message lands badly.", "confidence": "medium" }
+    ],
+    "👻": [
+      { "sense": "ghosting", "gloss": "Naming the practice of vanishing mid-conversation; the app-culture term is now more common than the spectre.", "confidence": "high" }
+    ],
+    "🍞": [
+      { "sense": "breadcrumbing", "gloss": "Stringing someone along with intermittent low-effort contact.", "confidence": "medium" }
+    ],
+    "🧊": [
+      { "sense": "icing someone out", "gloss": "Deliberate cooling of contact, a step short of ghosting.", "confidence": "low" }
+    ],
+    "🚩": [
+      { "sense": "dealbreaker spotted", "gloss": "The dominant dating-discourse glyph, used both in bios ('no red flags please') and in post-date debriefs with friends.", "confidence": "high" }
+    ],
+    "🟢": [
+      { "sense": "green flag", "gloss": "The deliberate inversion of 🚩, marking a positive trait. A newer coinage that spread because the negative had become so dominant.", "confidence": "high" }
+    ],
+    "🤡": [
+      { "sense": "admitting one was fooled", "gloss": "Self-directed, after being strung along.", "confidence": "medium" }
+    ],
+    "💔": [
+      { "sense": "a situationship ending", "gloss": "Used for relationships that never had a formal status to end.", "confidence": "medium" }
+    ],
+    "🫠": [
+      { "sense": "app fatigue", "gloss": "Burnout from swiping, a genre of post in its own right.", "confidence": "medium" }
+    ],
+    "🛌": [
+      { "sense": "hookup intent", "gloss": "Signals casual rather than serious intent when placed in a bio.", "confidence": "low" }
+    ],
+    "🌚": [
+      { "sense": "late-night intent", "gloss": "Implies the conversation is heading somewhere without saying so.", "confidence": "medium" }
+    ],
+    "🧢": [
+      { "sense": "suspecting a lie", "gloss": "Applied to implausible bio claims, especially heights.", "confidence": "medium" }
+    ],
+    "📸": [
+      { "sense": "photo verification request", "gloss": "Asking for proof the person is real, in a catfishing-aware culture.", "confidence": "medium" }
+    ]
+  }
+}

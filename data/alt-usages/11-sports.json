@@ -1,0 +1,121 @@
+{
+  "register": "sports",
+  "explicit": false,
+  "provenance": "Senses used in sports fandom, transfer rumour culture and match commentary. Football (soccer) transfer Twitter has developed the most codified emoji grammar of any sporting subculture, to the point where single glyphs carry procedural meaning about the status of a deal.",
+  "entries": {
+    "🚨": [
+      { "sense": "transfer news breaking", "gloss": "In football transfer coverage the siren prefixes a genuine development. Overuse by aggregator accounts has devalued it to the point of parody.", "confidence": "high" }
+    ],
+    "🤝": [
+      { "sense": "personal terms agreed", "gloss": "The player has agreed with the club; the clubs may not yet have agreed with each other.", "confidence": "medium" }
+    ],
+    "✅": [
+      { "sense": "here we go", "gloss": "Fabrizio Romano's green tick, signalling a transfer is done. One of the few cases where an individual journalist's habit became an entire community's notation.", "confidence": "high" }
+    ],
+    "✍️": [
+      { "sense": "contract signed", "gloss": "Completion of paperwork, distinct from agreement in principle.", "confidence": "medium" }
+    ],
+    "🩺": [
+      { "sense": "medical scheduled", "gloss": "The player is undergoing the medical examination that precedes a signing.", "confidence": "medium" }
+    ],
+    "✈️": [
+      { "sense": "player travelling to sign", "gloss": "Flight tracking is a genuine sub-hobby of transfer season.", "confidence": "medium" }
+    ],
+    "🐐": [
+      { "sense": "greatest of all time", "gloss": "The central argument-starter of sports discourse; deploying it is a claim, not a description.", "confidence": "high" }
+    ],
+    "🧤": [
+      { "sense": "goalkeeper", "gloss": "Position shorthand; also a clean sheet.", "confidence": "medium" }
+    ],
+    "🥅": [
+      { "sense": "goal scored", "gloss": "Match-thread notation.", "confidence": "medium" }
+    ],
+    "🟨": [
+      { "sense": "yellow card", "gloss": "The plain yellow square is used as a booking marker in live match commentary.", "confidence": "high" }
+    ],
+    "🟥": [
+      { "sense": "red card", "gloss": "Sending off, in the same live-commentary notation.", "confidence": "high" }
+    ],
+    "🔵": [
+      { "sense": "deal moving to a specific club", "gloss": "Coloured circles stand for club colours in transfer posts; blue commonly Chelsea, Manchester City or Everton depending on the reporter.", "confidence": "medium" }
+    ],
+    "🔴": [
+      { "sense": "club colour marker", "gloss": "Typically Liverpool, Manchester United or Arsenal in the same colour-code convention.", "confidence": "medium" }
+    ],
+    "⚪": [
+      { "sense": "Real Madrid", "gloss": "Los Blancos, in the transfer colour code.", "confidence": "medium" }
+    ],
+    "🏆": [
+      { "sense": "winning an argument", "gloss": "Beyond literal trophies, awarded sarcastically to end a debate.", "confidence": "medium" }
+    ],
+    "🥇": [
+      { "sense": "ranking claim", "gloss": "Used to assert a hierarchy in list and tier-ranking posts.", "confidence": "low" }
+    ],
+    "🧢": [
+      { "sense": "a cap for the national team", "gloss": "In football and cricket writing a 'cap' is an international appearance, an older sense entirely unrelated to the slang for lying.", "confidence": "medium" }
+    ],
+    "🎽": [
+      { "sense": "running or a race entry", "gloss": "The running shirt marks marathon and parkrun posts.", "confidence": "low" }
+    ],
+    "🏋️": [
+      { "sense": "gym session or effort generally", "gloss": "Extended metaphorically to any hard work.", "confidence": "medium" }
+    ],
+    "💪": [
+      { "sense": "encouragement", "gloss": "Support and resolve far more often than literal muscle.", "confidence": "high" }
+    ],
+    "🐍": [
+      { "sense": "Kobe Bryant", "gloss": "The Black Mamba nickname makes the snake a Kobe reference in basketball contexts.", "confidence": "medium" }
+    ],
+    "👑": [
+      { "sense": "LeBron James", "gloss": "'King James'; in NBA discourse the crown is usually a specific person, not generic royalty.", "confidence": "medium" }
+    ],
+    "🃏": [
+      { "sense": "Nikola Jokic", "gloss": "'The Joker'; another player-nickname glyph in NBA fandom.", "confidence": "low" }
+    ],
+    "🦌": [
+      { "sense": "Milwaukee Bucks", "gloss": "Team-mascot shorthand, typical of NBA emoji conventions.", "confidence": "low" }
+    ],
+    "🧊": [
+      { "sense": "ice in the veins", "gloss": "Clutch performance under pressure.", "confidence": "medium" }
+    ],
+    "🎯": [
+      { "sense": "accurate shooting", "gloss": "Marksmanship in shooting sports and basketball alike.", "confidence": "medium" }
+    ],
+    "📉": [
+      { "sense": "a team in decline", "gloss": "Form collapse, often posted by rival fans.", "confidence": "low" }
+    ],
+    "🪑": [
+      { "sense": "benched", "gloss": "A player not selected; overlaps with the absurdist chair meme.", "confidence": "low" }
+    ],
+    "🤕": [
+      { "sense": "injury list", "gloss": "Fantasy-sports and team-news notation.", "confidence": "medium" }
+    ],
+    "🏳️": [
+      { "sense": "conceding the match", "gloss": "Rival banter when a scoreline becomes hopeless.", "confidence": "low" }
+    ],
+    "🦅": [
+      { "sense": "Philadelphia Eagles or Crystal Palace", "gloss": "Mascot shorthand in NFL and Premier League contexts respectively.", "confidence": "low" }
+    ],
+    "🐓": [
+      { "sense": "Tottenham Hotspur", "gloss": "The cockerel on the club crest.", "confidence": "low" }
+    ],
+    "🍒": [
+      { "sense": "AFC Bournemouth", "gloss": "'The Cherries'; club-nickname shorthand.", "confidence": "low" }
+    ],
+    "🔨": [
+      { "sense": "West Ham United", "gloss": "'The Hammers'.", "confidence": "low" }
+    ],
+    "🏏": [
+      { "sense": "cricket generally", "gloss": "Often stands for the whole sport in South Asian and Australian social posting.", "confidence": "medium" }
+    ],
+    "🥊": [
+      { "sense": "a confrontation", "gloss": "Extended to any public argument or rivalry.", "confidence": "medium" }
+    ],
+    "🏃": [
+      { "sense": "leaving quickly", "gloss": "Fleeing a conversation rather than athletics.", "confidence": "medium" }
+    ],
+    "⛳": [
+      { "sense": "golf as a lifestyle signifier", "gloss": "In profile bios, shorthand for a whole social register rather than the sport.", "confidence": "low" }
+    ]
+  }
+}

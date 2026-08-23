@@ -1,0 +1,139 @@
+{
+  "register": "everyday",
+  "explicit": false,
+  "provenance": "Emoji that function as ordinary written shorthand rather than as slang or expression — the quiet workhorses of group chats, calendars, listings and logistics, where a glyph replaces a word to save space. Under-documented precisely because it is mundane.",
+  "entries": {
+    "🎂": [
+      { "sense": "a birthday, as a calendar entry", "gloss": "Stands in for the date itself in group chats and shared calendars.", "confidence": "high" }
+    ],
+    "🕐": [
+      { "sense": "a time being proposed", "gloss": "Clock faces are used to float a meeting time; the specific hand position is almost never meaningful.", "confidence": "medium" }
+    ],
+    "📅": [
+      { "sense": "let's schedule this", "gloss": "A request to move a conversation into a calendar.", "confidence": "medium" }
+    ],
+    "🗓️": [
+      { "sense": "a recurring commitment", "gloss": "Distinguished in practice from 📅 by implying something repeating.", "confidence": "low" }
+    ],
+    "⏰": [
+      { "sense": "a reminder was set", "gloss": "Confirms someone will be prompted, rather than describing a clock.", "confidence": "medium" }
+    ],
+    "🚗": [
+      { "sense": "I'll drive, or I'm en route", "gloss": "Logistics shorthand in group plans.", "confidence": "high" }
+    ],
+    "🚂": [
+      { "sense": "coming by train", "gloss": "Travel-mode declaration in the same register.", "confidence": "medium" }
+    ],
+    "🛴": [
+      { "sense": "short local trip", "gloss": "Used for micromobility generally, not the specific vehicle.", "confidence": "low" }
+    ],
+    "🅿️": [
+      { "sense": "parking is available", "gloss": "Property listings and event details use this as a feature bullet.", "confidence": "medium" }
+    ],
+    "🛏️": [
+      { "sense": "bedroom count", "gloss": "Standard in rental and property listings: the glyph plus a number.", "confidence": "high" }
+    ],
+    "🛁": [
+      { "sense": "bathroom count", "gloss": "The paired listing convention.", "confidence": "high" }
+    ],
+    "📐": [
+      { "sense": "floor area", "gloss": "Prefixes a square-metre or square-foot figure.", "confidence": "medium" }
+    ],
+    "🐾": [
+      { "sense": "pets allowed", "gloss": "A listing feature marker; also used for animal-related accounts generally.", "confidence": "medium" }
+    ],
+    "🚿": [
+      { "sense": "shower, as an amenity", "gloss": "Amenity listing in accommodation and gym descriptions.", "confidence": "low" }
+    ],
+    "📶": [
+      { "sense": "wifi or signal quality", "gloss": "Used to praise or complain about connectivity, and as an amenity marker.", "confidence": "medium" }
+    ],
+    "🔌": [
+      { "sense": "power sockets available", "gloss": "A genuine selling point in cafe and coworking reviews — quite separate from the gated slang sense recorded elsewhere in this dataset.", "confidence": "medium" }
+    ],
+    "♿": [
+      { "sense": "accessible venue", "gloss": "Stands for accessibility as a whole, not only wheelchair users.", "confidence": "high" }
+    ],
+    "🌡️": [
+      { "sense": "feeling unwell", "gloss": "Reporting illness without detail.", "confidence": "medium" }
+    ],
+    "🤒": [
+      { "sense": "off sick", "gloss": "The standard 'not coming in today' glyph.", "confidence": "high" }
+    ],
+    "🤧": [
+      { "sense": "working from home with a cold", "gloss": "Softer than 🤒, implying still available.", "confidence": "medium" }
+    ],
+    "💊": [
+      { "sense": "medication reminder", "gloss": "The ordinary, non-illicit sense, in health-tracking and family chats.", "confidence": "high" }
+    ],
+    "🩺": [
+      { "sense": "a medical appointment", "gloss": "Calendar shorthand for seeing a doctor.", "confidence": "medium" }
+    ],
+    "🦷": [
+      { "sense": "dentist", "gloss": "Appointment shorthand.", "confidence": "medium" }
+    ],
+    "✂️": [
+      { "sense": "haircut appointment", "gloss": "Another calendar-entry glyph.", "confidence": "low" }
+    ],
+    "🧺": [
+      { "sense": "laundry", "gloss": "Household chore notation in shared-living chats.", "confidence": "medium" }
+    ],
+    "🧹": [
+      { "sense": "cleaning duty", "gloss": "Chore-rota shorthand, distinct from the commit-message 'cleanup' sense.", "confidence": "medium" }
+    ],
+    "🗑️": [
+      { "sense": "bin day", "gloss": "Recurring household reminder.", "confidence": "low" }
+    ],
+    "🛒": [
+      { "sense": "the shopping list", "gloss": "Introduces a list of items to buy.", "confidence": "high" }
+    ],
+    "🧾": [
+      { "sense": "expenses or splitting the bill", "gloss": "Standard in shared-cost conversations.", "confidence": "high" }
+    ],
+    "💸": [
+      { "sense": "money leaving", "gloss": "Spending or an unexpected cost, in personal-finance chat.", "confidence": "high" }
+    ],
+    "🏦": [
+      { "sense": "a bank transfer was made", "gloss": "Confirming payment sent.", "confidence": "medium" }
+    ],
+    "📦": [
+      { "sense": "a parcel or a delivery update", "gloss": "One of the highest-frequency practical emoji, tracking things in transit.", "confidence": "high" }
+    ],
+    "📬": [
+      { "sense": "check your inbox", "gloss": "Prompting someone to look at their email.", "confidence": "medium" }
+    ],
+    "☂️": [
+      { "sense": "take an umbrella", "gloss": "A forecast condensed into advice.", "confidence": "medium" }
+    ],
+    "🥵": [
+      { "sense": "a heatwave", "gloss": "The literal thermal reading, still the dominant one in weather talk.", "confidence": "medium" }
+    ],
+    "🌧️": [
+      { "sense": "plans cancelled", "gloss": "Weather as an explanation rather than a description.", "confidence": "medium" }
+    ],
+    "🔑": [
+      { "sense": "keys, access or handover", "gloss": "Moving house, lending a flat, granting permissions.", "confidence": "medium" }
+    ],
+    "🎟️": [
+      { "sense": "tickets secured", "gloss": "Confirmation that entry is sorted.", "confidence": "medium" }
+    ],
+    "🪑": [
+      { "sense": "seats reserved", "gloss": "Table or seat booking confirmation — a mundane sense entirely unlike the absurdist chair meme.", "confidence": "low" }
+    ],
+    "🍽️": [
+      { "sense": "dinner plans", "gloss": "The practical sense, distinct from the 'she ate' compliment.", "confidence": "medium" }
+    ],
+    "☕": [
+      { "sense": "let's get a coffee", "gloss": "A social proposal, and the least committal form of meeting invitation there is.", "confidence": "high" }
+    ],
+    "🚪": [
+      { "sense": "leaving now", "gloss": "'Heading out', in departure notifications.", "confidence": "low" }
+    ],
+    "🔋": [
+      { "sense": "phone battery warning", "gloss": "Explaining in advance why one may go silent.", "confidence": "medium" }
+    ],
+    "📵": [
+      { "sense": "unreachable", "gloss": "Announcing being offline or in a no-phone setting.", "confidence": "low" }
+    ]
+  }
+}

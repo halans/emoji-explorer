@@ -1,0 +1,112 @@
+{
+  "register": "politics",
+  "explicit": false,
+  "provenance": "Political and activist signalling. Several entries describe symbols appropriated by extremist movements: these are documented by the Anti-Defamation League's Hate Symbols database, which consistently notes that the overwhelming majority of uses remain entirely innocent. Recorded here because the ambiguity is the practical fact users need, not to imply intent.",
+  "entries": {
+    "🍉": [
+      { "sense": "Palestinian solidarity", "gloss": "The watermelon's colours stand in for the Palestinian flag. Adopted widely from 2023, partly in the belief that flag imagery was being algorithmically suppressed.", "confidence": "high" }
+    ],
+    "🌻": [
+      { "sense": "Ukrainian solidarity", "gloss": "The national flower, adopted as a support marker from 2022.", "confidence": "high" }
+    ],
+    "💙": [
+      { "sense": "Ukraine, or a party allegiance", "gloss": "Paired with 💛 for Ukraine; alone it signals Conservative in the UK and Democratic in the US, which is a direct contradiction between two anglophone countries.", "confidence": "medium" }
+    ],
+    "💛": [
+      { "sense": "Ukraine, second half", "gloss": "The 💙💛 pair is the compact form.", "confidence": "high" }
+    ],
+    "🌹": [
+      { "sense": "democratic socialism", "gloss": "The rose is the emblem of socialist and social-democratic parties internationally, and in US contexts specifically flags DSA affiliation in bios.", "confidence": "high" }
+    ],
+    "🐘": [
+      { "sense": "US Republican Party", "gloss": "The party mascot; competes with the Mastodon and PostgreSQL senses depending on the room.", "confidence": "medium" }
+    ],
+    "🫏": [
+      { "sense": "US Democratic Party", "gloss": "The donkey mascot. The dedicated donkey emoji arrived only in Emoji 15.0, so older posts use 🐴.", "confidence": "medium" }
+    ],
+    "🌊": [
+      { "sense": "blue wave", "gloss": "US Democratic electoral surge; a 2018 midterms coinage that stuck in bios.", "confidence": "medium" }
+    ],
+    "🇺🇸": [
+      { "sense": "nationalist signalling", "gloss": "In US political bios the flag reads as a partisan alignment marker rather than a statement of nationality.", "confidence": "medium" }
+    ],
+    "🐸": [
+      { "sense": "Pepe, and its baggage", "gloss": "Listed by the ADL as a hate symbol in 2016 after appropriation, with the explicit caveat that most uses are innocuous. Context is everything.", "confidence": "medium" }
+    ],
+    "👌": [
+      { "sense": "appropriated hand sign", "gloss": "Adopted as a white-power signal from around 2017, originating partly as a deliberate hoax to bait media coverage. The ordinary approval sense remains dominant.", "confidence": "high" }
+    ],
+    "🥛": [
+      { "sense": "appropriated symbol", "gloss": "Milk was briefly adopted by some far-right groups around 2017 on lactase-persistence grounds. Largely faded, but occasionally still deployed knowingly.", "confidence": "low" }
+    ],
+    "⚡": [
+      { "sense": "extremist rune, in narrow contexts", "gloss": "Doubled lightning bolts have been used to evoke the SS insignia. Overwhelmingly the emoji just means speed or electricity; the reading only applies where other signals corroborate it.", "confidence": "low" }
+    ],
+    "🌐": [
+      { "sense": "globalist, as a slur", "gloss": "The globe icon is used in some quarters as an antisemitic dog whistle; also used entirely straightforwardly for internationalism.", "confidence": "low" }
+    ],
+    "🔻": [
+      { "sense": "contested resistance marker", "gloss": "The red triangle, drawn from Hamas footage marking targets, became a contested protest symbol from 2024 and is read by many as an endorsement of violence.", "confidence": "medium" }
+    ],
+    "✊": [
+      { "sense": "solidarity and resistance", "gloss": "The raised fist, over a century old as a labour and civil-rights symbol; skin-tone variants carry specific movement affiliations.", "confidence": "high" }
+    ],
+    "✊🏿": [
+      { "sense": "Black Lives Matter", "gloss": "The dark-tone raised fist became the movement's compact emblem, especially in 2020.", "confidence": "high" }
+    ],
+    "🏳️‍🌈": [
+      { "sense": "LGBTQ+ identity or allyship", "gloss": "In a bio it is an identity claim; on a corporate account during June it is frequently read as marketing.", "confidence": "high" }
+    ],
+    "🏳️‍⚧️": [
+      { "sense": "transgender solidarity", "gloss": "A frequent target of coordinated harassment, which has made displaying it a deliberate act.", "confidence": "high" }
+    ],
+    "🇪🇺": [
+      { "sense": "pro-European alignment", "gloss": "In UK bios post-2016 the EU flag became a Remain identity marker rather than a geographic statement.", "confidence": "medium" }
+    ],
+    "🐦": [
+      { "sense": "free speech discourse", "gloss": "The bird accumulated political meaning through the platform's 2022 ownership change.", "confidence": "low" }
+    ],
+    "💉": [
+      { "sense": "vaccination stance", "gloss": "Added to display names during 2021 as a pro-vaccine signal; also used mockingly by opponents.", "confidence": "medium" }
+    ],
+    "😷": [
+      { "sense": "public-health stance", "gloss": "The mask became a political marker in some countries, having been an unremarkable courtesy in others for decades.", "confidence": "medium" }
+    ],
+    "🐄": [
+      { "sense": "agricultural protest", "gloss": "Used in European farmer-protest posting from 2024.", "confidence": "low" }
+    ],
+    "🚜": [
+      { "sense": "farmer protest", "gloss": "The tractor blockade as a movement symbol across the Netherlands, Germany and France.", "confidence": "medium" }
+    ],
+    "🕊️": [
+      { "sense": "calls for ceasefire", "gloss": "The dove as a peace petition, revived in conflict discourse.", "confidence": "medium" }
+    ],
+    "🇵🇸": [
+      { "sense": "explicit political statement", "gloss": "Placing this flag in a display name is treated by all sides as an unambiguous declaration, unlike most national flags in bios.", "confidence": "high" }
+    ],
+    "🇮🇱": [
+      { "sense": "explicit political statement", "gloss": "Carries the symmetrical weight in the same discourse.", "confidence": "high" }
+    ],
+    "🧿": [
+      { "sense": "protection against coordinated harassment", "gloss": "Added to display names half-jokingly as a ward, especially by users in Turkey, Greece and the wider region.", "confidence": "low" }
+    ],
+    "📢": [
+      { "sense": "amplification request", "gloss": "'Boost this' in activist posting.", "confidence": "low" }
+    ],
+    "🔇": [
+      { "sense": "censorship claim", "gloss": "Alleging suppression or shadowbanning.", "confidence": "low" }
+    ],
+    "🗳️": [
+      { "sense": "get out and vote", "gloss": "Mobilisation rather than a description of the object.", "confidence": "medium" }
+    ],
+    "🧱": [
+      { "sense": "border wall politics", "gloss": "US immigration debate shorthand.", "confidence": "low" }
+    ],
+    "🐺": [
+      { "sense": "nationalist symbol in some contexts", "gloss": "The grey wolf carries specific Turkish ultranationalist associations; elsewhere it is simply a wolf.", "confidence": "low" }
+    ],
+    "🦁": [
+      { "sense": "courage or national pride", "gloss": "England, Singapore and several movements all claim the lion; the referent is entirely contextual.", "confidence": "low" }
+    ]
+  }
+}

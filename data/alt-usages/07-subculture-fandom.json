@@ -1,0 +1,147 @@
+{
+  "register": "subculture",
+  "explicit": false,
+  "provenance": "Senses that function as in-group markers: fandom, music scene, gaming, sport and online community shorthand. Legible inside the community and largely invisible outside it.",
+  "entries": {
+    "🐝": [
+      { "sense": "Beyonce fandom", "gloss": "The BeyHive; the bee is a membership badge.", "confidence": "high" }
+    ],
+    "🐍": [
+      { "sense": "Taylor Swift reclaimed symbol", "gloss": "Turned from a 2016 pile-on into merchandise and stage imagery for the Reputation era.", "confidence": "high" },
+      { "sense": "Python", "gloss": "In technical contexts the snake is the programming language, overriding both the betrayal and anatomical senses.", "confidence": "high" }
+    ],
+    "🧣": [
+      { "sense": "Taylor Swift 'All Too Well'", "gloss": "The scarf is a lyric reference functioning as a fandom handshake.", "confidence": "medium" }
+    ],
+    "💛": [
+      { "sense": "Harry Styles fandom, or platonic love", "gloss": "Colour hearts carry fandom allegiances that override any generic reading.", "confidence": "low" }
+    ],
+    "🍉": [
+      { "sense": "Palestinian solidarity", "gloss": "The watermelon stands in for the Palestinian flag's colours; adopted widely from 2023 partly to evade suspected algorithmic suppression of flag imagery.", "confidence": "high" }
+    ],
+    "🍊": [
+      { "sense": "political shorthand", "gloss": "Used in US political posting as a reference to Donald Trump's complexion; hostile.", "confidence": "medium" }
+    ],
+    "🐘": [
+      { "sense": "Mastodon", "gloss": "The fediverse platform's mascot; also the US Republican party symbol.", "confidence": "medium" },
+      { "sense": "PostgreSQL or PHP", "gloss": "Both projects use elephant mascots; context disambiguates.", "confidence": "medium" }
+    ],
+    "🦣": [
+      { "sense": "Mastodon", "gloss": "The literal mammoth, adopted by the platform's users after its 2021 addition.", "confidence": "medium" }
+    ],
+    "🐦": [
+      { "sense": "Twitter", "gloss": "Stood for the platform for over a decade; now also nostalgia for it, post-rebrand.", "confidence": "high" }
+    ],
+    "🦋": [
+      { "sense": "Bluesky", "gloss": "The platform's logo; a butterfly in a social-media context usually means an invite or a handle.", "confidence": "high" }
+    ],
+    "🌻": [
+      { "sense": "Ukrainian solidarity", "gloss": "The sunflower, Ukraine's national flower, became a support marker from 2022.", "confidence": "high" }
+    ],
+    "🦈": [
+      { "sense": "Gawr Gura, or Left Shark", "gloss": "A VTuber fandom marker, and separately a durable 2015 Super Bowl meme.", "confidence": "medium" }
+    ],
+    "🎮": [
+      { "sense": "invitation to play", "gloss": "Functions as a request rather than a description in gaming chat.", "confidence": "low" }
+    ],
+    "🎣": [
+      { "sense": "fishing minigame", "gloss": "In gaming communities frequently a specific in-game activity reference.", "confidence": "low" }
+    ],
+    "⚔️": [
+      { "sense": "PvP", "gloss": "Player-versus-player combat in game contexts.", "confidence": "medium" }
+    ],
+    "🛡️": [
+      { "sense": "tank role", "gloss": "The defensive party role in team games.", "confidence": "medium" }
+    ],
+    "💉": [
+      { "sense": "healer role", "gloss": "Support class shorthand, alongside vaccine and drug senses.", "confidence": "low" }
+    ],
+    "🏳️‍🌈": [
+      { "sense": "queer identity", "gloss": "Far more often a personal identity declaration in a bio than a reference to a physical flag.", "confidence": "high" }
+    ],
+    "💚": [
+      { "sense": "environmentalism", "gloss": "Green politics and sustainability rather than affection.", "confidence": "medium" }
+    ],
+    "🐢": [
+      { "sense": "slow connection or slow player", "gloss": "Latency complaint in gaming and streaming contexts.", "confidence": "low" }
+    ],
+    "🧙": [
+      { "sense": "someone who fixed something inexplicably", "gloss": "'Wizard' as praise for technical skill.", "confidence": "medium" }
+    ],
+    "🥁": [
+      { "sense": "anticipation", "gloss": "'Drumroll please' before a reveal.", "confidence": "medium" }
+    ],
+    "🎺": [
+      { "sense": "sad trombone or fanfare", "gloss": "Ambiguous between mockery of failure and celebration.", "confidence": "low" }
+    ],
+    "🪗": [
+      { "sense": "unwelcome music joke", "gloss": "The accordion is a standing punchline about instruments nobody requested.", "confidence": "low" }
+    ],
+    "🎸": [
+      { "sense": "rock affiliation", "gloss": "Genre marker in music discourse.", "confidence": "low" }
+    ],
+    "🎧": [
+      { "sense": "do not disturb", "gloss": "In workplace and stream chat, signals unavailability.", "confidence": "medium" }
+    ],
+    "🍿": [
+      { "sense": "watching drama unfold", "gloss": "Spectating a public argument without participating.", "confidence": "high" }
+    ],
+    "🧵": [
+      { "sense": "a thread of posts", "gloss": "Announces a multi-post sequence; almost never sewing.", "confidence": "high" }
+    ],
+    "📌": [
+      { "sense": "pinned or bookmarked", "gloss": "Interface metaphor rather than stationery.", "confidence": "medium" }
+    ],
+    "🔖": [
+      { "sense": "saving for later", "gloss": "Same interface-metaphor function as 📌.", "confidence": "low" }
+    ],
+    "🚨": [
+      { "sense": "breaking news", "gloss": "Attention-grabbing prefix on announcement posts, often overstated.", "confidence": "high" }
+    ],
+    "🪦": [
+      { "sense": "something is dead or discontinued", "gloss": "Marks a cancelled product, defunct trend or ended argument.", "confidence": "medium" }
+    ],
+    "🧟": [
+      { "sense": "exhausted", "gloss": "Running on no sleep rather than the undead.", "confidence": "low" }
+    ],
+    "🦦": [
+      { "sense": "affectionate wholesomeness", "gloss": "The otter functions as a generic 'this is adorable' marker.", "confidence": "low" }
+    ],
+    "🐌": [
+      { "sense": "snail mail or slowness", "gloss": "Physical post, or a complaint about pace.", "confidence": "medium" }
+    ],
+    "🦥": [
+      { "sense": "deliberate laziness", "gloss": "Self-deprecating rest advocacy.", "confidence": "low" }
+    ],
+    "🐙": [
+      { "sense": "GitHub", "gloss": "Octocat association makes the octopus a developer-platform reference.", "confidence": "medium" }
+    ],
+    "🐧": [
+      { "sense": "Linux", "gloss": "Tux the mascot; in tech contexts the penguin means the operating system.", "confidence": "high" }
+    ],
+    "☕": [
+      { "sense": "Java", "gloss": "In programming contexts the coffee cup is the language, not the drink.", "confidence": "medium" }
+    ],
+    "💎": [
+      { "sense": "Ruby", "gloss": "The programming language's logo, separate from the diamond-hands sense.", "confidence": "medium" }
+    ],
+    "🦀": [
+      { "sense": "Rust", "gloss": "Ferris the crab is the Rust community mascot.", "confidence": "high" }
+    ],
+    "🐳": [
+      { "sense": "Docker", "gloss": "The whale is the container platform's logo in devops contexts.", "confidence": "high" }
+    ],
+    "☸️": [
+      { "sense": "Kubernetes", "gloss": "The helm-like dharma wheel is used as a stand-in for the k8s logo, despite being a Buddhist religious symbol.", "confidence": "medium" }
+    ],
+    "🍃": [
+      { "sense": "MongoDB", "gloss": "The leaf logo in database contexts.", "confidence": "low" }
+    ],
+    "⚛️": [
+      { "sense": "React", "gloss": "The atom symbol reads as the JavaScript framework in frontend discussion.", "confidence": "high" }
+    ],
+    "🔺": [
+      { "sense": "Vercel or Next.js", "gloss": "The triangle as a deployment-platform logo.", "confidence": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "register": "finance",
+  "explicit": false,
+  "provenance": "Trading, retail-investor and crypto community senses. Concentrated in r/wallstreetbets, Crypto Twitter and adjacent forums, and widely reported during the 2021 meme-stock episode.",
+  "entries": {
+    "🚀": [
+      { "sense": "price about to rise sharply", "gloss": "'To the moon'. The single most recognisable finance emoji; repetition signals conviction.", "confidence": "high" }
+    ],
+    "🌙": [
+      { "sense": "target price", "gloss": "The destination in 'to the moon', usually paired with 🚀.", "confidence": "high" }
+    ],
+    "🌕": [
+      { "sense": "target price", "gloss": "Interchangeable with 🌙 in the moon-shot construction.", "confidence": "medium" }
+    ],
+    "🐻": [
+      { "sense": "bearish", "gloss": "Expecting a decline. 'Bears' is a market-participant term long predating emoji.", "confidence": "high" }
+    ],
+    "🐂": [
+      { "sense": "bullish", "gloss": "Expecting a rise.", "confidence": "high" }
+    ],
+    "🐮": [
+      { "sense": "bullish", "gloss": "Substituted for 🐂 where the ox glyph is unavailable or renders poorly.", "confidence": "medium" }
+    ],
+    "💎": [
+      { "sense": "holding through volatility", "gloss": "Half of 'diamond hands'; requires 🙌 to complete the phrase.", "confidence": "high" }
+    ],
+    "🙌": [
+      { "sense": "hands in a holding metaphor", "gloss": "Combines with 💎 for conviction or 🧻 for panic-selling.", "confidence": "high" }
+    ],
+    "🧻": [
+      { "sense": "selling under pressure", "gloss": "'Paper hands', the derisive opposite of diamond hands.", "confidence": "high" }
+    ],
+    "🦍": [
+      { "sense": "retail investor collective", "gloss": "'Apes together strong', self-applied by the GameStop retail cohort in 2021.", "confidence": "high" }
+    ],
+    "🦧": [
+      { "sense": "retail investor", "gloss": "A variant of the 🦍 self-designation.", "confidence": "medium" }
+    ],
+    "🌈🐻": [
+      { "sense": "derided short seller", "gloss": "'Rainbow bear', a wallstreetbets term for a bearish poster.", "confidence": "medium" }
+    ],
+    "🖨️": [
+      { "sense": "central bank monetary expansion", "gloss": "'Money printer go brrr', a 2020 macro meme about quantitative easing.", "confidence": "high" }
+    ],
+    "🧑‍🌾": [
+      { "sense": "yield farming", "gloss": "DeFi liquidity provision, from the 'farmer' metaphor.", "confidence": "medium" }
+    ],
+    "🐋": [
+      { "sense": "large holder", "gloss": "An account holding enough of an asset to move its price.", "confidence": "high" }
+    ],
+    "🦐": [
+      { "sense": "small holder", "gloss": "The counterpart to 🐋 in crypto wallet-size tiers.", "confidence": "medium" }
+    ],
+    "🦀": [
+      { "sense": "sideways market, or Rust programming", "gloss": "Crab-walking price action; separately the mascot of the Rust language community.", "confidence": "medium" }
+    ],
+    "📉": [
+      { "sense": "loss porn", "gloss": "Posting one's own losses, a genre unto itself.", "confidence": "medium" }
+    ],
+    "🧢": [
+      { "sense": "market cap", "gloss": "In crypto contexts the cap emoji is sometimes a pun on market capitalisation rather than the 'lying' sense.", "confidence": "low" }
+    ],
+    "🔒": [
+      { "sense": "locked liquidity or vesting", "gloss": "Signals tokens that cannot be sold yet.", "confidence": "medium" }
+    ],
+    "🪙": [
+      { "sense": "a token", "gloss": "Generic crypto asset reference.", "confidence": "medium" }
+    ],
+    "🫡": [
+      { "sense": "acknowledging a loss", "gloss": "Saluting a position that has gone to zero.", "confidence": "low" }
+    ],
+    "🤝": [
+      { "sense": "deal closed", "gloss": "Confirmation of an over-the-counter trade or partnership.", "confidence": "low" }
+    ],
+    "🐕": [
+      { "sense": "Dogecoin and its imitators", "gloss": "The 'dog coin' category of memecoins.", "confidence": "medium" }
+    ],
+    "🐶": [
+      { "sense": "memecoin", "gloss": "Interchangeable with 🐕 in that sense.", "confidence": "low" }
+    ],
+    "⛏️": [
+      { "sense": "crypto mining", "gloss": "Proof-of-work mining rather than excavation.", "confidence": "medium" }
+    ],
+    "🔗": [
+      { "sense": "Chainlink", "gloss": "Ticker-adjacent shorthand for the LINK token and its community.", "confidence": "medium" }
+    ],
+    "🧊": [
+      { "sense": "cold storage", "gloss": "Offline custody of crypto keys.", "confidence": "low" }
+    ],
+    "🏦": [
+      { "sense": "traditional finance", "gloss": "Often pejorative in crypto contexts, as 'tradfi'.", "confidence": "low" }
+    ],
+    "💰": [
+      { "sense": "profit taken", "gloss": "Announcing a realised gain.", "confidence": "medium" }
+    ],
+    "🤑": [
+      { "sense": "greed, usually self-mocking", "gloss": "Rarely a sincere expression of wealth.", "confidence": "medium" }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "register": "nonenglish",
+  "explicit": false,
+  "provenance": "Senses that arose in non-anglophone internet cultures and are largely invisible to English-language emoji references. Kept separate from the `regional` register, which covers gesture and cultural divergence, because these are specifically language-community conventions: puns that only work in one language, or platform norms from WeChat, LINE, KakaoTalk and Brazilian Twitter.",
+  "entries": {
+    "🍐": [
+      { "sense": "goodbye, in Mandarin", "gloss": "'Pear' is li, punning on 离 (to leave). Chinese emoji slang leans heavily on homophones because the language is dense with them.", "confidence": "medium" }
+    ],
+    "🐴": [
+      { "sense": "immediately, in Mandarin", "gloss": "Horse is ma; 马上 ('on the horse') means right away. A written pun that reads as nonsense in translation.", "confidence": "medium" }
+    ],
+    "🥬": [
+      { "sense": "novice, in Mandarin gaming", "gloss": "菜 (cai, vegetable) also means bad at something, so vegetables mark a weak player.", "confidence": "medium" }
+    ],
+    "🐶": [
+      { "sense": "self-deprecating single person, in Mandarin", "gloss": "单身狗, 'single dog', is the standard self-mocking term for being unattached.", "confidence": "medium" }
+    ],
+    "🧧": [
+      { "sense": "hongbao", "gloss": "On WeChat the red envelope is a live payment feature, not merely a festive image, which makes the emoji function as a reference to a transaction.", "confidence": "high" }
+    ],
+    "🙂": [
+      { "sense": "hostile, on Chinese platforms", "gloss": "The WeChat smile is read as pointedly cold, to the extent it is described as ending friendships. Considerably harsher than the Western passive-aggressive reading.", "confidence": "high" }
+    ],
+    "🌚": [
+      { "sense": "sarcasm marker, on Chinese platforms", "gloss": "The dark moon face marks a statement as not meant sincerely.", "confidence": "medium" }
+    ],
+    "🐰": [
+      { "sense": "cute self-reference, in Mandarin", "gloss": "兔 as an affectionate self-designation, common in fandom posting.", "confidence": "low" },
+      { "sense": "K-pop group marker", "gloss": "Animal glyphs are assigned to specific idols and groups as fandom shorthand; the mapping is community-internal and shifts.", "confidence": "low" }
+    ],
+    "🍋": [
+      { "sense": "jealousy, in Mandarin", "gloss": "酸 (sour) means envious, so sour fruit marks jealousy — a mapping absent from English usage.", "confidence": "medium" }
+    ],
+    "🥭": [
+      { "sense": "wordplay marker, in Mandarin", "gloss": "芒果 puns on 忙 (busy) in casual messaging.", "confidence": "low" }
+    ],
+    "😂": [
+      { "sense": "still current in much of the world", "gloss": "The 'this emoji is for old people' consensus is anglophone and Gen-Z specific. Across Brazil, Indonesia, the Arab world and much of Africa it remains the unmarked default for laughter.", "confidence": "high" }
+    ],
+    "🤣": [
+      { "sense": "preferred laughter in several regions", "gloss": "Where 😂 has aged, 🤣 rather than 💀 is often the successor outside English-speaking internet.", "confidence": "medium" },
+      { "sense": "Indonesian and Malaysian default", "gloss": "Alongside 'wkwkwk' as the written form, this remains the standard laughter glyph rather than 💀.", "confidence": "medium" }
+    ],
+    "😭": [
+      { "sense": "sincere crying, in many languages", "gloss": "The laughter reading is largely an English-internet development; elsewhere the literal sense is intact, which makes cross-language misreadings common.", "confidence": "high" }
+    ],
+    "🤍": [
+      { "sense": "affection, in Arabic-language posting", "gloss": "The white heart is markedly more common as a general affection marker in Gulf and Levantine social media than in English usage.", "confidence": "medium" }
+    ],
+    "🥀": [
+      { "sense": "melancholy aesthetic, Arabic and sad-rap", "gloss": "The wilted rose is a genre marker for a whole register of Arabic-language melancholy posting, and separately for Western sad rap.", "confidence": "medium" }
+    ],
+    "🇸🇦": [
+      { "sense": "language, not nationality", "gloss": "National flags frequently mark the language a post is written in rather than where the author lives.", "confidence": "medium" }
+    ],
+    "🌹": [
+      { "sense": "respectful greeting, in Arabic and Persian posting", "gloss": "Roses attached to a greeting or a name convey courtesy, with no romantic implication.", "confidence": "medium" }
+    ],
+    "🇰🇷": [
+      { "sense": "K-content marker", "gloss": "Used to tag K-pop and K-drama posts by international fans rather than to indicate location.", "confidence": "medium" }
+    ],
+    "🫰": [
+      { "sense": "Korean finger heart", "gloss": "A gesture invented and popularised in Korea, exported globally by K-pop, and only standardised as an emoji in 2021. Means affection or thanks.", "confidence": "high" }
+    ],
+    "💜": [
+      { "sense": "'I purple you'", "gloss": "A coinage by BTS's V in 2016 meaning to trust and love someone lastingly. Now the fandom's global identifier.", "confidence": "high" }
+    ],
+    "🍑": [
+      { "sense": "peach as cuteness, in Korean and Japanese", "gloss": "The anatomical euphemism is anglophone; in Korean and Japanese posting the peach more often reads as soft, cute or blushing.", "confidence": "medium" }
+    ],
+    "🙇": [
+      { "sense": "sincere apology, in Japanese", "gloss": "The bow is a real social act with graded depth, not a joke. Using it casually reads as flippant to Japanese speakers.", "confidence": "high" }
+    ],
+    "🙇‍♂️": [
+      { "sense": "dogeza-adjacent apology", "gloss": "Deep-bow apology in Japanese business and social messaging.", "confidence": "medium" }
+    ],
+    "💦": [
+      { "sense": "sweating with embarrassment, in Japanese", "gloss": "A manga convention for fluster or awkwardness — the original meaning, quite separate from the anglophone euphemism.", "confidence": "high" }
+    ],
+    "😅": [
+      { "sense": "politeness softener, in Japanese", "gloss": "Attached to requests and refusals to reduce imposition, closer to a grammatical particle than an emotion.", "confidence": "high" }
+    ],
+    "🙏": [
+      { "sense": "onegai or arigatou, in Japanese", "gloss": "The gassho gesture the emoji actually depicts: please, or thank you. Neither prayer nor a high five.", "confidence": "high" }
+    ],
+    "😊": [
+      { "sense": "social smoothing, in Japanese", "gloss": "Marks a message as friendly in intent regardless of content; its absence can read as curt.", "confidence": "high" }
+    ],
+    "🍵": [
+      { "sense": "matcha and tea culture, in Japanese", "gloss": "The literal reading, with none of the anglophone 'gossip' sense.", "confidence": "medium" }
+    ],
+    "🔥": [
+      { "sense": "kkk, in Brazilian Portuguese context", "gloss": "Brazilian internet writes laughter as 'kkkkk' rather than with emoji, so flame and skull markers imported from English arrive with weaker force.", "confidence": "low" }
+    ],
+    "🤡": [
+      { "sense": "palhaçada, in Brazilian Portuguese", "gloss": "Strongly established in Brazilian posting for a farcical situation, often political.", "confidence": "medium" }
+    ],
+    "🇧🇷": [
+      { "sense": "claiming a viral post", "gloss": "Brazilian users flooding a thread with the flag is a recognised participatory ritual, not a nationality statement.", "confidence": "medium" }
+    ],
+    "🐀": [
+      { "sense": "rato, as praise in Brazilian slang", "gloss": "Calling someone a rat can be admiring — cunning and effective — inverting the anglophone 'informant' sense.", "confidence": "low" }
+    ],
+    "🤌": [
+      { "sense": "genuine Italian gesture", "gloss": "'Ma che vuoi' expresses exasperated questioning. Italians largely find the meme use tiresome; the gesture has real pragmatic grammar.", "confidence": "high" }
+    ],
+    "🍝": [
+      { "sense": "Italy, and the parody of Italy", "gloss": "Used both by Italians and by the meme culture that flattens them.", "confidence": "low" }
+    ],
+    "🥖": [
+      { "sense": "France, or French-language content", "gloss": "Language and nationality tagging by stereotype object rather than flag.", "confidence": "low" }
+    ],
+    "🙏🏽": [
+      { "sense": "namaste, in South Asian usage", "gloss": "The joined palms read as a greeting or a mark of respect, distinct from both prayer and thanks.", "confidence": "medium" }
+    ],
+    "🌸": [
+      { "sense": "mono no aware", "gloss": "Cherry blossom carries an aesthetic of impermanence in Japanese usage that the Western 'pretty flower' reading loses entirely.", "confidence": "medium" }
+    ],
+    "🫡": [
+      { "sense": "earnest respect, in some non-English contexts", "gloss": "The ironic 'resigned compliance' reading is English-internet specific; elsewhere the salute is often sincere.", "confidence": "medium" }
+    ],
+    "🇷🇺": [
+      { "sense": "language tagging on multilingual platforms", "gloss": "Marks Russian-language content in mixed-language threads.", "confidence": "low" }
+    ],
+    "🐻": [
+      { "sense": "Russia, in stereotype shorthand", "gloss": "Used both self-deprecatingly and pejoratively, quite apart from the bearish-market sense.", "confidence": "low" }
+    ],
+    "😔": [
+      { "sense": "resignation, in Spanish-language posting", "gloss": "Used more sincerely and more frequently than in English, where it has drifted towards mock-sadness.", "confidence": "low" }
+    ],
+    "💃": [
+      { "sense": "celebration, in Latin American posting", "gloss": "A general marker of joy and going out rather than a reference to dance specifically.", "confidence": "low" }
+    ],
+    "🤙": [
+      { "sense": "greeting in Hawaii and the Pacific", "gloss": "The shaka is a sincere expression of goodwill and thanks in its home culture, not a 'call me' gesture.", "confidence": "high" }
+    ],
+    "🇳🇬": [
+      { "sense": "Nigerian Twitter identity", "gloss": "A participatory marker in one of the most influential anglophone-but-not-Western internet cultures.", "confidence": "low" }
+    ],
+    "🐐": [
+      { "sense": "imported acronym", "gloss": "GOAT travels as an English acronym, so the sense is opaque to users who do not read English — a reminder that acronym-based emoji senses do not translate at all.", "confidence": "medium" }
+    ]
+  }
+}

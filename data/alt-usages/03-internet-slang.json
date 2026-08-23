@@ -1,0 +1,166 @@
+{
+  "register": "internet",
+  "explicit": false,
+  "provenance": "Internet-native senses that arose from meme circulation rather than from the emoji's design. Attested through sustained mainstream usage; where a sense originates in a specific documented event it is named.",
+  "entries": {
+    "🚩": [
+      { "sense": "warning sign in a person", "gloss": "'Red flag' as a dealbreaker trait. A 2021 meme format of stacking red flags after a statement made this the dominant reading.", "confidence": "high" }
+    ],
+    "🧢": [
+      { "sense": "lying", "gloss": "'Cap' means a lie in AAVE; the cap emoji asserts someone is lying, and 🚫🧢 or 'no cap' asserts sincerity.", "confidence": "high" }
+    ],
+    "🐐": [
+      { "sense": "greatest of all time", "gloss": "The GOAT acronym, overwhelmingly in sports discourse. Almost never refers to the animal.", "confidence": "high" }
+    ],
+    "🔥": [
+      { "sense": "excellent", "gloss": "'Fire' as high praise, especially for music, food and clothing.", "confidence": "high" }
+    ],
+    "💯": [
+      { "sense": "full agreement", "gloss": "Emphatic endorsement; the 'keep it 100' sense of authenticity.", "confidence": "high" }
+    ],
+    "🐍": [
+      { "sense": "betrayer", "gloss": "A two-faced person. Mass-deployed against Taylor Swift in 2016, which cemented the sense; she later reclaimed it.", "confidence": "high" }
+    ],
+    "🐀": [
+      { "sense": "informant", "gloss": "Someone who betrays confidence to authority.", "confidence": "medium" }
+    ],
+    "🧠": [
+      { "sense": "oral sex", "gloss": "'Brain' as slang for fellatio, distinct from the intelligence reading.", "confidence": "medium", "explicit": true },
+      { "sense": "intelligence or overthinking", "gloss": "Also the 'big brain' / 'galaxy brain' sense marking an idea as clever or absurdly overreasoned.", "confidence": "high" }
+    ],
+    "💅": [
+      { "sense": "unbothered confidence", "gloss": "Terminal punctuation asserting the speaker does not care what you think. Drawn from ballroom and drag culture.", "confidence": "high" }
+    ],
+    "🐸": [
+      { "sense": "Pepe reference", "gloss": "Carries baggage from the Pepe the Frog meme, which the Anti-Defamation League listed as a hate symbol in 2016 while noting most uses remain innocuous.", "confidence": "medium" },
+      { "sense": "'but that's none of my business'", "gloss": "Paired with 🍵 in the Kermit sipping-tea format.", "confidence": "medium" }
+    ],
+    "🍵": [
+      { "sense": "gossip", "gloss": "'Spilling the tea'. From Black drag culture via 'T' for truth.", "confidence": "high" }
+    ],
+    "☕": [
+      { "sense": "gossip, or pointed disinterest", "gloss": "Shares the 'tea' sense and the Kermit 'none of my business' sense.", "confidence": "medium" }
+    ],
+    "👀": [
+      { "sense": "noticed and interested", "gloss": "Signals attention to something spicy or suspicious without commenting.", "confidence": "high" }
+    ],
+    "🫂": [
+      { "sense": "condolence", "gloss": "A hug offered when words are inadequate; standard in grief threads.", "confidence": "medium" }
+    ],
+    "😈": [
+      { "sense": "mischief or flirtation", "gloss": "Playful wickedness rather than evil.", "confidence": "high" }
+    ],
+    "🤌": [
+      { "sense": "Italian gesticulation meme", "gloss": "Added in 2020 and immediately absorbed into an Italian-stereotype meme; also used for chef's-kiss precision.", "confidence": "high" }
+    ],
+    "🤏": [
+      { "sense": "a tiny amount", "gloss": "Often sarcastic understatement.", "confidence": "medium" }
+    ],
+    "💅🏻": [
+      { "sense": "unbothered confidence", "gloss": "Tone variants carry the identical sense.", "confidence": "high" }
+    ],
+    "🦋": [
+      { "sense": "nervous attraction", "gloss": "'Butterflies' in the stomach.", "confidence": "medium" }
+    ],
+    "🎯": [
+      { "sense": "exactly right", "gloss": "Agreement marker equivalent to 'nailed it'.", "confidence": "high" }
+    ],
+    "🧿": [
+      { "sense": "protection from envy", "gloss": "The nazar amulet, used sincerely against the evil eye and jokingly to ward off bad vibes.", "confidence": "high" }
+    ],
+    "🪬": [
+      { "sense": "protection", "gloss": "The hamsa, used similarly to 🧿.", "confidence": "medium" }
+    ],
+    "🙏": [
+      { "sense": "thanks or please", "gloss": "In much Western usage a request or gratitude marker rather than prayer.", "confidence": "high" },
+      { "sense": "high five", "gloss": "A persistent folk reading, though the emoji derives from the Japanese gassho prayer gesture.", "confidence": "medium" }
+    ],
+    "💩": [
+      { "sense": "worthless", "gloss": "Dismissal of quality; also affectionate nonsense.", "confidence": "high" }
+    ],
+    "🤝": [
+      { "sense": "shared trait", "gloss": "The 'handshake meme' format links two things by what they have in common.", "confidence": "high" }
+    ],
+    "📈": [
+      { "sense": "improvement in anything", "gloss": "Applied to non-numeric things: mood, form, taste.", "confidence": "medium" }
+    ],
+    "📉": [
+      { "sense": "decline in anything", "gloss": "The inverse of 📈, equally non-financial.", "confidence": "medium" }
+    ],
+    "🫵": [
+      { "sense": "accusation or callout", "gloss": "'You specifically'. Frequently comedic.", "confidence": "high" }
+    ],
+    "🗣️": [
+      { "sense": "emphatic co-signing", "gloss": "'Say it louder'. Amplifies rather than describes speech.", "confidence": "medium" }
+    ],
+    "📢": [
+      { "sense": "announcement emphasis", "gloss": "Used to make a statement unignorable.", "confidence": "low" }
+    ],
+    "🤓": [
+      { "sense": "mocking pedantry", "gloss": "Quoting someone with this emoji frames them as an insufferable know-it-all. Distinctly hostile.", "confidence": "high" }
+    ],
+    "🥱": [
+      { "sense": "boring take", "gloss": "Dismisses an opinion as tired.", "confidence": "medium" }
+    ],
+    "🧌": [
+      { "sense": "internet troll", "gloss": "The troll emoji was adopted for the online sense almost immediately over the folkloric one.", "confidence": "medium" }
+    ],
+    "🫧": [
+      { "sense": "aesthetic softness", "gloss": "Decorative marker in 'cleangirl' and bubble aesthetics rather than literal bubbles.", "confidence": "low" }
+    ],
+    "🎣": [
+      { "sense": "fishing for compliments or engagement bait", "gloss": "Names a rhetorical move rather than the hobby.", "confidence": "medium" }
+    ],
+    "🧊": [
+      { "sense": "emotional coldness, or composure", "gloss": "'Ice cold' cuts both ways: unfeeling, or unflappable.", "confidence": "medium" }
+    ],
+    "🪑": [
+      { "sense": "absurdist non-sequitur", "gloss": "A running joke where the chair is deployed for no reason at all; its meaninglessness is the point.", "confidence": "medium" }
+    ],
+    "🦆": [
+      { "sense": "substitute for a censored expletive", "gloss": "'Duck' as autocorrect's replacement for a swear word.", "confidence": "medium" }
+    ],
+    "😶": [
+      { "sense": "deliberate silence", "gloss": "Withholding comment pointedly.", "confidence": "medium" }
+    ],
+    "🫰": [
+      { "sense": "affection, or money", "gloss": "The Korean finger heart, mainstreamed globally by K-pop; also a 'cash' gesture in some contexts.", "confidence": "high" }
+    ],
+    "🤟": [
+      { "sense": "I love you in ASL", "gloss": "A genuine sign-language letterform, distinct from 🤘 which is a rock-music horns gesture.", "confidence": "high" }
+    ],
+    "💜": [
+      { "sense": "K-pop fandom affiliation", "gloss": "Strongly associated with BTS and their 'I purple you' coinage.", "confidence": "medium" }
+    ],
+    "🖤": [
+      { "sense": "aesthetic darkness", "gloss": "Signals a goth, alt or emo register rather than grief.", "confidence": "medium" }
+    ],
+    "🤍": [
+      { "sense": "minimalist affection", "gloss": "Understated warmth; a soft-aesthetic marker.", "confidence": "low" }
+    ],
+    "❤️‍🔥": [
+      { "sense": "passion or obsession", "gloss": "Intensity beyond ordinary affection.", "confidence": "medium" }
+    ],
+    "🫶": [
+      { "sense": "gratitude and community", "gloss": "The heart-hands gesture, used to close warm messages.", "confidence": "high" }
+    ],
+    "😇": [
+      { "sense": "feigned innocence", "gloss": "Deployed immediately after admitting to something.", "confidence": "high" }
+    ],
+    "🍀": [
+      { "sense": "wishing luck", "gloss": "Conventional good-luck token rather than botany.", "confidence": "high" }
+    ],
+    "🌚": [
+      { "sense": "mischief or shade", "gloss": "The new moon face implies something is being left unsaid.", "confidence": "medium" }
+    ],
+    "🌝": [
+      { "sense": "smug knowing", "gloss": "The full moon face's counterpart sense to 🌚.", "confidence": "medium" }
+    ],
+    "🧚": [
+      { "sense": "fairy comment", "gloss": "Prefaces a copypasta that starts sweetly and turns abusive.", "confidence": "medium" }
+    ],
+    "🪩": [
+      { "sense": "party or camp glamour", "gloss": "Signals nightlife rather than the object.", "confidence": "low" }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "register": "sexual",
+  "explicit": true,
+  "provenance": "Algospeak — vocabulary that exists specifically to evade automated moderation — plus the signalling conventions of the adult creator economy. This is the register's most practically useful function: it is what trust-and-safety systems, platform researchers and worried parents actually need decoded, and it is deliberately designed to be illegible to keyword filters. Coverage here was previously a single entry (🌽). Descriptive reference only; gated by default.",
+  "entries": {
+    "🌶️": [
+      { "sense": "spicy content", "gloss": "The dominant euphemism for adult material across TikTok and Instagram. 'Spicy accounts', 'spicy content', 'my spicy link' — chosen because the word is innocuous enough to survive keyword filtering while being universally understood.", "confidence": "high" }
+    ],
+    "🔞": [
+      { "sense": "adult content ahead", "gloss": "The literal Unicode meaning ('no one under eighteen'), used as a self-applied content label rather than a prohibition.", "confidence": "high" }
+    ],
+    "🅾️": [
+      { "sense": "OnlyFans, letter-substituted", "gloss": "Platform names are themselves filtered, so they get spelled with lookalike glyphs. The O button is the common first letter.", "confidence": "medium" }
+    ],
+    "🎂": [
+      { "sense": "age statement", "gloss": "Used in bios to assert being over eighteen, both sincerely and as a fig leaf.", "confidence": "medium" }
+    ],
+    "💰": [
+      { "sense": "paid content", "gloss": "Marks material behind a paywall or a tip request.", "confidence": "medium" }
+    ],
+    "💳": [
+      { "sense": "subscription required", "gloss": "The transactional half of the creator-economy signal set.", "confidence": "low" }
+    ],
+    "🔒": [
+      { "sense": "locked or paywalled content", "gloss": "Widely used in creator posts to mark a preview; distinct from the security-fix and chastity senses recorded elsewhere.", "confidence": "medium" }
+    ],
+    "🤫": [
+      { "sense": "discreet arrangement", "gloss": "Signals privacy expectations in solicitation and affair-adjacent messaging.", "confidence": "low" }
+    ],
+    "📩": [
+      { "sense": "DM for details", "gloss": "Moves a transaction off a public timeline where it would be moderated.", "confidence": "medium" }
+    ],
+    "🍬": [
+      { "sense": "sugar arrangement", "gloss": "'Sugar' relationships, in the sugar-baby / sugar-daddy sense. A sweetness pun rather than a shape one.", "confidence": "medium" }
+    ],
+    "🍯": [
+      { "sense": "sugar arrangement", "gloss": "Interchangeable with 🍬 in that construction, alongside its endearment sense.", "confidence": "low" }
+    ],
+    "🐰": [
+      { "sense": "Playboy-adjacent branding", "gloss": "The bunny as an adult-industry visual shorthand, distinct from its Korean-fandom and Mandarin-cute readings.", "confidence": "medium" }
+    ],
+    "👑": [
+      { "sense": "dominant, or top creator", "gloss": "Two adjacent readings: a hierarchy claim in kink contexts, and a creator-ranking badge in adult platforms.", "confidence": "low" }
+    ],
+    "🌽": [
+      { "sense": "porn", "gloss": "'Corn' as a deliberate misspelling of 'porn', the single most cited algospeak example. Originated on TikTok specifically to survive keyword moderation, and now widely understood outside it.", "confidence": "high" }
+    ],
+    "🥞": [
+      { "sense": "letter-substituted evasion", "gloss": "Part of the broader pattern where innocuous food glyphs stand in for filtered words; the specific mapping shifts as filters adapt.", "confidence": "low" }
+    ],
+    "👻": [
+      { "sense": "Snapchat, as a distribution channel", "gloss": "Points at a platform with weaker moderation and disappearing media, rather than referring to ghosting.", "confidence": "medium" }
+    ],
+    "📸": [
+      { "sense": "photo sets for sale", "gloss": "In creator bios, an offer rather than a hobby; in dating, a verification request.", "confidence": "low" }
+    ],
+    "💸": [
+      { "sense": "tribute or tip", "gloss": "Payment as part of the interaction itself, common in findom contexts.", "confidence": "medium" }
+    ],
+    "⭐": [
+      { "sense": "rating or premium tier", "gloss": "Marks a paid or higher tier in creator-account menus.", "confidence": "low" }
+    ]
+  }
+}
