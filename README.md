@@ -1,4 +1,4 @@
-# Emoji 17.0 Explorer
+# Emojisaurus - Emoji 17.0 Explorer
 
 A single-page app for exploring and searching the complete Emoji 17.0 set in a
 dense table, with **code point count** and **UTF-8 byte size** as first-class,
