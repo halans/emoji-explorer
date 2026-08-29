@@ -221,12 +221,8 @@ function closeSheet() {
 // Detail panel
 // ---------------------------------------------------------------------------
 
-function copyable(label, value) {
-  const wrap = el('div', 'kv');
-  wrap.appendChild(el('div', 'k', label));
-  const v = el('div', 'v mono');
-  v.appendChild(el('span', null, value));
-  const btn = el('button', 'copy', 'copy');
+function makeCopyBtn(className, value) {
+  const btn = el('button', className, 'copy');
   btn.addEventListener('click', async (e) => {
     e.stopPropagation();
     try {
@@ -238,7 +234,15 @@ function copyable(label, value) {
       setTimeout(() => { btn.textContent = 'copy'; }, 1200);
     }
   });
-  v.appendChild(btn);
+  return btn;
+}
+
+function copyable(label, value) {
+  const wrap = el('div', 'kv');
+  wrap.appendChild(el('div', 'k', label));
+  const v = el('div', 'v mono');
+  v.appendChild(el('span', null, value));
+  v.appendChild(makeCopyBtn('copy', value));
   wrap.appendChild(v);
   return wrap;
 }
@@ -259,6 +263,7 @@ function renderDetail(rec) {
   ht.appendChild(el('div', 'd-name', rec.name));
   ht.appendChild(el('div', 'd-sub', `${rec.group} › ${rec.subgroup}`));
   const chips = el('div', 'd-chips');
+  chips.appendChild(makeCopyBtn('chip copy', rec.emoji));
   chips.appendChild(el('span', 'chip', 'E' + rec.version));
   chips.appendChild(el('span', 'chip', rec.kind));
   chips.appendChild(el('span', 'chip', rec.status));
@@ -281,29 +286,6 @@ function renderDetail(rec) {
   sizes.appendChild(sz(rec.utf16Units, plural(rec.utf16Units, 'UTF-16 unit')));
   sizes.appendChild(sz(rec.utf8Bytes * 8, 'bits'));
   panel.appendChild(sizes);
-
-  // Encoding breakdown
-  panel.appendChild(el('h3', null, 'Encoding'));
-  const cps = rec.codePoints;
-  panel.appendChild(copyable('Code points', cps.join(' ')));
-  panel.appendChild(copyable('UTF-8 bytes', rec.utf8Hex.map((h) => '0x' + h).join(' ')));
-  panel.appendChild(copyable('HTML entities', cps.map((c) => '&#x' + c.slice(2) + ';').join('')));
-  panel.appendChild(copyable('JS escape', cps.map((c) => '\\u{' + c.slice(2) + '}').join('')));
-  panel.appendChild(copyable('CSS content', cps.map((c) => '\\' + c.slice(2)).join(' ')));
-  panel.appendChild(copyable('Percent-encoded', rec.utf8Hex.map((h) => '%' + h).join('')));
-  panel.appendChild(copyable('Python', cps.map((c) => '\\U' + c.slice(2).padStart(8, '0')).join('')));
-  panel.appendChild(copyable('Glyph', rec.emoji));
-
-  // Byte-by-byte
-  const bytesRow = el('div', 'bytegrid');
-  for (const h of rec.utf8Hex) {
-    const b = el('div', 'byte');
-    b.appendChild(el('div', 'bh', h));
-    b.appendChild(el('div', 'bb', parseInt(h, 16).toString(2).padStart(8, '0')));
-    bytesRow.appendChild(b);
-  }
-  panel.appendChild(el('h3', null, `UTF-8, byte by byte (${rec.utf8Bytes})`));
-  panel.appendChild(bytesRow);
 
   // Alternate senses
   const senses = visibleSenses(rec, state.showExplicit);
@@ -341,6 +323,31 @@ function renderDetail(rec) {
     kws.appendChild(b);
   }
   panel.appendChild(kws);
+
+  // Encoding breakdown
+  panel.appendChild(el('h3', null, 'Encoding'));
+  const cps = rec.codePoints;
+  panel.appendChild(copyable('Glyph', rec.emoji));
+  panel.appendChild(copyable('Code points', cps.join(' ')));
+  panel.appendChild(copyable('UTF-8 bytes', rec.utf8Hex.map((h) => '0x' + h).join(' ')));
+  panel.appendChild(copyable('HTML entities', cps.map((c) => '&#x' + c.slice(2) + ';').join('')));
+  panel.appendChild(copyable('JS escape', cps.map((c) => '\\u{' + c.slice(2) + '}').join('')));
+  panel.appendChild(copyable('CSS content', cps.map((c) => '\\' + c.slice(2)).join(' ')));
+  panel.appendChild(copyable('Percent-encoded', rec.utf8Hex.map((h) => '%' + h).join('')));
+  panel.appendChild(copyable('Python', cps.map((c) => '\\U' + c.slice(2).padStart(8, '0')).join('')));
+  
+
+  // Byte-by-byte
+  const bytesRow = el('div', 'bytegrid');
+  for (const h of rec.utf8Hex) {
+    const b = el('div', 'byte');
+    b.appendChild(el('div', 'bh', h));
+    b.appendChild(el('div', 'bb', parseInt(h, 16).toString(2).padStart(8, '0')));
+    bytesRow.appendChild(b);
+  }
+  panel.appendChild(el('h3', null, `UTF-8, byte by byte (${rec.utf8Bytes})`));
+  panel.appendChild(bytesRow);
+
 
   // Tone family
   if (rec.toneVariants.length) {
