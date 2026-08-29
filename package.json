@@ -12,10 +12,11 @@
     "fetch:force": "node build/fetch.mjs --force",
     "dataset": "node build/dataset.mjs",
     "bundle": "node build/bundle.mjs",
-    "build": "npm run fetch && npm run dataset && npm run bundle",
+    "build": "npm run fetch && npm run dataset && npm run bundle && npm run landing",
     "test": "node --test \"test/*.test.mjs\"",
     "verify": "npm run build && npm test",
-    "search": "node src/cli.mjs"
+    "search": "node src/cli.mjs",
+    "landing": "node build/landing.mjs"
   },
   "dependencies": {},
   "devDependencies": {}

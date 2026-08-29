@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🦖 Emojisaurus.me - A thesaurus for emoji – Emoji {{version}} Explorer</title>
+<meta name="description" content="Most emoji references are dictionaries: they tell you what a picture is called. This one tells you what it means, and lets you search from a meaning back to the emoji that carries it. {{senses}} curated senses across {{registers}} registers, over all {{fq}} Emoji {{version}} characters.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="A thesaurus for emoji">
+<meta property="og:description" content="A dictionary goes word → meaning. A thesaurus goes meaning → word. Emoji need the second. {{senses}} curated senses across {{registers}} registers.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A thesaurus for emoji">
+<meta name="twitter:description" content="A dictionary goes word → meaning. A thesaurus goes meaning → word. Emoji need the second.">
+<meta name="color-scheme" content="dark">
+<style>
+:root{
+  --bg:#0b0d10; --panel:#111419; --panel2:#151a21; --line:#20262f;
+  --ink:#e6ebf2; --dim:#8b95a4; --dimmer:#5d6674;
+  --accent:#5eead4; --accent2:#38bdf8; --warn:#fbbf24;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --ui:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --emoji:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Segoe UI Symbol",sans-serif;
+  --measure:64ch;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.7 var(--ui);-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:900px;margin:0 auto;padding:0 28px}
+a{color:var(--accent2)}
+a:hover{color:var(--accent)}
+code{
+  font:.86em/1.4 var(--mono);background:var(--panel2);border:1px solid var(--line);
+  border-radius:4px;padding:1px 6px;color:var(--accent2);
+}
+.em{font-family:var(--emoji);font-style:normal}
+.emoji-link{
+  font-family:var(--emoji);text-decoration:none;color:inherit;cursor:pointer;
+  padding:2px 4px;border-radius:3px;transition:background-color .15s ease-out;
+}
+.emoji-link:hover{background-color:rgba(94,234,212,.15)}
+
+/* ---------- top bar ---------- */
+.topbar{
+  border-bottom:1px solid var(--line);background:rgba(11,13,16,.85);
+  backdrop-filter:blur(8px);position:sticky;top:0;z-index:10;
+}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px}
+.brand{font:600 14px/1 var(--ui);letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--accent);font-family:var(--mono)}
+.topbar a.cta{
+  font:12px/1 var(--mono);text-decoration:none;color:#0b0d10;background:var(--accent);
+  padding:10px 14px;border-radius:6px;white-space:nowrap;
+}
+.topbar a.cta:hover{background:#8ff3e2}
+
+/* ---------- hero ---------- */
+.hero{padding:76px 0 54px;border-bottom:1px solid var(--line)}
+.kicker{
+  font:11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 18px;
+}
+h1{
+  font:600 clamp(34px,6vw,58px)/1.08 var(--ui);letter-spacing:-.03em;margin:0 0 22px;
+  max-width:18ch;
+}
+.sub{font-size:clamp(17px,2.2vw,20px);line-height:1.6;color:#c3ccd8;max-width:58ch;margin:0 0 30px}
+.sub b{color:var(--ink);font-weight:600}
+.arrows{
+  display:flex;flex-wrap:wrap;gap:10px;margin:0 0 34px;font:13px/1 var(--mono);
+}
+.arrows div{
+  background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:11px 14px;color:var(--dim);
+}
+.arrows b{color:var(--ink);font-weight:600}
+.arrows i{color:var(--accent);font-style:normal}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+a.primary{
+  display:inline-block;background:var(--accent);color:#0b0d10;text-decoration:none;
+  font:600 15px/1 var(--ui);padding:15px 24px;border-radius:8px;
+}
+a.primary:hover{background:#8ff3e2;color:#0b0d10}
+a.ghost{
+  display:inline-block;border:1px solid var(--line);color:var(--dim);text-decoration:none;
+  font:13px/1 var(--mono);padding:15px 18px;border-radius:8px;
+}
+a.ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+.stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px;
+  margin:44px 0 0;
+}
+.stats div{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:15px 14px}
+.stats b{display:block;font:600 25px/1 var(--mono);color:var(--accent)}
+.stats span{display:block;font-size:11.5px;color:var(--dim);margin-top:7px;line-height:1.4}
+
+/* ---------- sections ---------- */
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{
+  font:600 clamp(23px,3.2vw,31px)/1.2 var(--ui);letter-spacing:-.02em;margin:0 0 20px;max-width:24ch;
+}
+section p{font-size:16px;line-height:1.75;color:#c3ccd8;margin:0 0 17px;max-width:var(--measure)}
+section p b{color:var(--ink);font-weight:600}
+section p i{color:var(--ink)}
+.lede{font-size:18px;line-height:1.65;color:var(--ink);max-width:60ch}
+
+h3.sub-h{
+  font:600 12px/1 var(--mono);letter-spacing:.09em;text-transform:uppercase;
+  color:var(--accent);margin:32px 0 14px;
+}
+ul.egs code{font-size:.8em;line-height:1.9;color:var(--dim)}
+ul.egs code b{color:var(--accent);font-weight:600}
+ul.egs{list-style:none;padding:0;margin:0 0 20px;max-width:var(--measure)}
+ul.egs li{
+  font-size:15.5px;line-height:1.65;color:#c3ccd8;padding:12px 0;border-bottom:1px solid #171c23;
+}
+ul.egs li:last-child{border-bottom:none}
+ul.egs .em{font-size:22px;margin-right:11px;vertical-align:-4px}
+
+.tworow{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0 22px;max-width:var(--measure)}
+.tworow>div{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:18px 18px}
+.tworow b{display:block;font:600 16px/1 var(--ui);color:var(--ink);margin-bottom:9px}
+.tworow span{display:block;font:13px/1 var(--mono);color:var(--accent);margin-bottom:11px}
+.tworow em{display:block;font-size:14px;line-height:1.6;color:var(--dim);font-style:normal}
+
+.try{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;
+  margin:24px 0 4px;
+}
+.try a{
+  display:block;background:var(--panel2);border:1px solid var(--line);border-radius:9px;
+  padding:16px 17px;text-decoration:none;
+}
+.try a:hover{border-color:var(--accent);background:#182028}
+.try code{
+  display:inline-block;background:var(--bg);color:var(--accent);font-size:13px;
+  margin-bottom:9px;border-color:#243039;
+}
+.try span{display:block;font-size:13.5px;line-height:1.55;color:var(--dim)}
+
+.regs{display:flex;flex-wrap:wrap;gap:7px;margin:6px 0 20px;max-width:var(--measure)}
+.regs span{
+  font:12px/1 var(--mono);background:var(--panel2);border:1px solid var(--line);
+  border-radius:5px;padding:7px 10px;color:var(--dim);
+}
+.regs span.gated{border-color:#4a3a22;color:var(--warn)}
+
+.note{
+  background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:0 9px 9px 0;padding:17px 19px;margin:0 0 20px;max-width:var(--measure);
+}
+.note p{margin:0;font-size:15px}
+.note p+p{margin-top:11px}
+
+/* ---------- footer ---------- */
+footer{padding:52px 0 66px}
+footer .fcta{
+  background:var(--panel2);border:1px solid var(--line);border-radius:12px;
+  padding:32px 30px;text-align:center;margin-bottom:34px;
+}
+footer .fcta h2{margin:0 auto 10px;max-width:none}
+footer .fcta p{margin:0 auto 22px;max-width:48ch;color:var(--dim)}
+.fine{font-size:13px;line-height:1.75;color:var(--dimmer);max-width:var(--measure)}
+.fine a{color:var(--dim)}
+
+@media (max-width:720px){
+  .wrap{padding:0 18px}
+  .hero{padding:46px 0 38px}
+  section{padding:40px 0}
+  .tworow{grid-template-columns:1fr}
+  .topbar .wrap{height:54px}
+  .brand{font-size:13px}
+  ul.egs li{font-size:15px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">🦖 <span>Emojisaurus.me</span> - Emoji <span>{{version}}</span> Explorer</a>
+    <a class="cta" href="{{appUrl}}">Open the explorer →</a>
+  </div>
+</div>
+
+<div class="wrap" id="top">
+
+  <div class="hero">
+    <p class="kicker">Emoji {{version}} · {{fq}} characters · {{senses}} curated senses</p>
+    <h1>A thesaurus for emoji</h1>
+    <p class="sub">
+      Most emoji references are dictionaries: they tell you what a picture is
+      <b>called</b>. This one tells you what it <b>means</b>, and lets you search
+      from a meaning back to the emoji that carries it.
+    </p>
+    <div class="arrows">
+      <div><b>Dictionary</b> &nbsp;word <i>→</i> meaning</div>
+      <div><b>Thesaurus</b> &nbsp;meaning <i>→</i> word</div>
+      <div>Emoji need <b>the second</b></div>
+    </div>
+    <div class="actions">
+      <a class="primary" href="{{appUrl}}">Open the explorer</a>
+      <a class="ghost" href="#thesaurus">What's a thesaurus?</a>
+      <a class="ghost" href="#cldr">What's CLDR?</a>
+    </div>
+
+    <div class="stats">
+      <div><b>{{fq}}</b><span>fully-qualified emoji</span></div>
+      <div><b>{{senses}}</b><span>curated senses</span></div>
+      <div><b>{{registers}}</b><span>sense registers</span></div>
+      <div><b>{{rows}}</b><span>total rows indexed</span></div>
+      <div><b>0</b><span>dependencies, trackers, network calls</span></div>
+    </div>
+  </div>
+
+  <section id="emoji">
+    <h2>What emoji actually are</h2>
+    <p class="lede">
+      <b>Emoji</b> is Japanese: 絵文字, from <i>e</i> (絵, picture) and <i>moji</i>
+      (文字, character). The resemblance to the English <i>emotion</i> and to
+      <i>emoticon</i> (the older <code>:-)</code> tradition) is a complete
+      coincidence. Emoji are picture-characters, and that is all the word claims.
+    </p>
+    <p>
+      The origin story is usually told as: Shigetaka Kurita designed 176 emoji for
+      NTT DoCoMo's i-mode in 1999, and the Museum of Modern Art later acquired the
+      set. That story is wrong, and Emojipedia formally corrected it in 2019.
+      SoftBank shipped a 90-emoji set on the J-Phone SkyWalker DP-211SW in
+      <b>1997</b> (two years earlier), and it included the ancestor of
+      <span class="em">💩</span>. Researchers have since pushed the date back
+      further still, to picture-character sets on Japanese word processors such as
+      the Toshiba JW 95F and Sharp PA-8500 in <b>1988</b>. Kurita's set is the
+      famous one, not the first one.
+    </p>
+    <p>
+      Emoji reached the rest of the world through Unicode. Version 6.0, in 2010,
+      was the first to encode them at scale, which is why an emoji is a character
+      in the same technical sense as <code>A</code> or <code>漢</code>. It has a
+      code point, an encoded byte length, and a name assigned by committee. This
+      project covers <b>Emoji {{version}}</b>, released alongside Unicode
+      {{version}} in September 2025: <b>{{fq}}</b> fully-qualified emoji, and
+      <b>{{rows}}</b> rows once you count the partially-qualified spellings that
+      also occur in the wild.
+    </p>
+  </section>
+
+  <section id="hard">
+    <h2>Why emoji are hard to look up</h2>
+    <p>
+      Every emoji has an official name, assigned by Unicode and CLDR. Those names
+      describe <i>the picture</i>, faithfully and uselessly:
+    </p>
+    <ul class="egs">
+      <li><span class="em">💀</span> is <code>skull</code>, and means laughter.</li>
+      <li><span class="em">🧢</span> is <code>billed cap</code>, and means someone is lying.</li>
+      <li><span class="em">😤</span> is <code>face with steam from nose</code>, a manga convention for triumph, and reads as indignation.</li>
+      <li><span class="em">🏩</span> is <code>love hotel</code>, which really is the official name, for a specific Japanese institution most people outside Japan have never heard of.</li>
+    </ul>
+    <p>
+      Three things make this worse. Emoji are <b>polysemous</b>: one glyph carries
+      many unrelated senses at once. <span class="em">🙏</span> has seven here,
+      spanning six registers, and none of them is wrong. Meanings are
+      <b>regional</b>: <span class="em">👌</span> <span class="em">👍</span> <span class="em">🤘</span> <span class="em">✌️</span> are obscene in some
+      countries and neutral in others, and the anglophone consensus that
+      <span class="em">😂</span> is "for old people" is not shared across Brazil,
+      Indonesia or much of Africa. And meanings <b>drift</b>, quickly, in ways no
+      committee ratifies.
+    </p>
+  </section>
+
+  <section id="thesaurus">
+    <h2>So what is a thesaurus?</h2>
+    <p class="lede">
+      The word is Latin <i>thēsaurus</i>, from Ancient Greek <i>thēsauros</i>: a
+      <b>treasure house</b> or storehouse. Not a list of synonyms: a store of
+      things worth keeping, arranged so you can find them.
+    </p>
+    <p>
+      Peter Mark Roget (a physician and secretary of the Royal Society) began
+      compiling one for his own use in 1805 and published <i>Thesaurus of English
+      Words and Phrases</i> on 29 April <b>1852</b>. Its radical move was the
+      arrangement. A dictionary is alphabetical: you arrive knowing the word and
+      leave knowing the meaning. Roget inverted it, organising roughly
+      <b>1,000 conceptual categories</b> under six classes: Abstract Relations,
+      Space, Matter, Intellect, Volition, Affections. This let you could arrive knowing
+      only the <i>idea</i> and leave with the words that express it. The
+      alphabetical index most people actually use was added afterwards, as a way
+      back in.
+    </p>
+    <div class="tworow">
+      <div><b>Dictionary</b><span>word → meaning</span><em>You have the symbol. You want the sense.</em></div>
+      <div><b>Thesaurus</b><span>meaning → words</span><em>You have the sense. You want the symbol.</em></div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>Why this one is a thesaurus</h2>
+    <p>It carries both layers, and they do different jobs.</p>
+    <p>
+      The <b>dictionary layer</b> is mechanical and complete: the official CLDR
+      name and keywords for all {{fq}} fully-qualified emoji, plus the encoding
+      facts (code points, UTF-8 byte size, UTF-16 units. That layer is
+      authoritative and it is not mine; it comes straight from Unicode.
+    </p>
+    <p>
+      The <b>thesaurus layer</b> is the hand-written part, and it is what this
+      project is actually for: <b>{{senses}}</b> curated senses across
+      <b>{{emoji}}</b> emoji, sorted into <b>{{registers}}</b> <b>registers</b>.
+      The registers are doing Roget's job (they are the conceptual classes.
+    </p>
+    <div class="regs">{{registerChips}}</div>
+    <p>
+      Each groups senses by the world they belong to, so that
+      <span class="em">🧊</span> landing in five different registers tells you
+      something real about the glyph rather than looking like a contradiction.
+    </p>
+  </section>
+
+  <section id="cldr">
+    <h2>Where the dictionary layer comes from</h2>
+    <p class="lede">
+      Every name and keyword in here is <b>CLDR</b> data: the Unicode
+      Consortium's <i>Common Locale Data Repository</i>, and much less famous
+      than the character standard itself.
+    </p>
+    <p>
+      Unicode proper says <i>what characters exist</i>. CLDR says <i>how to
+      present things to humans in a given language and place</i>: date and time
+      formats, number and currency formatting, sort order, pluralisation rules
+      (Arabic has six plural forms, Japanese has one), translated names for
+      languages, countries and timezones, measurement units, and emoji names
+      and keywords.
+    </p>
+    <p>
+      You have almost certainly used it today without noticing. CLDR is the data
+      behind ICU, which Java, Android, iOS, macOS, Windows, PHP and JavaScript's
+      <code>Intl</code> API all rely on. When
+      <code>toLocaleDateString()</code> gives you <code>27/08/2026</code> in
+      Australia and <code>8/27/2026</code> in the United States, that difference
+      is CLDR. It is XML in a format called LDML, contributed and vetted by
+      native speakers through a public survey tool, and released a couple of
+      times a year.
+    </p>
+    <p>This project reads two of its files, and takes three things from them:</p>
+    <ul class="egs">
+      <li><b>Names.</b> The short name on every row: "grinning face", "billed cap". One file covers base emoji, a second covers derived sequences: skin tones, ZWJ families, flags.</li>
+      <li><b>Keywords.</b> What <code>kw:</code> searches: <b>{{keywordCount}}</b> of them across the {{fq}} fully-qualified emoji, averaging <b>{{keywordAvg}}</b> each.</li>
+      <li><b>Order.</b> The sequence rows appear in, and the tiebreaker when two results score equally. CLDR collation order is what Unicode recommends for keyboard palettes, which is why the set opens on smileys rather than on code point <code>U+0023</code>.</li>
+    </ul>
+
+    <h3 class="sub-h">A qualification worth making</h3>
+    <p>
+      It would be tidy to say CLDR describes the picture and this project
+      describes the meaning. That is too neat. CLDR keywords are search terms,
+      and they are more sense-aware than the names suggest:
+    </p>
+    <ul class="egs">
+      <li><span class="em">😤</span> <code>anger · angry · face · feels · fume · fuming · furious · fury · mad · nose · steam · <b>triumph</b> · unhappy · won</code></li>
+      <li><span class="em">💀</span> <code>body · dead · death · face · fairy · fairytale · i'm · <b>lmao</b> · monster · skull · tale · yolo</code></li>
+    </ul>
+    <p>
+      CLDR knows <span class="em">😤</span> covers both the manga <i>triumph</i>
+      it was drawn for and the <i>anger</i> people actually read. It even has
+      <code>lmao</code> on <span class="em">💀</span>.
+    </p>
+    <p>
+      What it does not do is <b>adjudicate or explain</b>. It is a flat bag of
+      terms with no indication that anger has displaced triumph, no note that
+      <span class="em">💀</span> became the standard laughter marker around 2020
+      as <span class="em">😂</span> aged out, and no grouping (you cannot ask
+      CLDR for "the finance vocabulary". It is also conservative by design:
+      <span class="em">🧢</span> gets <code>baseball · bent · billed · cap · dad
+      · hat</code> and nothing about lying;
+      <span class="em">🚩</span> gets <code>construction · flag · golf ·
+      post</code> and nothing about dealbreakers. Those gaps are what the
+      curated layer is for.
+    </p>
+    <div class="note">
+      <p>
+        <b>An unexploited angle.</b> CLDR ships these annotations in around a
+        hundred languages. This project reads only the English file. Swapping in
+        the German or Japanese one would localise the entire dictionary layer
+        essentially for free. The curated senses would stay English, but the
+        searchable names and keywords would not have to.
+      </p>
+    </div>
+  </section>
+
+  <section id="try">
+    <h2>It runs in both directions</h2>
+    <p>
+      This is the part a plain emoji picker cannot do. Every example below opens
+      the explorer with the query already run.
+    </p>
+    <div class="try">
+      <a href="{{appUrl}}?q=alt%3Alying"><code>alt:lying</code><span><b>Meaning → emoji.</b> You know the idea, not the picture. Finds 🧢.</span></a>
+      <a href="{{appUrl}}?q=alt%3A%22red%20flag%22"><code>alt:"red flag"</code><span>The dealbreaker sense, not the object. Finds 🚩.</span></a>
+      <a href="{{appUrl}}?q=%F0%9F%AB%A1"><code>🫡</code><span><b>Emoji → meanings.</b> Paste a glyph to decode a message someone sent you.</span></a>
+      <a href="{{appUrl}}?q=reg%3Amisread"><code>reg:misread</code><span>A whole register: official names nobody recognises.</span></a>
+      <a href="{{appUrl}}?q=bytes%3A%3E25"><code>bytes:&gt;25</code><span><b>Neither.</b> The encoding questions a thesaurus has no opinion on, but a byte does.</span></a>
+      <a href="{{appUrl}}?q=v%3A17"><code>v:17</code><span>Everything new in Emoji 17.0.</span></a>
+    </div>
+  </section>
+
+  <section id="limits">
+    <h2>What this is not</h2>
+    <p>
+      The curated layer is deliberately partial and openly subjective. There is no
+      clean, current, licensable dataset of emoji <i>sense</i>. EmojiNet is a
+      decade stale and its API is gone, the crowd-sourced Emoji Dictionary is
+      unlicensed and noisy, and the academic corpora cover a couple of dozen
+      glyphs. So every sense here was written by hand, tagged with a
+      <b>confidence</b> of high, medium or low, and attributed in its source file
+      to the class of evidence it rests on. Treat it as a curated reference, not a
+      measurement. Where nothing is recorded, the literal name really is all there
+      is.
+    </p>
+    <div class="note">
+      <p>
+        <b>Explicit senses are off by default.</b> Three registers
+        <code>sexual</code>, <code>kink</code> and <code>substances</code>) sit
+        behind a toggle. They are documented for the same reason a slang
+        dictionary documents slang: moderation, safeguarding and plain
+        comprehension need them.
+      </p>
+      <p>
+        The gate is enforced in the search index rather than the display, so no
+        query of any shape surfaces them while it is closed.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="fcta">
+      <h2>Open the explorer</h2>
+      <p>
+        {{fq}} emoji, searchable by meaning, byte size, code point, version or
+        register. One file, no network, works offline.
+      </p>
+      <a class="primary" href="{{appUrl}}">Start searching →</a>
+    </div>
+    <p class="fine">
+      <b>Sources.</b> Emoji and encoding data: the Unicode Consortium
+      (<code>emoji-test.txt</code>, Emoji {{version}}) and the CLDR annotation files, under
+      the <a href="https://www.unicode.org/license.txt" target="_blank" rel="noopener noreferrer">Unicode Licence v3</a>.
+      Emoji origin corrections: Emojipedia's 2019 research note on the first emoji
+      set. Roget: <i>Thesaurus of English Words and Phrases</i>, 1852.
+      Glyphs are drawn by your own device's emoji font (no vendor artwork is
+      redistributed here, which is also why the newest Emoji {{version}}
+      characters may show as empty boxes.
+      Code and curated prose are MIT.
+      Dataset built {{built}}.
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>

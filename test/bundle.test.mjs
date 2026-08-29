@@ -70,7 +70,7 @@ function extractEngine(pageHtml) {
 test('the engine embedded in the page is the repository engine, verbatim', () => {
   const embedded = extractEngine(html).trimEnd();
   const expected = stripExports(engineSrc).trimEnd();
-  assert.equal(embedded, expected, 'dist/emoji17.html is stale or hand-edited -- rerun the build');
+  assert.equal(embedded, expected, 'dist/index.html is stale or hand-edited -- rerun the build');
 });
 
 test('the UI embedded in the page is the repository UI, verbatim', () => {

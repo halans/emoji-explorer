@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Emojisaurus - Emoji 17.0 Explorer</title>
+<title>🦖 Emojisaurus.me - Emoji 17.0 Explorer</title>
 <style>
 :root{
   --bg:#0b0d10; --panel:#111419; --panel2:#151a21; --line:#20262f;
@@ -212,6 +212,14 @@ main{flex:1 1 auto;display:flex;min-height:0}
 ::-webkit-scrollbar-thumb{background:#252c36;border-radius:5px;border:2px solid var(--bg)}
 ::-webkit-scrollbar-thumb:hover{background:#333c48}
 
+/* ---------- about link ---------- */
+#aboutBtn{
+  background:transparent;border:1px solid var(--line);color:var(--dim);
+  font:11px/1 var(--mono);padding:5px 9px;border-radius:5px;cursor:pointer;flex:0 0 auto;
+  text-decoration:none;white-space:nowrap;
+}
+#aboutBtn:hover{border-color:var(--accent);color:var(--accent)}
+
 /* ---------- desktop-only affordances, hidden by default on mobile ---------- */
 #helpToggle{display:none}
 #msort{display:none}
@@ -333,12 +341,6 @@ main{flex:1 1 auto;display:flex;min-height:0}
     box-shadow:0 -12px 40px rgba(0,0,0,.6);
     transform:translateY(102%);transition:transform .22s ease-out;
     overscroll-behavior:contain;
-    /* The sheet is both scrollable (overflow-y:auto, set in the base #detail
-       rule) and transformed for the slide animation. iOS Safari needs this
-       spelled out on a transformed scroll container, or touch drags inside it
-       don't register as scrolling and fall through to #scrim underneath,
-       which reads as a dead layer that closes the sheet instead of scrolling. */
-    -webkit-overflow-scrolling:touch;
   }
   #detail.open{transform:translateY(0)}
   #sheetClose{
@@ -365,6 +367,7 @@ main{flex:1 1 auto;display:flex;min-height:0}
   .copy{padding:7px 10px;font-size:10.5px;min-height:36px}
   .famitem{padding:9px 11px;min-height:40px}
   .gloss{font-size:12.5px}
+  #aboutBtn{padding:8px 11px;min-height:34px}
 }
 
 /* Short screens (landscape phones, small handsets): the header must not take
@@ -400,8 +403,9 @@ main{flex:1 1 auto;display:flex;min-height:0}
 <div id="shell">
 <header>
   <div class="brandrow">
-    <h1>Emojisaurus.me - Emoji <span class="v">17.0</span> Explorer</h1>
+    <h1>🦖 Emojisaurus.me - Emoji <span class="v">17.0</span> Explorer</h1>
     <div id="meta"></div>
+    <a id="aboutBtn" href="{{aboutUrl}}">About</a>
   </div>
 
   <div class="searchrow">

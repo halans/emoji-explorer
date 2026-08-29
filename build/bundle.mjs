@@ -18,6 +18,8 @@ tolerateClosedPipe();
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
+export const DEFAULT_ABOUT_URL = 'about.html';
+
 /** Strip ESM export keywords so the module body can run inline in a classic scope. */
 export function stripExports(source) {
   return source
@@ -40,7 +42,7 @@ export function safeJson(value) {
     .replace(/\u2029/g, '\\u2029');
 }
 
-export async function bundle() {
+export async function bundle({ aboutUrl = DEFAULT_ABOUT_URL } = {}) {
   const [shell, engine, app, datasetRaw] = await Promise.all([
     readFile(join(ROOT, 'src', 'shell.html'), 'utf8'),
     readFile(join(ROOT, 'src', 'search.mjs'), 'utf8'),
@@ -120,21 +122,26 @@ export async function bundle() {
   // `$&` (inside a regex-escape call), and String.replace would expand that
   // into the matched placeholder text, silently corrupting the bundle. The
   // verbatim-embedding test caught exactly this.
-  const html = shell.replace('<!--APP-->', () => script);
+  let html = shell.replace('<!--APP-->', () => script);
+
+  // The About link points at the landing page. Relative by default, which is
+  // right for the zip and any static host; overridable because artifact hosts
+  // publish each file at its own unrelated URL.
+  html = html.replace(/\{\{aboutUrl\}\}/g,
+    String(aboutUrl).replace(/&/g, '&amp;').replace(/"/g, '&quot;'));
+  const leftover = html.match(/\{\{\w+\}\}/g);
+  if (leftover) throw new Error(`unsubstituted tokens in shell.html: ${leftover.join(', ')}`);
 
   await mkdir(join(ROOT, 'dist'), { recursive: true });
   const out = join(ROOT, 'dist', 'index.html');
   await writeFile(out, html);
-  // Cloudflare Pages (and other static hosts) look for index.html at the
-  // output root; the app itself is served as emoji17.html so it still opens
-  // directly from disk. This rewrite (200, not a redirect) maps / to it
-  // without changing the URL.
-  // await writeFile(join(ROOT, 'dist', '_redirects'), '/ /index.html 200\n');
   return { out, bytes: Buffer.byteLength(html), records: dataset.records.length };
 }
 
 async function main() {
-  const { out, bytes, records } = await bundle();
+  const i = process.argv.indexOf('--about-url');
+  const aboutUrl = i !== -1 ? process.argv[i + 1] : DEFAULT_ABOUT_URL;
+  const { out, bytes, records } = await bundle({ aboutUrl });
   process.stdout.write(`dist/index.html  ${(bytes / 1024 / 1024).toFixed(2)} MB  (${records} records inlined)\n`);
 }
 

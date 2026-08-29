@@ -516,6 +516,18 @@ function boot() {
 
   $('#meta').textContent = `Emoji ${DATA.meta.emojiVersion} · ${DATA.meta.totals.byStatus['fully-qualified'].toLocaleString()} fully-qualified · ${DATA.meta.altUsageSenses} curated senses across ${Object.keys(DATA.meta.altRegisters).length} registers`;
 
+  // Deep link: ?q=<query>. This is how the landing page's examples work, and
+  // how anyone else can link to a specific search.
+  try {
+    const initial = new URLSearchParams(location.search).get('q');
+    if (initial) {
+      state.query = initial;
+      $('#q').value = initial;
+    }
+  } catch {
+    // A malformed URL must never stop the app booting.
+  }
+
   execute();
   renderDetail(null);
 }
