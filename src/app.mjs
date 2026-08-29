@@ -309,7 +309,7 @@ function renderDetail(rec) {
     const warn = el('div', 'muted gated');
     warn.textContent = `${hiddenCount} explicit sense${hiddenCount === 1 ? '' : 's'} hidden. `;
     const a = el('button', 'linkbtn', 'Show explicit senses');
-    a.addEventListener('click', () => { $('#explicit').checked = true; state.showExplicit = true; execute(); renderDetail(rec); });
+    a.addEventListener('click', () => { $('#explicit').checked = true; state.showExplicit = true; execute(); renderExamples(); renderDetail(rec); });
     warn.appendChild(a);
     panel.appendChild(warn);
   }
@@ -429,13 +429,37 @@ const EXAMPLES = [
   ['kw:ocean OR kw:space', 'alternation'],
 ];
 
+function renderExamples() {
+  const ex = $('#examples');
+  ex.replaceChildren();
+  for (const [q, label] of EXAMPLES) {
+    const b = el('button', 'ex');
+    b.appendChild(el('code', null, q));
+    b.appendChild(el('span', null, label));
+    b.addEventListener('click', () => setQuery(q));
+    ex.appendChild(b);
+  }
+  if (state.showExplicit) {
+    const b = el('button', 'ex');
+    b.appendChild(el('code', null, 'reg:sexual'));
+    b.appendChild(el('span', null, 'adult'));
+    b.addEventListener('click', () => setQuery('reg:sexual'));
+    ex.appendChild(b);
+    const c = el('button', 'ex');
+    c.appendChild(el('code', null, 'reg:kink'));
+    c.appendChild(el('span', null, 'adult'));
+    c.addEventListener('click', () => setQuery('reg:kink'));
+    ex.appendChild(c);
+  }
+}
+
 function boot() {
   viewport = $('#viewport');
   spacer = $('#spacer');
   rowLayer = $('#rows');
 
   $('#q').addEventListener('input', (e) => { state.query = e.target.value; execute(); });
-  $('#explicit').addEventListener('change', (e) => { state.showExplicit = e.target.checked; execute(); if (state.selected) renderDetail(byId.get(state.selected)); });
+  $('#explicit').addEventListener('change', (e) => { state.showExplicit = e.target.checked; execute(); renderExamples(); if (state.selected) renderDetail(byId.get(state.selected)); });
   $('#collapse').addEventListener('change', (e) => { state.collapseTones = e.target.checked; execute(); });
   $('#statusSel').addEventListener('change', (e) => { state.status = e.target.value; execute(); });
 
@@ -458,14 +482,7 @@ function boot() {
     });
   });
 
-  const ex = $('#examples');
-  for (const [q, label] of EXAMPLES) {
-    const b = el('button', 'ex');
-    b.appendChild(el('code', null, q));
-    b.appendChild(el('span', null, label));
-    b.addEventListener('click', () => setQuery(q));
-    ex.appendChild(b);
-  }
+  renderExamples();
 
   // Field reference
   const ref = $('#fieldref');
