@@ -214,11 +214,11 @@ main{flex:1 1 auto;display:flex;min-height:0}
 
 /* ---------- about link ---------- */
 #aboutBtn{
-  background:transparent;border:1px solid var(--line);color:var(--dim);
+  background:var(--accent);border:1px solid var(--line);color:#0b0d10;
   font:11px/1 var(--mono);padding:5px 9px;border-radius:5px;cursor:pointer;flex:0 0 auto;
-  text-decoration:none;white-space:nowrap;
+  text-decoration:none;white-space:nowrap
 }
-#aboutBtn:hover{border-color:var(--accent);color:var(--accent)}
+#aboutBtn:hover{border-color:var(--accent);background:#8ff3e2}
 
 /* ---------- desktop-only affordances, hidden by default on mobile ---------- */
 #helpToggle{display:none}
@@ -368,7 +368,7 @@ main{flex:1 1 auto;display:flex;min-height:0}
   .d-chips .copy{min-height:auto; padding:3px 6px;}
   .famitem{padding:9px 11px;min-height:40px}
   .gloss{font-size:12.5px}
-  #aboutBtn{padding:8px 11px;min-height:34px}
+  #aboutBtn{padding:8px 11px;min-height:34px;float:right;margin-left:auto;align-self:flex-start}
 }
 
 /* Short screens (landscape phones, small handsets): the header must not take
@@ -406,7 +406,7 @@ main{flex:1 1 auto;display:flex;min-height:0}
   <div class="brandrow">
     <h1>🦖 <span class="v">Emojisaurus.me</span> - Emoji <span class="v">17.0</span> Explorer</h1>
     <div id="meta"></div>
-    <a id="aboutBtn" href="{{aboutUrl}}">About</a>
+    <a class="cta" id="aboutBtn" href="{{aboutUrl}}">About</a>
   </div>
 
   <div class="searchrow">
