@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-// Builds dist/index.html — the linkable landing page and About document.
+// Builds dist/about.html and dist/about.md — the linkable landing page and its
+// plain-markdown twin, so the same About document can be read by a browser or
+// fetched directly by an LLM/crawler.
 //
 // Deliberately NOT the app: it carries no dataset, no engine and no JavaScript,
 // so it stays a few tens of kilobytes and loads instantly when someone follows
@@ -26,7 +28,7 @@ tolerateClosedPipe();
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const DEFAULT_APP_URL = 'index.html';
-export const DEFAULT_CANONICAL_URL = 'https://emojisaurus.me/about.html';
+export const DEFAULT_CANONICAL_URL = 'https://emojisaurus.me/about';
 export const DEFAULT_OG_IMAGE_URL = 'https://emojisaurus.me/og_default.jpg';
 
 /** Escape a value for insertion into HTML text or a double-quoted attribute. */
@@ -45,6 +47,14 @@ export function registerChips(altRegisters) {
     .map(([name, r]) =>
       `<span class="${r.explicit ? 'gated' : ''}" title="${esc(r.senseCount)} senses${r.explicit ? ', behind the explicit toggle' : ''}">${esc(name)}</span>`)
     .join('');
+}
+
+/** Plain-text register list for the markdown twin, same order as registerChips. */
+export function registerListText(altRegisters) {
+  return Object.entries(altRegisters)
+    .sort((a, b) => b[1].senseCount - a[1].senseCount)
+    .map(([name, r]) => (r.explicit ? `${name} (explicit, hidden by default)` : name))
+    .join(', ');
 }
 
 /**
@@ -75,6 +85,7 @@ export function buildValues(dataset, appUrl, canonicalUrl, ogImageUrl) {
     emoji: String(meta.altUsageEmoji),
     registers: String(Object.keys(meta.altRegisters).length),
     registerChips: registerChips(meta.altRegisters),
+    registerList: registerListText(meta.altRegisters),
     appUrl: esc(appUrl),
     canonicalUrl: esc(canonicalUrl),
     ogImageUrl: esc(ogImageUrl),
@@ -180,8 +191,9 @@ export async function buildLanding({
   canonicalUrl = DEFAULT_CANONICAL_URL,
   ogImageUrl = DEFAULT_OG_IMAGE_URL,
 } = {}) {
-  const [template, datasetRaw] = await Promise.all([
+  const [template, mdTemplate, datasetRaw] = await Promise.all([
     readFile(join(ROOT, 'src', 'landing.html'), 'utf8'),
+    readFile(join(ROOT, 'src', 'about.md'), 'utf8'),
     readFile(join(ROOT, 'data', 'dataset.json'), 'utf8'),
   ]);
   const dataset = JSON.parse(datasetRaw);
@@ -192,10 +204,19 @@ export async function buildLanding({
   // Make all emoji spans clickable
   html = makeEmojisClickable(html, appUrl);
 
+  const markdown = render(mdTemplate, values);
+
   await mkdir(join(ROOT, 'dist'), { recursive: true });
-  const out = join(ROOT, 'dist', 'about.html');
-  await writeFile(out, html);
-  return { out, bytes: Buffer.byteLength(html), appUrl };
+  const htmlOut = join(ROOT, 'dist', 'about.html');
+  const mdOut = join(ROOT, 'dist', 'about.md');
+  await Promise.all([writeFile(htmlOut, html), writeFile(mdOut, markdown)]);
+  return {
+    out: htmlOut,
+    bytes: Buffer.byteLength(html),
+    mdOut,
+    mdBytes: Buffer.byteLength(markdown),
+    appUrl,
+  };
 }
 
 async function main() {
@@ -205,8 +226,9 @@ async function main() {
   const canonicalUrl = ci !== -1 ? process.argv[ci + 1] : DEFAULT_CANONICAL_URL;
   const oi = process.argv.indexOf('--og-image-url');
   const ogImageUrl = oi !== -1 ? process.argv[oi + 1] : DEFAULT_OG_IMAGE_URL;
-  const { bytes } = await buildLanding({ appUrl, canonicalUrl, ogImageUrl });
+  const { bytes, mdBytes } = await buildLanding({ appUrl, canonicalUrl, ogImageUrl });
   process.stdout.write(`dist/about.html   ${(bytes / 1024).toFixed(1)} KB  -> app at ${appUrl}\n`);
+  process.stdout.write(`dist/about.md     ${(mdBytes / 1024).toFixed(1)} KB\n`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

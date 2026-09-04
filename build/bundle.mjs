@@ -18,7 +18,7 @@ tolerateClosedPipe();
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-export const DEFAULT_ABOUT_URL = 'about.html';
+export const DEFAULT_ABOUT_URL = 'about';
 export const DEFAULT_CANONICAL_URL = 'https://emojisaurus.me/';
 export const DEFAULT_OG_IMAGE_URL = 'https://emojisaurus.me/og_default.jpg';
 
