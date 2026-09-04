@@ -19,6 +19,32 @@ tolerateClosedPipe();
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const DEFAULT_ABOUT_URL = 'about.html';
+export const DEFAULT_CANONICAL_URL = 'https://emojisaurus.me/';
+export const DEFAULT_OG_IMAGE_URL = 'https://emojisaurus.me/og_default.jpg';
+
+/** Escape a value for insertion into an HTML attribute. */
+function escAttr(value) {
+  return String(value).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
+
+/** JSON-LD (WebApplication) describing the app page, for answer engines. */
+export function buildAppJsonLd({ canonicalUrl, ogImageUrl }) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'Emojisaurus',
+    alternateName: 'Emoji Explorer',
+    url: canonicalUrl,
+    description: 'A thesaurus for emoji: search the complete Emoji set by meaning, slang sense, byte size, code point or version, not just by official name.',
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any (runs in any modern web browser)',
+    browserRequirements: 'Requires JavaScript',
+    isAccessibleForFree: true,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    image: ogImageUrl,
+  };
+  return `<script type="application/ld+json">${JSON.stringify(data)}</script>`;
+}
 
 /** Strip ESM export keywords so the module body can run inline in a classic scope. */
 export function stripExports(source) {
@@ -42,7 +68,11 @@ export function safeJson(value) {
     .replace(/\u2029/g, '\\u2029');
 }
 
-export async function bundle({ aboutUrl = DEFAULT_ABOUT_URL } = {}) {
+export async function bundle({
+  aboutUrl = DEFAULT_ABOUT_URL,
+  canonicalUrl = DEFAULT_CANONICAL_URL,
+  ogImageUrl = DEFAULT_OG_IMAGE_URL,
+} = {}) {
   const [shell, engine, app, datasetRaw] = await Promise.all([
     readFile(join(ROOT, 'src', 'shell.html'), 'utf8'),
     readFile(join(ROOT, 'src', 'search.mjs'), 'utf8'),
@@ -127,8 +157,10 @@ export async function bundle({ aboutUrl = DEFAULT_ABOUT_URL } = {}) {
   // The About link points at the landing page. Relative by default, which is
   // right for the zip and any static host; overridable because artifact hosts
   // publish each file at its own unrelated URL.
-  html = html.replace(/\{\{aboutUrl\}\}/g,
-    String(aboutUrl).replace(/&/g, '&amp;').replace(/"/g, '&quot;'));
+  html = html.replace(/\{\{aboutUrl\}\}/g, escAttr(aboutUrl));
+  html = html.replace(/\{\{canonicalUrl\}\}/g, escAttr(canonicalUrl));
+  html = html.replace(/\{\{ogImageUrl\}\}/g, escAttr(ogImageUrl));
+  html = html.replace('<!--JSONLD-->', () => buildAppJsonLd({ canonicalUrl, ogImageUrl }));
   const leftover = html.match(/\{\{\w+\}\}/g);
   if (leftover) throw new Error(`unsubstituted tokens in shell.html: ${leftover.join(', ')}`);
 
@@ -141,7 +173,11 @@ export async function bundle({ aboutUrl = DEFAULT_ABOUT_URL } = {}) {
 async function main() {
   const i = process.argv.indexOf('--about-url');
   const aboutUrl = i !== -1 ? process.argv[i + 1] : DEFAULT_ABOUT_URL;
-  const { out, bytes, records } = await bundle({ aboutUrl });
+  const ci = process.argv.indexOf('--canonical-url');
+  const canonicalUrl = ci !== -1 ? process.argv[ci + 1] : DEFAULT_CANONICAL_URL;
+  const oi = process.argv.indexOf('--og-image-url');
+  const ogImageUrl = oi !== -1 ? process.argv[oi + 1] : DEFAULT_OG_IMAGE_URL;
+  const { out, bytes, records } = await bundle({ aboutUrl, canonicalUrl, ogImageUrl });
   process.stdout.write(`dist/index.html  ${(bytes / 1024 / 1024).toFixed(2)} MB  (${records} records inlined)\n`);
 }
 
