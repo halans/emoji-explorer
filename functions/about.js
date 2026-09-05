@@ -48,8 +48,12 @@ export function prefersMarkdown(acceptHeader) {
 export async function onRequestGet({ request, env }) {
   const wantsMarkdown = prefersMarkdown(request.headers.get('Accept'));
 
+  // Only rewrite the path for markdown. For HTML, fetch the canonical
+  // extensionless path (the request's own path) — asking the asset store
+  // for /about.html directly hits Pages' html_handling redirect back to
+  // /about, which re-enters this Function and loops forever.
   const assetUrl = new URL(request.url);
-  assetUrl.pathname = wantsMarkdown ? '/about.md' : '/about.html';
+  if (wantsMarkdown) assetUrl.pathname = '/about.md';
   const res = await env.ASSETS.fetch(new Request(assetUrl, request));
   if (!res.ok) return res;
 
