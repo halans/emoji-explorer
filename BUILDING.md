@@ -149,8 +149,8 @@ Three things worth knowing:
 
 ```
 $ node --test 'test/*.test.mjs'
-ℹ tests 94
-ℹ pass 94
+ℹ tests 102
+ℹ pass 102
 ℹ fail 0
 ℹ duration_ms 5602.441907
 ```
@@ -162,12 +162,32 @@ $ node --test 'test/*.test.mjs'
 | `test/search.test.mjs` | tokeniser, numeric predicates, edit distance, ranking, the explicit gate (including three exhaustive sweeps), a per-keystroke latency guard |
 | `test/bundle.test.mjs` | the source-transform functions, verbatim embedding, hydration fidelity, the **mobile layout affordances**, and a **cross-surface equivalence sweep** |
 | `test/cli.test.mjs` | CLI output, `--json` validity, the gate, and that every entry point survives a closed stdout (`\| head`) |
+| `test/about-negotiation.test.mjs` | the `/about` content-negotiation heuristic (see below) against various `Accept` header shapes |
 
 The equivalence sweep is the one that keeps the project honest. It boots the
 page's own inlined data and engine inside a `node:vm` context, then runs 29
 queries × 2 explicit states × 2 tone states through both that context and the
 Node engine, asserting the result ids, scores and matched-field lists are
 identical. If the browser and the CLI ever disagree, this fails.
+
+### 5. `build/landing.mjs` and `build/assets.mjs`
+
+`build/landing.mjs` renders `src/landing.html` and `src/about.md` — the same
+copy, one styled page and one plain-markdown twin — from one shared `values`
+object, so the two can't disagree on a stat. `build/assets.mjs` copies
+`favicon.ico`/`og_default.jpg` into `dist/` and generates `robots.txt`,
+`sitemap.xml` and `llms.txt`.
+
+**Content negotiation for `/about`.** The About page is published at one
+canonical URL, `/about` (no extension), and `functions/about.js` — a
+Cloudflare Pages Function — chooses `dist/about.html` or `dist/about.md`
+depending on the request's `Accept` header: a client that explicitly asks for
+`text/markdown` gets the markdown twin (with a `Vary: Accept` header so caches
+don't mix the two up); anything else, including a browser or a bare `curl`
+with no special `Accept`, gets the HTML page. This is why the file lives at
+the project root rather than under `src/` or `dist/` — Pages deploys the
+`functions/` directory alongside the build output, not as part of it. Test it
+locally with `npx wrangler pages dev dist`.
 
 ## Extending
 

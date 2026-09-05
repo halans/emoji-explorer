@@ -22,7 +22,7 @@ export function buildRobotsTxt(siteUrl) {
 }
 
 export function buildSitemapXml(siteUrl, lastmod) {
-  const pages = ['/', '/about.html'];
+  const pages = ['/', '/about'];
   const urls = pages
     .map((p) => `  <url>\n    <loc>${siteUrl}${p}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`)
     .join('\n');

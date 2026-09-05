@@ -173,7 +173,7 @@ function emojiToQuery(emoji) {
 
 /** Make emoji spans clickable links to the app search */
 export function makeEmojisClickable(html, appUrl) {
-  return html.replace(/<span class="em">([^<]+)<\/span>/g, (match, emoji) => {
+  return html.replace(/<span class="em">([^<]+)<\/span>/g, (_match, emoji) => {
     const query = emojiToQuery(emoji);
     const href = `${appUrl}?q=${query}`;
     // Escape the emoji for HTML attributes
