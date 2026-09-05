@@ -4,127 +4,127 @@
   "provenance": "Second pass on emoji whose official Unicode name describes something most users have never known it to be. These are the entries where searching by CLDR name fails hardest, because the name and the popular understanding refer to different objects.",
   "entries": {
     "🎌": [
-      { "sense": "crossed Japanese flags", "gloss": "Officially 'crossed flags' and specifically Japanese; read by many as a generic celebration or racing motif.", "confidence": "high" }
+      { "sense": "crossed Japanese flags", "gloss": "Officially 'crossed flags' and specifically Japanese; read by many as a generic celebration or racing motif.", "confidence": "high", "keywords": ["japanese flags", "crossed flags", "celebration"] }
     ],
     "🏧": [
-      { "sense": "ATM sign", "gloss": "A piece of wayfinding signage, not a bank or a card.", "confidence": "medium" }
+      { "sense": "ATM sign", "gloss": "A piece of wayfinding signage, not a bank or a card.", "confidence": "medium", "keywords": ["atm", "signage"] }
     ],
     "🛂": [
-      { "sense": "passport control signage", "gloss": "One of a family of airport pictograms that read as abstract shapes out of context.", "confidence": "medium" }
+      { "sense": "passport control signage", "gloss": "One of a family of airport pictograms that read as abstract shapes out of context.", "confidence": "medium", "keywords": ["passport control", "airport signage"] }
     ],
     "🚻": [
-      { "sense": "restroom signage", "gloss": "Read as a gender statement rather than the wayfinding glyph it is.", "confidence": "medium" }
+      { "sense": "restroom signage", "gloss": "Read as a gender statement rather than the wayfinding glyph it is.", "confidence": "medium", "keywords": ["restroom", "signage", "wayfinding"] }
     ],
     "🈳": [
-      { "sense": "vacancy", "gloss": "Japanese signage for free space, in car parks and hotels.", "confidence": "high" }
+      { "sense": "vacancy", "gloss": "Japanese signage for free space, in car parks and hotels.", "confidence": "high", "keywords": ["vacancy", "japanese signage"] }
     ],
     "🈵": [
-      { "sense": "no vacancy", "gloss": "The paired 'full' sign.", "confidence": "high" }
+      { "sense": "no vacancy", "gloss": "The paired 'full' sign.", "confidence": "high", "keywords": ["no vacancy", "full", "japanese signage"] }
     ],
     "🈴": [
-      { "sense": "passing grade", "gloss": "Japanese examination signage.", "confidence": "high" }
+      { "sense": "passing grade", "gloss": "Japanese examination signage.", "confidence": "high", "keywords": ["passing grade", "japanese signage"] }
     ],
     "🈲": [
-      { "sense": "prohibited", "gloss": "Japanese prohibition signage.", "confidence": "high" }
+      { "sense": "prohibited", "gloss": "Japanese prohibition signage.", "confidence": "high", "keywords": ["prohibited", "forbidden", "japanese signage"] }
     ],
     "🉑": [
-      { "sense": "acceptable", "gloss": "Japanese administrative marking.", "confidence": "high" }
+      { "sense": "acceptable", "gloss": "Japanese administrative marking.", "confidence": "high", "keywords": ["acceptable", "japanese signage"] }
     ],
     "🅱️": [
-      { "sense": "blood type B, and a meme", "gloss": "Officially the blood-type letter from a Japanese personality-typing convention; became a 2018 meme for substituting the letter B into words.", "confidence": "high" }
+      { "sense": "blood type B, and a meme", "gloss": "Officially the blood-type letter from a Japanese personality-typing convention; became a 2018 meme for substituting the letter B into words.", "confidence": "high", "keywords": ["blood type", "letter substitution meme"] }
     ],
     "🆑": [
-      { "sense": "the Japanese 'CL' button", "gloss": "A keypad clear key from Japanese carrier sets; almost nobody knows what it is for.", "confidence": "medium" }
+      { "sense": "the Japanese 'CL' button", "gloss": "A keypad clear key from Japanese carrier sets; almost nobody knows what it is for.", "confidence": "medium", "keywords": ["clear button", "japanese keypad"] }
     ],
     "🆖": [
-      { "sense": "'no good'", "gloss": "A Japanese-English abbreviation, opaque to English speakers who read NG as initials.", "confidence": "medium" }
+      { "sense": "'no good'", "gloss": "A Japanese-English abbreviation, opaque to English speakers who read NG as initials.", "confidence": "medium", "keywords": ["no good", "ng"] }
     ],
     "🈯": [
-      { "sense": "reserved", "gloss": "Japanese signage for a reserved seat or item.", "confidence": "medium" }
+      { "sense": "reserved", "gloss": "Japanese signage for a reserved seat or item.", "confidence": "medium", "keywords": ["reserved", "japanese signage"] }
     ],
     "💱": [
-      { "sense": "currency exchange signage", "gloss": "A bureau de change sign, frequently misread as a generic money or trade icon.", "confidence": "low" }
+      { "sense": "currency exchange signage", "gloss": "A bureau de change sign, frequently misread as a generic money or trade icon.", "confidence": "low", "keywords": ["currency exchange", "bureau de change"] }
     ],
     "🔰": [
-      { "sense": "the Shoshinsha mark", "gloss": "A Japanese new-driver badge, legally required for the first year. Its online use for 'beginner' is a reasonable extension of a very specific road sign.", "confidence": "high" }
+      { "sense": "the Shoshinsha mark", "gloss": "A Japanese new-driver badge, legally required for the first year. Its online use for 'beginner' is a reasonable extension of a very specific road sign.", "confidence": "high", "keywords": ["shoshinsha", "beginner", "new driver"] }
     ],
     "♨️": [
-      { "sense": "onsen", "gloss": "The map symbol for a Japanese hot spring, widely misread as steam, cooking or a spa generally.", "confidence": "high" }
+      { "sense": "onsen", "gloss": "The map symbol for a Japanese hot spring, widely misread as steam, cooking or a spa generally.", "confidence": "high", "keywords": ["onsen", "hot spring", "japanese map symbol"] }
     ],
     "🎴": [
-      { "sense": "hanafuda", "gloss": "A Japanese flower playing card; usually mistaken for a generic card or a plant.", "confidence": "high" }
+      { "sense": "hanafuda", "gloss": "A Japanese flower playing card; usually mistaken for a generic card or a plant.", "confidence": "high", "keywords": ["hanafuda", "japanese playing card"] }
     ],
     "🀄": [
-      { "sense": "one specific mahjong tile", "gloss": "The red dragon, not the game as a whole.", "confidence": "high" }
+      { "sense": "one specific mahjong tile", "gloss": "The red dragon, not the game as a whole.", "confidence": "high", "keywords": ["mahjong", "red dragon tile"] }
     ],
     "🎐": [
-      { "sense": "furin", "gloss": "A glass summer wind chime, a distinctly seasonal Japanese object.", "confidence": "high" }
+      { "sense": "furin", "gloss": "A glass summer wind chime, a distinctly seasonal Japanese object.", "confidence": "high", "keywords": ["furin", "wind chime", "japanese summer"] }
     ],
     "🎊": [
-      { "sense": "kusudama", "gloss": "A Japanese decorative ball that splits open at ceremonies, read in the West as a generic confetti burst.", "confidence": "medium" }
+      { "sense": "kusudama", "gloss": "A Japanese decorative ball that splits open at ceremonies, read in the West as a generic confetti burst.", "confidence": "medium", "keywords": ["kusudama", "japanese decoration", "confetti"] }
     ],
     "🍙": [
-      { "sense": "onigiri", "gloss": "A rice ball wrapped in nori, frequently misidentified as a sandwich or a piece of cake.", "confidence": "high" }
+      { "sense": "onigiri", "gloss": "A rice ball wrapped in nori, frequently misidentified as a sandwich or a piece of cake.", "confidence": "high", "keywords": ["onigiri", "rice ball"] }
     ],
     "🍛": [
-      { "sense": "Japanese curry rice", "gloss": "A specific dish, not curry in general — a real source of confusion for South Asian users.", "confidence": "medium" }
+      { "sense": "Japanese curry rice", "gloss": "A specific dish, not curry in general — a real source of confusion for South Asian users.", "confidence": "medium", "keywords": ["japanese curry", "curry rice"] }
     ],
     "🍲": [
-      { "sense": "oden or nabe", "gloss": "Officially 'pot of food'; the artwork on most platforms depicts a Japanese hotpot.", "confidence": "medium" }
+      { "sense": "oden or nabe", "gloss": "Officially 'pot of food'; the artwork on most platforms depicts a Japanese hotpot.", "confidence": "medium", "keywords": ["oden", "nabe", "hotpot"] }
     ],
     "🍧": [
-      { "sense": "kakigori", "gloss": "Japanese shaved ice, misread as a sundae.", "confidence": "medium" }
+      { "sense": "kakigori", "gloss": "Japanese shaved ice, misread as a sundae.", "confidence": "medium", "keywords": ["kakigori", "shaved ice"] }
     ],
     "🥮": [
-      { "sense": "mooncake", "gloss": "Specific to the Mid-Autumn Festival, not a generic pastry.", "confidence": "high" }
+      { "sense": "mooncake", "gloss": "Specific to the Mid-Autumn Festival, not a generic pastry.", "confidence": "high", "keywords": ["mooncake", "mid autumn festival"] }
     ],
     "🥠": [
-      { "sense": "an American invention", "gloss": "The fortune cookie is Californian, not Chinese, which makes its use as a China signifier a double misreading.", "confidence": "medium" }
+      { "sense": "an American invention", "gloss": "The fortune cookie is Californian, not Chinese, which makes its use as a China signifier a double misreading.", "confidence": "medium", "keywords": ["fortune cookie", "american invention"] }
     ],
     "🧿": [
-      { "sense": "nazar, not an eye", "gloss": "A specific Turkish and Greek amulet against the evil eye.", "confidence": "high" }
+      { "sense": "nazar, not an eye", "gloss": "A specific Turkish and Greek amulet against the evil eye.", "confidence": "high", "keywords": ["nazar", "evil eye amulet"] }
     ],
     "🪬": [
-      { "sense": "hamsa", "gloss": "A protective hand from Jewish, Muslim and North African traditions; often misread as a decorative henna motif.", "confidence": "medium" }
+      { "sense": "hamsa", "gloss": "A protective hand from Jewish, Muslim and North African traditions; often misread as a decorative henna motif.", "confidence": "medium", "keywords": ["hamsa", "protective hand"] }
     ],
     "🛖": [
-      { "sense": "hut", "gloss": "Added in Emoji 13.0 to broaden architectural representation; often misread as a specific cultural stereotype.", "confidence": "low" }
+      { "sense": "hut", "gloss": "Added in Emoji 13.0 to broaden architectural representation; often misread as a specific cultural stereotype.", "confidence": "low", "keywords": ["hut", "dwelling"] }
     ],
     "🪘": [
-      { "sense": "long drum", "gloss": "Specifically a West African or Latin American drum, added in 2021.", "confidence": "low" }
+      { "sense": "long drum", "gloss": "Specifically a West African or Latin American drum, added in 2021.", "confidence": "low", "keywords": ["long drum", "west african drum"] }
     ],
     "🪕": [
-      { "sense": "banjo", "gloss": "Frequently misread as a lute or sitar depending on the platform's artwork.", "confidence": "low" }
+      { "sense": "banjo", "gloss": "Frequently misread as a lute or sitar depending on the platform's artwork.", "confidence": "low", "keywords": ["banjo"] }
     ],
     "🩰": [
-      { "sense": "ballet shoes", "gloss": "Added in Emoji 14.0; also a coquette-aesthetic marker rather than a reference to dance.", "confidence": "medium" }
+      { "sense": "ballet shoes", "gloss": "Added in Emoji 14.0; also a coquette-aesthetic marker rather than a reference to dance.", "confidence": "medium", "keywords": ["ballet shoes", "coquette aesthetic"] }
     ],
     "🪤": [
-      { "sense": "mouse trap", "gloss": "Used figuratively for a trap in argument or a bad deal.", "confidence": "low" }
+      { "sense": "mouse trap", "gloss": "Used figuratively for a trap in argument or a bad deal.", "confidence": "low", "keywords": ["trap", "mouse trap"] }
     ],
     "🧸": [
-      { "sense": "comfort or infantilisation", "gloss": "Genuine comfort object, or a jab that someone needs coddling.", "confidence": "low" }
+      { "sense": "comfort or infantilisation", "gloss": "Genuine comfort object, or a jab that someone needs coddling.", "confidence": "low", "keywords": ["teddy bear", "comfort", "infantilizing"] }
     ],
     "🩸": [
-      { "sense": "menstruation", "gloss": "The blood drop was added in Emoji 12.0 after a Plan International UK campaign specifically about period stigma — the emoji has an activist origin most users are unaware of.", "confidence": "high" }
+      { "sense": "menstruation", "gloss": "The blood drop was added in Emoji 12.0 after a Plan International UK campaign specifically about period stigma — the emoji has an activist origin most users are unaware of.", "confidence": "high", "keywords": ["period", "menstruation", "blood drop"] }
     ],
     "🦠": [
-      { "sense": "any pathogen", "gloss": "Officially 'microbe'; became the universal COVID-19 glyph despite depicting no virus in particular.", "confidence": "high" }
+      { "sense": "any pathogen", "gloss": "Officially 'microbe'; became the universal COVID-19 glyph despite depicting no virus in particular.", "confidence": "high", "keywords": ["covid", "virus", "pathogen"] }
     ],
     "⚗️": [
-      { "sense": "alembic", "gloss": "A distillation vessel, not a generic laboratory flask; 🧪 is what most people mean.", "confidence": "medium" }
+      { "sense": "alembic", "gloss": "A distillation vessel, not a generic laboratory flask; 🧪 is what most people mean.", "confidence": "medium", "keywords": ["alembic", "distillation"] }
     ],
     "🧫": [
-      { "sense": "petri dish", "gloss": "Used for 'a breeding ground for' something bad.", "confidence": "low" }
+      { "sense": "petri dish", "gloss": "Used for 'a breeding ground for' something bad.", "confidence": "low", "keywords": ["petri dish", "breeding ground"] }
     ],
     "🪝": [
-      { "sense": "hook", "gloss": "Used for a narrative hook or clickbait rather than the tool.", "confidence": "low" }
+      { "sense": "hook", "gloss": "Used for a narrative hook or clickbait rather than the tool.", "confidence": "low", "keywords": ["hook", "clickbait", "narrative hook"] }
     ],
     "🛗": [
-      { "sense": "step-free access", "gloss": "Frequently used as an accessibility marker rather than to indicate a lift.", "confidence": "low" }
+      { "sense": "step-free access", "gloss": "Frequently used as an accessibility marker rather than to indicate a lift.", "confidence": "low", "keywords": ["step free access", "accessibility"] }
     ],
     "🈁": [
-      { "sense": "'here'", "gloss": "A Japanese signage ideograph meaning this location; pure wayfinding to Japanese readers, decorative noise to everyone else.", "confidence": "high" }
+      { "sense": "'here'", "gloss": "A Japanese signage ideograph meaning this location; pure wayfinding to Japanese readers, decorative noise to everyone else.", "confidence": "high", "keywords": ["here", "japanese signage"] }
     ]
   }
 }

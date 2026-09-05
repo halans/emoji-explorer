@@ -4,94 +4,94 @@
   "provenance": "Conventional senses in professional and technical communication, especially Slack, code review and issue trackers, where emoji function as lightweight protocol rather than expression.",
   "entries": {
     "✅": [
-      { "sense": "task complete", "gloss": "Near-universal completion marker; in code review, approval.", "confidence": "high" }
+      { "sense": "task complete", "gloss": "Near-universal completion marker; in code review, approval.", "confidence": "high", "keywords": ["done", "approved", "lgtm", "merged"] }
     ],
     "☑️": [
-      { "sense": "acknowledged", "gloss": "Weaker than ✅; seen rather than done.", "confidence": "medium" }
+      { "sense": "acknowledged", "gloss": "Weaker than ✅; seen rather than done.", "confidence": "medium", "keywords": ["noted", "ack"] }
     ],
     "👀": [
-      { "sense": "reviewing now", "gloss": "A pull-request convention meaning the reviewer has started, not finished.", "confidence": "high" }
+      { "sense": "reviewing now", "gloss": "A pull-request convention meaning the reviewer has started, not finished.", "confidence": "high", "keywords": ["looking", "eyes on it", "pr review"] }
     ],
     "🚢": [
-      { "sense": "deploy to production", "gloss": "'Ship it', an explicit release approval.", "confidence": "high" }
+      { "sense": "deploy to production", "gloss": "'Ship it', an explicit release approval.", "confidence": "high", "keywords": ["launch"] }
     ],
     "🔥": [
-      { "sense": "production incident", "gloss": "In operations contexts an outage, the inverse of the 'excellent' sense.", "confidence": "high" }
+      { "sense": "production incident", "gloss": "In operations contexts an outage, the inverse of the 'excellent' sense.", "confidence": "high", "keywords": ["down", "sev1"] }
     ],
     "🐛": [
       { "sense": "software defect", "gloss": "Standard issue-tracker label, from the mid-century 'bug' term.", "confidence": "high" }
     ],
     "🩹": [
-      { "sense": "temporary fix", "gloss": "A patch known to be inadequate.", "confidence": "medium" }
+      { "sense": "temporary fix", "gloss": "A patch known to be inadequate.", "confidence": "medium", "keywords": ["hotfix", "band-aid", "workaround"] }
     ],
     "🚧": [
-      { "sense": "work in progress", "gloss": "Marks a draft pull request or unfinished document.", "confidence": "high" }
+      { "sense": "work in progress", "gloss": "Marks a draft pull request or unfinished document.", "confidence": "high", "keywords": ["wip"] }
     ],
     "🧹": [
-      { "sense": "cleanup commit", "gloss": "Refactoring with no behaviour change.", "confidence": "medium" }
+      { "sense": "cleanup commit", "gloss": "Refactoring with no behaviour change.", "confidence": "medium", "keywords": ["tidy", "housekeeping"] }
     ],
     "♻️": [
-      { "sense": "refactor", "gloss": "Structural change without new functionality.", "confidence": "medium" }
+      { "sense": "refactor", "gloss": "Structural change without new functionality.", "confidence": "medium", "keywords": ["restructure"] }
     ],
     "⚡": [
-      { "sense": "performance improvement", "gloss": "Speed-related change in changelogs.", "confidence": "medium" }
+      { "sense": "performance improvement", "gloss": "Speed-related change in changelogs.", "confidence": "medium", "keywords": ["perf", "optimization", "fast"] }
     ],
     "🔒": [
-      { "sense": "security fix", "gloss": "Also 'locked thread' in forum moderation.", "confidence": "high" }
+      { "sense": "security fix", "gloss": "Also 'locked thread' in forum moderation.", "confidence": "high", "keywords": ["vulnerability", "cve"] }
     ],
     "📝": [
-      { "sense": "documentation change", "gloss": "Docs-only commit convention.", "confidence": "medium" }
+      { "sense": "documentation change", "gloss": "Docs-only commit convention.", "confidence": "medium", "keywords": ["readme"] }
     ],
     "🎉": [
-      { "sense": "initial commit or release", "gloss": "By convention marks a project's first commit.", "confidence": "medium" }
+      { "sense": "initial commit or release", "gloss": "By convention marks a project's first commit.", "confidence": "medium", "keywords": ["launch"] }
     ],
     "⏰": [
-      { "sense": "deadline pressure", "gloss": "Escalation marker rather than a literal time.", "confidence": "medium" }
+      { "sense": "deadline pressure", "gloss": "Escalation marker rather than a literal time.", "confidence": "medium", "keywords": ["urgent", "asap"] }
     ],
     "🙋": [
-      { "sense": "volunteering", "gloss": "Claiming a task in a channel.", "confidence": "medium" }
+      { "sense": "volunteering", "gloss": "Claiming a task in a channel.", "confidence": "medium", "keywords": ["i'll do it", "claim", "dibs"] }
     ],
     "🫠": [
-      { "sense": "burnout", "gloss": "Standing in for an admission that capacity is exhausted.", "confidence": "medium" }
+      { "sense": "burnout", "gloss": "Standing in for an admission that capacity is exhausted.", "confidence": "medium", "keywords": ["burnt out", "melting"] }
     ],
     "📊": [
-      { "sense": "request for data", "gloss": "Asks for evidence behind a claim.", "confidence": "low" }
+      { "sense": "request for data", "gloss": "Asks for evidence behind a claim.", "confidence": "low", "keywords": ["metrics"] }
     ],
     "🧊": [
-      { "sense": "frozen or deprioritised", "gloss": "'Icebox' for a shelved ticket.", "confidence": "medium" }
+      { "sense": "frozen or deprioritised", "gloss": "'Icebox' for a shelved ticket.", "confidence": "medium", "keywords": ["backlog", "on ice"] }
     ],
     "🏷️": [
-      { "sense": "version tag", "gloss": "Release tagging in a repository.", "confidence": "low" }
+      { "sense": "version tag", "gloss": "Release tagging in a repository.", "confidence": "low", "keywords": ["semver"] }
     ],
     "🔁": [
-      { "sense": "retry or repost", "gloss": "Interface metaphor for repeating an action.", "confidence": "low" }
+      { "sense": "retry or repost", "gloss": "Interface metaphor for repeating an action.", "confidence": "low", "keywords": ["loop"] }
     ],
     "🆗": [
-      { "sense": "grudging approval", "gloss": "The squared OK reads as more reluctant than a plain 'ok'.", "confidence": "low" }
+      { "sense": "grudging approval", "gloss": "The squared OK reads as more reluctant than a plain 'ok'.", "confidence": "low", "keywords": ["fine"] }
     ],
     "🤖": [
-      { "sense": "automation or bot account", "gloss": "Marks non-human activity in a channel; also 'AI wrote this'.", "confidence": "high" }
+      { "sense": "automation or bot account", "gloss": "Marks non-human activity in a channel; also 'AI wrote this'.", "confidence": "high", "keywords": ["automated", "ci", "ai generated"] }
     ],
     "🪄": [
-      { "sense": "automated or AI-generated", "gloss": "The magic wand has become a common interface marker for generative features.", "confidence": "medium" }
+      { "sense": "automated or AI-generated", "gloss": "The magic wand has become a common interface marker for generative features.", "confidence": "medium", "keywords": ["auto-generated"] }
     ],
     "✨": [
-      { "sense": "AI feature", "gloss": "Sparkles are now the de facto product-design icon for anything AI-powered, a convention that emerged around 2023.", "confidence": "high" }
+      { "sense": "AI feature", "gloss": "Sparkles are now the de facto product-design icon for anything AI-powered, a convention that emerged around 2023.", "confidence": "high", "keywords": ["ai","genai","artificial","intelligence"] }
     ],
     "🧠": [
-      { "sense": "model reasoning", "gloss": "In AI product interfaces, marks a thinking or reasoning step.", "confidence": "medium" }
+      { "sense": "model reasoning", "gloss": "In AI product interfaces, marks a thinking or reasoning step.", "confidence": "medium", "keywords": ["chain of thought","ai"] }
     ],
     "🔍": [
-      { "sense": "investigating", "gloss": "Signals an inquiry is underway.", "confidence": "low" }
+      { "sense": "investigating", "gloss": "Signals an inquiry is underway.", "confidence": "low", "keywords": ["investigate", "looking into"] }
     ],
     "📎": [
-      { "sense": "Clippy reference", "gloss": "Invokes Microsoft's discontinued assistant, usually to mock intrusive help features.", "confidence": "medium" }
+      { "sense": "Clippy reference", "gloss": "Invokes Microsoft's discontinued assistant, usually to mock intrusive help features.", "confidence": "medium", "keywords": ["paperclip"] }
     ],
     "💸": [
-      { "sense": "cost overrun", "gloss": "Cloud bills and budget complaints.", "confidence": "medium" }
+      { "sense": "cost overrun", "gloss": "Cloud bills and budget complaints.", "confidence": "medium", "keywords": ["expensive"] }
     ],
     "🫡": [
-      { "sense": "task accepted", "gloss": "Acknowledges an assignment, generally with visible reluctance.", "confidence": "high" }
+      { "sense": "task accepted", "gloss": "Acknowledges an assignment, generally with visible reluctance.", "confidence": "high", "keywords": ["will do", "salute", "acknowledged"] }
     ]
   }
 }

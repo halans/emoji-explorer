@@ -4,76 +4,76 @@
   "provenance": "Euphemistic senses attested across mainstream press coverage, platform moderation policy documents, and academic work on emoji pragmatics (notably Weissman 2019, 'Peaches and eggplants or... something else?', Proceedings of the Linguistic Society of America 4(1)). Included because moderation systems, dating apps and search engines treat these senses as primary; excluded by default in the UI.",
   "entries": {
     "🍆": [
-      { "sense": "penis", "gloss": "The dominant reading in flirtation and sexting. Named the American Dialect Society's most notable emoji of 2015 for exactly this reason.", "confidence": "high" }
+      { "sense": "penis", "gloss": "The dominant reading in flirtation and sexting. Named the American Dialect Society's most notable emoji of 2015 for exactly this reason.", "confidence": "high", "keywords": ["dick", "aubergine", "phallic"] }
     ],
     "🍑": [
-      { "sense": "buttocks", "gloss": "So established that Apple's 2016 iOS 10 beta redesign, which made the fruit look more botanically accurate and less anatomical, was reverted after public complaint.", "confidence": "high" }
+      { "sense": "buttocks", "gloss": "So established that Apple's 2016 iOS 10 beta redesign, which made the fruit look more botanically accurate and less anatomical, was reverted after public complaint.", "confidence": "high", "keywords": ["butt", "ass", "booty"] }
     ],
     "💦": [
-      { "sense": "ejaculate or bodily fluid", "gloss": "Pairs with 🍆 or 🍑 to complete a euphemistic phrase. Literal sense (sweat, water) survives mainly in fitness and weather contexts.", "confidence": "high" }
+      { "sense": "ejaculate or bodily fluid", "gloss": "Pairs with 🍆 or 🍑 to complete a euphemistic phrase. Literal sense (sweat, water) survives mainly in fitness and weather contexts.", "confidence": "high", "keywords": ["cum", "sweat", "wet"] }
     ],
     "🌮": [
-      { "sense": "vulva", "gloss": "A vulval euphemism parallel to 🍑, less universal than the eggplant/peach pair but well attested.", "confidence": "medium" }
+      { "sense": "vulva", "gloss": "A vulval euphemism parallel to 🍑, less universal than the eggplant/peach pair but well attested.", "confidence": "medium", "keywords": ["pussy", "vagina", "taco"] }
     ],
     "🐱": [
-      { "sense": "vulva", "gloss": "Rides on the English slang sense of 'pussy'; largely absent outside anglophone usage.", "confidence": "medium" }
+      { "sense": "vulva", "gloss": "Rides on the English slang sense of 'pussy'; largely absent outside anglophone usage.", "confidence": "medium", "keywords": ["pussy", "vagina"] }
     ],
     "🌭": [
-      { "sense": "penis", "gloss": "A secondary phallic euphemism, more often played for comedy than for genuine flirtation.", "confidence": "medium" }
+      { "sense": "penis", "gloss": "A secondary phallic euphemism, more often played for comedy than for genuine flirtation.", "confidence": "medium", "keywords": ["dick", "hotdog", "phallic"] }
     ],
     "🍒": [
-      { "sense": "breasts, or virginity", "gloss": "Two distinct euphemisms share the glyph: the pair-of-spheres reading, and 'popping one's cherry'.", "confidence": "medium" }
+      { "sense": "breasts, or virginity", "gloss": "Two distinct euphemisms share the glyph: the pair-of-spheres reading, and 'popping one's cherry'.", "confidence": "medium", "keywords": ["boobs", "virginity", "cherry"] }
     ],
     "🍌": [
-      { "sense": "penis", "gloss": "Shape-based euphemism competing with 🍆; also carries a non-sexual 'going bananas' sense.", "confidence": "medium" }
+      { "sense": "penis", "gloss": "Shape-based euphemism competing with 🍆; also carries a non-sexual 'going bananas' sense.", "confidence": "medium", "keywords": ["dick", "banana", "phallic"] }
     ],
     "🐍": [
-      { "sense": "penis", "gloss": "A minor phallic reading; the snake's dominant figurative sense is betrayal, not anatomy.", "confidence": "low" }
+      { "sense": "penis", "gloss": "A minor phallic reading; the snake's dominant figurative sense is betrayal, not anatomy.", "confidence": "low", "keywords": ["dick", "phallic"] }
     ],
     "👉👈": [
-      { "sense": "shy sexual proposition", "gloss": "The two pointing hands used together became a 2020 meme for bashfully asking for something, frequently sexual.", "confidence": "medium" }
+      { "sense": "shy sexual proposition", "gloss": "The two pointing hands used together became a 2020 meme for bashfully asking for something, frequently sexual.", "confidence": "medium", "keywords": ["shy", "flirty", "bashful ask"] }
     ],
     "🥵": [
-      { "sense": "aroused", "gloss": "'Hot' in the sexual rather than thermal sense; overlaps heavily with the literal overheating reading.", "confidence": "medium" }
+      { "sense": "aroused", "gloss": "'Hot' in the sexual rather than thermal sense; overlaps heavily with the literal overheating reading.", "confidence": "medium", "keywords": ["horny", "hot", "turned on"] }
     ],
     "🥴": [
-      { "sense": "drunk, or lustful", "gloss": "The woozy face reads as intoxicated or as unguardedly attracted, depending on context.", "confidence": "medium" }
+      { "sense": "drunk, or lustful", "gloss": "The woozy face reads as intoxicated or as unguardedly attracted, depending on context.", "confidence": "medium", "keywords": ["drunk", "tipsy", "woozy"] }
     ],
     "😩": [
-      { "sense": "sexual exasperation or desire", "gloss": "Detached almost entirely from its CLDR name 'weary face'; commonly signals attraction.", "confidence": "medium" }
+      { "sense": "sexual exasperation or desire", "gloss": "Detached almost entirely from its CLDR name 'weary face'; commonly signals attraction.", "confidence": "medium", "keywords": ["horny", "desire", "wanting"] }
     ],
     "😫": [
-      { "sense": "sexual exasperation", "gloss": "Functions as an intensified variant of 😩 in the same register.", "confidence": "medium" }
+      { "sense": "sexual exasperation", "gloss": "Functions as an intensified variant of 😩 in the same register.", "confidence": "medium", "keywords": ["horny", "frustrated desire"] }
     ],
     "👌": [
-      { "sense": "penetrative sex", "gloss": "Combined with a pointing finger, the ring gesture becomes a crude sexual mime.", "confidence": "medium" }
+      { "sense": "penetrative sex", "gloss": "Combined with a pointing finger, the ring gesture becomes a crude sexual mime.", "confidence": "medium", "keywords": ["sex mime", "penetration"] }
     ],
     "🍩": [
-      { "sense": "anus", "gloss": "Ring-shape euphemism, more common in comedic than flirtatious registers.", "confidence": "low" }
+      { "sense": "anus", "gloss": "Ring-shape euphemism, more common in comedic than flirtatious registers.", "confidence": "low", "keywords": ["butthole", "donut"] }
     ],
     "🧁": [
-      { "sense": "breasts", "gloss": "A softer euphemism than 🍒, popularised on TikTok.", "confidence": "low" }
+      { "sense": "breasts", "gloss": "A softer euphemism than 🍒, popularised on TikTok.", "confidence": "low", "keywords": ["boobs", "cupcake"] }
     ],
     "🥒": [
-      { "sense": "penis", "gloss": "A substitute for 🍆 when the eggplant itself is filtered.", "confidence": "medium" }
+      { "sense": "penis", "gloss": "A substitute for 🍆 when the eggplant itself is filtered.", "confidence": "medium", "keywords": ["dick", "cucumber", "phallic"] }
     ],
     "💋": [
-      { "sense": "sign-off flirtation", "gloss": "Beyond a literal kiss, marks a message as flirtatious or camp.", "confidence": "medium" }
+      { "sense": "sign-off flirtation", "gloss": "Beyond a literal kiss, marks a message as flirtatious or camp.", "confidence": "medium", "keywords": ["kiss", "flirty sign off", "xoxo"] }
     ],
     "🛏️": [
-      { "sense": "invitation to sex", "gloss": "Contextual euphemism in dating-app conversation.", "confidence": "low" }
+      { "sense": "invitation to sex", "gloss": "Contextual euphemism in dating-app conversation.", "confidence": "low", "keywords": ["sex invitation", "bed"] }
     ],
     "🍯": [
-      { "sense": "term of endearment, or sexual sweetness", "gloss": "Doubles as 'honey' the pet name.", "confidence": "low" }
+      { "sense": "term of endearment, or sexual sweetness", "gloss": "Doubles as 'honey' the pet name.", "confidence": "low", "keywords": ["honey", "sweetie", "pet name"] }
     ],
     "🥛": [
-      { "sense": "semen", "gloss": "A euphemism appearing mainly alongside 💦.", "confidence": "low" }
+      { "sense": "semen", "gloss": "A euphemism appearing mainly alongside 💦.", "confidence": "low", "keywords": ["cum", "milk"] }
     ],
     "🍦": [
-      { "sense": "oral sex", "gloss": "Licking-based euphemism.", "confidence": "low" }
+      { "sense": "oral sex", "gloss": "Licking-based euphemism.", "confidence": "low", "keywords": ["blowjob", "oral", "licking"] }
     ],
     "🐊": [
-      { "sense": "sexual predator", "gloss": "Rare; relies on the English idiom rather than the animal.", "confidence": "low" }
+      { "sense": "sexual predator", "gloss": "Rare; relies on the English idiom rather than the animal.", "confidence": "low", "keywords": ["predator", "creep"] }
     ]
   }
 }

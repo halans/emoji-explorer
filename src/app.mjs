@@ -303,6 +303,15 @@ function renderDetail(rec) {
     if (s.combo) top.appendChild(el('span', 'combo', 'as ' + s.combo));
     card.appendChild(top);
     card.appendChild(el('div', 'gloss', s.gloss));
+    if (s.keywords?.length) {
+      const kws = el('div', 'kws');
+      for (const k of s.keywords) {
+        const b = el('button', 'kw', k);
+        b.addEventListener('click', () => { setQuery(`alt:${/\s/.test(k) ? '"' + k + '"' : k}`); });
+        kws.appendChild(b);
+      }
+      card.appendChild(kws);
+    }
     panel.appendChild(card);
   }
   if (hiddenCount > 0) {

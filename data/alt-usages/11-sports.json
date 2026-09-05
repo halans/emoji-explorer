@@ -4,118 +4,118 @@
   "provenance": "Senses used in sports fandom, transfer rumour culture and match commentary. Football (soccer) transfer Twitter has developed the most codified emoji grammar of any sporting subculture, to the point where single glyphs carry procedural meaning about the status of a deal.",
   "entries": {
     "🚨": [
-      { "sense": "transfer news breaking", "gloss": "In football transfer coverage the siren prefixes a genuine development. Overuse by aggregator accounts has devalued it to the point of parody.", "confidence": "high" }
+      { "sense": "transfer news breaking", "gloss": "In football transfer coverage the siren prefixes a genuine development. Overuse by aggregator accounts has devalued it to the point of parody.", "confidence": "high", "keywords": ["transfer news", "breaking", "siren"] }
     ],
     "🤝": [
-      { "sense": "personal terms agreed", "gloss": "The player has agreed with the club; the clubs may not yet have agreed with each other.", "confidence": "medium" }
+      { "sense": "personal terms agreed", "gloss": "The player has agreed with the club; the clubs may not yet have agreed with each other.", "confidence": "medium", "keywords": ["personal terms", "agreed", "transfer"] }
     ],
     "✅": [
-      { "sense": "here we go", "gloss": "Fabrizio Romano's green tick, signalling a transfer is done. One of the few cases where an individual journalist's habit became an entire community's notation.", "confidence": "high" }
+      { "sense": "here we go", "gloss": "Fabrizio Romano's green tick, signalling a transfer is done. One of the few cases where an individual journalist's habit became an entire community's notation.", "confidence": "high", "keywords": ["here we go", "fabrizio romano", "confirmed transfer"] }
     ],
     "✍️": [
-      { "sense": "contract signed", "gloss": "Completion of paperwork, distinct from agreement in principle.", "confidence": "medium" }
+      { "sense": "contract signed", "gloss": "Completion of paperwork, distinct from agreement in principle.", "confidence": "medium", "keywords": ["signed", "contract", "official"] }
     ],
     "🩺": [
-      { "sense": "medical scheduled", "gloss": "The player is undergoing the medical examination that precedes a signing.", "confidence": "medium" }
+      { "sense": "medical scheduled", "gloss": "The player is undergoing the medical examination that precedes a signing.", "confidence": "medium", "keywords": ["medical", "transfer step"] }
     ],
     "✈️": [
-      { "sense": "player travelling to sign", "gloss": "Flight tracking is a genuine sub-hobby of transfer season.", "confidence": "medium" }
+      { "sense": "player travelling to sign", "gloss": "Flight tracking is a genuine sub-hobby of transfer season.", "confidence": "medium", "keywords": ["flying in", "transfer travel"] }
     ],
     "🐐": [
-      { "sense": "greatest of all time", "gloss": "The central argument-starter of sports discourse; deploying it is a claim, not a description.", "confidence": "high" }
+      { "sense": "greatest of all time", "gloss": "The central argument-starter of sports discourse; deploying it is a claim, not a description.", "confidence": "high", "keywords": ["goat", "best ever"] }
     ],
     "🧤": [
-      { "sense": "goalkeeper", "gloss": "Position shorthand; also a clean sheet.", "confidence": "medium" }
+      { "sense": "goalkeeper", "gloss": "Position shorthand; also a clean sheet.", "confidence": "medium", "keywords": ["goalkeeper", "keeper", "clean sheet"] }
     ],
     "🥅": [
-      { "sense": "goal scored", "gloss": "Match-thread notation.", "confidence": "medium" }
+      { "sense": "goal scored", "gloss": "Match-thread notation.", "confidence": "medium", "keywords": ["goal", "scored"] }
     ],
     "🟨": [
-      { "sense": "yellow card", "gloss": "The plain yellow square is used as a booking marker in live match commentary.", "confidence": "high" }
+      { "sense": "yellow card", "gloss": "The plain yellow square is used as a booking marker in live match commentary.", "confidence": "high", "keywords": ["yellow card", "booking"] }
     ],
     "🟥": [
-      { "sense": "red card", "gloss": "Sending off, in the same live-commentary notation.", "confidence": "high" }
+      { "sense": "red card", "gloss": "Sending off, in the same live-commentary notation.", "confidence": "high", "keywords": ["red card", "sent off", "ejected"] }
     ],
     "🔵": [
-      { "sense": "deal moving to a specific club", "gloss": "Coloured circles stand for club colours in transfer posts; blue commonly Chelsea, Manchester City or Everton depending on the reporter.", "confidence": "medium" }
+      { "sense": "deal moving to a specific club", "gloss": "Coloured circles stand for club colours in transfer posts; blue commonly Chelsea, Manchester City or Everton depending on the reporter.", "confidence": "medium", "keywords": ["club colour", "chelsea", "man city"] }
     ],
     "🔴": [
-      { "sense": "club colour marker", "gloss": "Typically Liverpool, Manchester United or Arsenal in the same colour-code convention.", "confidence": "medium" }
+      { "sense": "club colour marker", "gloss": "Typically Liverpool, Manchester United or Arsenal in the same colour-code convention.", "confidence": "medium", "keywords": ["club colour", "liverpool", "man united", "arsenal"] }
     ],
     "⚪": [
-      { "sense": "Real Madrid", "gloss": "Los Blancos, in the transfer colour code.", "confidence": "medium" }
+      { "sense": "Real Madrid", "gloss": "Los Blancos, in the transfer colour code.", "confidence": "medium", "keywords": ["real madrid", "los blancos"] }
     ],
     "🏆": [
-      { "sense": "winning an argument", "gloss": "Beyond literal trophies, awarded sarcastically to end a debate.", "confidence": "medium" }
+      { "sense": "winning an argument", "gloss": "Beyond literal trophies, awarded sarcastically to end a debate.", "confidence": "medium", "keywords": ["trophy", "winning", "won the argument"] }
     ],
     "🥇": [
-      { "sense": "ranking claim", "gloss": "Used to assert a hierarchy in list and tier-ranking posts.", "confidence": "low" }
+      { "sense": "ranking claim", "gloss": "Used to assert a hierarchy in list and tier-ranking posts.", "confidence": "low", "keywords": ["first place", "ranking", "number one"] }
     ],
     "🧢": [
-      { "sense": "a cap for the national team", "gloss": "In football and cricket writing a 'cap' is an international appearance, an older sense entirely unrelated to the slang for lying.", "confidence": "medium" }
+      { "sense": "a cap for the national team", "gloss": "In football and cricket writing a 'cap' is an international appearance, an older sense entirely unrelated to the slang for lying.", "confidence": "medium", "keywords": ["cap", "national team appearance"] }
     ],
     "🎽": [
-      { "sense": "running or a race entry", "gloss": "The running shirt marks marathon and parkrun posts.", "confidence": "low" }
+      { "sense": "running or a race entry", "gloss": "The running shirt marks marathon and parkrun posts.", "confidence": "low", "keywords": ["running", "marathon", "race entry"] }
     ],
     "🏋️": [
-      { "sense": "gym session or effort generally", "gloss": "Extended metaphorically to any hard work.", "confidence": "medium" }
+      { "sense": "gym session or effort generally", "gloss": "Extended metaphorically to any hard work.", "confidence": "medium", "keywords": ["gym", "workout", "effort"] }
     ],
     "💪": [
-      { "sense": "encouragement", "gloss": "Support and resolve far more often than literal muscle.", "confidence": "high" }
+      { "sense": "encouragement", "gloss": "Support and resolve far more often than literal muscle.", "confidence": "high", "keywords": ["encouragement", "you got this", "strength"] }
     ],
     "🐍": [
-      { "sense": "Kobe Bryant", "gloss": "The Black Mamba nickname makes the snake a Kobe reference in basketball contexts.", "confidence": "medium" }
+      { "sense": "Kobe Bryant", "gloss": "The Black Mamba nickname makes the snake a Kobe reference in basketball contexts.", "confidence": "medium", "keywords": ["kobe bryant", "black mamba"] }
     ],
     "👑": [
-      { "sense": "LeBron James", "gloss": "'King James'; in NBA discourse the crown is usually a specific person, not generic royalty.", "confidence": "medium" }
+      { "sense": "LeBron James", "gloss": "'King James'; in NBA discourse the crown is usually a specific person, not generic royalty.", "confidence": "medium", "keywords": ["lebron james", "king james"] }
     ],
     "🃏": [
-      { "sense": "Nikola Jokic", "gloss": "'The Joker'; another player-nickname glyph in NBA fandom.", "confidence": "low" }
+      { "sense": "Nikola Jokic", "gloss": "'The Joker'; another player-nickname glyph in NBA fandom.", "confidence": "low", "keywords": ["nikola jokic", "the joker"] }
     ],
     "🦌": [
-      { "sense": "Milwaukee Bucks", "gloss": "Team-mascot shorthand, typical of NBA emoji conventions.", "confidence": "low" }
+      { "sense": "Milwaukee Bucks", "gloss": "Team-mascot shorthand, typical of NBA emoji conventions.", "confidence": "low", "keywords": ["milwaukee bucks", "nba team"] }
     ],
     "🧊": [
-      { "sense": "ice in the veins", "gloss": "Clutch performance under pressure.", "confidence": "medium" }
+      { "sense": "ice in the veins", "gloss": "Clutch performance under pressure.", "confidence": "medium", "keywords": ["clutch", "ice cold", "cool under pressure"] }
     ],
     "🎯": [
-      { "sense": "accurate shooting", "gloss": "Marksmanship in shooting sports and basketball alike.", "confidence": "medium" }
+      { "sense": "accurate shooting", "gloss": "Marksmanship in shooting sports and basketball alike.", "confidence": "medium", "keywords": ["accurate", "sharpshooter", "on target"] }
     ],
     "📉": [
-      { "sense": "a team in decline", "gloss": "Form collapse, often posted by rival fans.", "confidence": "low" }
+      { "sense": "a team in decline", "gloss": "Form collapse, often posted by rival fans.", "confidence": "low", "keywords": ["decline", "slump", "form collapse"] }
     ],
     "🪑": [
-      { "sense": "benched", "gloss": "A player not selected; overlaps with the absurdist chair meme.", "confidence": "low" }
+      { "sense": "benched", "gloss": "A player not selected; overlaps with the absurdist chair meme.", "confidence": "low", "keywords": ["benched", "not selected"] }
     ],
     "🤕": [
-      { "sense": "injury list", "gloss": "Fantasy-sports and team-news notation.", "confidence": "medium" }
+      { "sense": "injury list", "gloss": "Fantasy-sports and team-news notation.", "confidence": "medium", "keywords": ["injured", "injury list", "hurt"] }
     ],
     "🏳️": [
-      { "sense": "conceding the match", "gloss": "Rival banter when a scoreline becomes hopeless.", "confidence": "low" }
+      { "sense": "conceding the match", "gloss": "Rival banter when a scoreline becomes hopeless.", "confidence": "low", "keywords": ["conceding", "give up", "surrender"] }
     ],
     "🦅": [
-      { "sense": "Philadelphia Eagles or Crystal Palace", "gloss": "Mascot shorthand in NFL and Premier League contexts respectively.", "confidence": "low" }
+      { "sense": "Philadelphia Eagles or Crystal Palace", "gloss": "Mascot shorthand in NFL and Premier League contexts respectively.", "confidence": "low", "keywords": ["philadelphia eagles", "crystal palace"] }
     ],
     "🐓": [
-      { "sense": "Tottenham Hotspur", "gloss": "The cockerel on the club crest.", "confidence": "low" }
+      { "sense": "Tottenham Hotspur", "gloss": "The cockerel on the club crest.", "confidence": "low", "keywords": ["tottenham", "spurs", "cockerel"] }
     ],
     "🍒": [
-      { "sense": "AFC Bournemouth", "gloss": "'The Cherries'; club-nickname shorthand.", "confidence": "low" }
+      { "sense": "AFC Bournemouth", "gloss": "'The Cherries'; club-nickname shorthand.", "confidence": "low", "keywords": ["bournemouth", "the cherries"] }
     ],
     "🔨": [
-      { "sense": "West Ham United", "gloss": "'The Hammers'.", "confidence": "low" }
+      { "sense": "West Ham United", "gloss": "'The Hammers'.", "confidence": "low", "keywords": ["west ham", "the hammers"] }
     ],
     "🏏": [
-      { "sense": "cricket generally", "gloss": "Often stands for the whole sport in South Asian and Australian social posting.", "confidence": "medium" }
+      { "sense": "cricket generally", "gloss": "Often stands for the whole sport in South Asian and Australian social posting.", "confidence": "medium", "keywords": ["cricket"] }
     ],
     "🥊": [
-      { "sense": "a confrontation", "gloss": "Extended to any public argument or rivalry.", "confidence": "medium" }
+      { "sense": "a confrontation", "gloss": "Extended to any public argument or rivalry.", "confidence": "medium", "keywords": ["confrontation", "fight", "rivalry"] }
     ],
     "🏃": [
-      { "sense": "leaving quickly", "gloss": "Fleeing a conversation rather than athletics.", "confidence": "medium" }
+      { "sense": "leaving quickly", "gloss": "Fleeing a conversation rather than athletics.", "confidence": "medium", "keywords": ["leaving", "fleeing", "gotta go"] }
     ],
     "⛳": [
-      { "sense": "golf as a lifestyle signifier", "gloss": "In profile bios, shorthand for a whole social register rather than the sport.", "confidence": "low" }
+      { "sense": "golf as a lifestyle signifier", "gloss": "In profile bios, shorthand for a whole social register rather than the sport.", "confidence": "low", "keywords": ["golf", "lifestyle", "bio marker"] }
     ]
   }
 }

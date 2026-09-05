@@ -4,97 +4,97 @@
   "provenance": "Trading, retail-investor and crypto community senses. Concentrated in r/wallstreetbets, Crypto Twitter and adjacent forums, and widely reported during the 2021 meme-stock episode.",
   "entries": {
     "🚀": [
-      { "sense": "price about to rise sharply", "gloss": "'To the moon'. The single most recognisable finance emoji; repetition signals conviction.", "confidence": "high" }
+      { "sense": "price about to rise sharply", "gloss": "'To the moon'. The single most recognisable finance emoji; repetition signals conviction.", "confidence": "high", "keywords": ["to the moon", "pump", "mooning"] }
     ],
     "🌙": [
-      { "sense": "target price", "gloss": "The destination in 'to the moon', usually paired with 🚀.", "confidence": "high" }
+      { "sense": "target price", "gloss": "The destination in 'to the moon', usually paired with 🚀.", "confidence": "high", "keywords": ["moon", "target price"] }
     ],
     "🌕": [
-      { "sense": "target price", "gloss": "Interchangeable with 🌙 in the moon-shot construction.", "confidence": "medium" }
+      { "sense": "target price", "gloss": "Interchangeable with 🌙 in the moon-shot construction.", "confidence": "medium", "keywords": ["moon", "target price"] }
     ],
     "🐻": [
-      { "sense": "bearish", "gloss": "Expecting a decline. 'Bears' is a market-participant term long predating emoji.", "confidence": "high" }
+      { "sense": "bearish", "gloss": "Expecting a decline. 'Bears' is a market-participant term long predating emoji.", "confidence": "high", "keywords": ["bear", "bearish", "sell off"] }
     ],
     "🐂": [
-      { "sense": "bullish", "gloss": "Expecting a rise.", "confidence": "high" }
+      { "sense": "bullish", "gloss": "Expecting a rise.", "confidence": "high", "keywords": ["bull", "bullish", "rally"] }
     ],
     "🐮": [
-      { "sense": "bullish", "gloss": "Substituted for 🐂 where the ox glyph is unavailable or renders poorly.", "confidence": "medium" }
+      { "sense": "bullish", "gloss": "Substituted for 🐂 where the ox glyph is unavailable or renders poorly.", "confidence": "medium", "keywords": ["bull", "bullish"] }
     ],
     "💎": [
-      { "sense": "holding through volatility", "gloss": "Half of 'diamond hands'; requires 🙌 to complete the phrase.", "confidence": "high" }
+      { "sense": "holding through volatility", "gloss": "Half of 'diamond hands'; requires 🙌 to complete the phrase.", "confidence": "high", "keywords": ["diamond hands", "hodl", "holding"] }
     ],
     "🙌": [
-      { "sense": "hands in a holding metaphor", "gloss": "Combines with 💎 for conviction or 🧻 for panic-selling.", "confidence": "high" }
+      { "sense": "hands in a holding metaphor", "gloss": "Combines with 💎 for conviction or 🧻 for panic-selling.", "confidence": "high", "keywords": ["hands", "hodl", "holding"] }
     ],
     "🧻": [
-      { "sense": "selling under pressure", "gloss": "'Paper hands', the derisive opposite of diamond hands.", "confidence": "high" }
+      { "sense": "selling under pressure", "gloss": "'Paper hands', the derisive opposite of diamond hands.", "confidence": "high", "keywords": ["paper hands", "panic sell", "weak hands"] }
     ],
     "🦍": [
-      { "sense": "retail investor collective", "gloss": "'Apes together strong', self-applied by the GameStop retail cohort in 2021.", "confidence": "high" }
+      { "sense": "retail investor collective", "gloss": "'Apes together strong', self-applied by the GameStop retail cohort in 2021.", "confidence": "high", "keywords": ["ape", "retail investor", "apes together strong"] }
     ],
     "🦧": [
-      { "sense": "retail investor", "gloss": "A variant of the 🦍 self-designation.", "confidence": "medium" }
+      { "sense": "retail investor", "gloss": "A variant of the 🦍 self-designation.", "confidence": "medium", "keywords": ["ape", "retail investor"] }
     ],
     "🌈🐻": [
-      { "sense": "derided short seller", "gloss": "'Rainbow bear', a wallstreetbets term for a bearish poster.", "confidence": "medium" }
+      { "sense": "derided short seller", "gloss": "'Rainbow bear', a wallstreetbets term for a bearish poster.", "confidence": "medium", "keywords": ["rainbow bear", "short seller", "bear poster"] }
     ],
     "🖨️": [
-      { "sense": "central bank monetary expansion", "gloss": "'Money printer go brrr', a 2020 macro meme about quantitative easing.", "confidence": "high" }
+      { "sense": "central bank monetary expansion", "gloss": "'Money printer go brrr', a 2020 macro meme about quantitative easing.", "confidence": "high", "keywords": ["money printer", "brrr", "quantitative easing"] }
     ],
     "🧑‍🌾": [
-      { "sense": "yield farming", "gloss": "DeFi liquidity provision, from the 'farmer' metaphor.", "confidence": "medium" }
+      { "sense": "yield farming", "gloss": "DeFi liquidity provision, from the 'farmer' metaphor.", "confidence": "medium", "keywords": ["yield farming", "defi", "liquidity"] }
     ],
     "🐋": [
-      { "sense": "large holder", "gloss": "An account holding enough of an asset to move its price.", "confidence": "high" }
+      { "sense": "large holder", "gloss": "An account holding enough of an asset to move its price.", "confidence": "high", "keywords": ["whale", "large holder"] }
     ],
     "🦐": [
-      { "sense": "small holder", "gloss": "The counterpart to 🐋 in crypto wallet-size tiers.", "confidence": "medium" }
+      { "sense": "small holder", "gloss": "The counterpart to 🐋 in crypto wallet-size tiers.", "confidence": "medium", "keywords": ["shrimp", "small holder"] }
     ],
     "🦀": [
-      { "sense": "sideways market, or Rust programming", "gloss": "Crab-walking price action; separately the mascot of the Rust language community.", "confidence": "medium" }
+      { "sense": "sideways market, or Rust programming", "gloss": "Crab-walking price action; separately the mascot of the Rust language community.", "confidence": "medium", "keywords": ["crabbing", "sideways market", "rust"] }
     ],
     "📉": [
-      { "sense": "loss porn", "gloss": "Posting one's own losses, a genre unto itself.", "confidence": "medium" }
+      { "sense": "loss porn", "gloss": "Posting one's own losses, a genre unto itself.", "confidence": "medium", "keywords": ["loss porn", "down bad", "losses"] }
     ],
     "🧢": [
-      { "sense": "market cap", "gloss": "In crypto contexts the cap emoji is sometimes a pun on market capitalisation rather than the 'lying' sense.", "confidence": "low" }
+      { "sense": "market cap", "gloss": "In crypto contexts the cap emoji is sometimes a pun on market capitalisation rather than the 'lying' sense.", "confidence": "low", "keywords": ["market cap", "mcap"] }
     ],
     "🔒": [
-      { "sense": "locked liquidity or vesting", "gloss": "Signals tokens that cannot be sold yet.", "confidence": "medium" }
+      { "sense": "locked liquidity or vesting", "gloss": "Signals tokens that cannot be sold yet.", "confidence": "medium", "keywords": ["locked", "vesting", "liquidity lock"] }
     ],
     "🪙": [
-      { "sense": "a token", "gloss": "Generic crypto asset reference.", "confidence": "medium" }
+      { "sense": "a token", "gloss": "Generic crypto asset reference.", "confidence": "medium", "keywords": ["token", "coin", "altcoin"] }
     ],
     "🫡": [
-      { "sense": "acknowledging a loss", "gloss": "Saluting a position that has gone to zero.", "confidence": "low" }
+      { "sense": "acknowledging a loss", "gloss": "Saluting a position that has gone to zero.", "confidence": "low", "keywords": ["rekt", "rip position", "salute"] }
     ],
     "🤝": [
-      { "sense": "deal closed", "gloss": "Confirmation of an over-the-counter trade or partnership.", "confidence": "low" }
+      { "sense": "deal closed", "gloss": "Confirmation of an over-the-counter trade or partnership.", "confidence": "low", "keywords": ["deal", "closed", "partnership"] }
     ],
     "🐕": [
-      { "sense": "Dogecoin and its imitators", "gloss": "The 'dog coin' category of memecoins.", "confidence": "medium" }
+      { "sense": "Dogecoin and its imitators", "gloss": "The 'dog coin' category of memecoins.", "confidence": "medium", "keywords": ["dogecoin", "memecoin", "doge"] }
     ],
     "🐶": [
-      { "sense": "memecoin", "gloss": "Interchangeable with 🐕 in that sense.", "confidence": "low" }
+      { "sense": "memecoin", "gloss": "Interchangeable with 🐕 in that sense.", "confidence": "low", "keywords": ["memecoin", "dogecoin"] }
     ],
     "⛏️": [
-      { "sense": "crypto mining", "gloss": "Proof-of-work mining rather than excavation.", "confidence": "medium" }
+      { "sense": "crypto mining", "gloss": "Proof-of-work mining rather than excavation.", "confidence": "medium", "keywords": ["mining", "proof of work", "miner"] }
     ],
     "🔗": [
-      { "sense": "Chainlink", "gloss": "Ticker-adjacent shorthand for the LINK token and its community.", "confidence": "medium" }
+      { "sense": "Chainlink", "gloss": "Ticker-adjacent shorthand for the LINK token and its community.", "confidence": "medium", "keywords": ["chainlink", "link"] }
     ],
     "🧊": [
-      { "sense": "cold storage", "gloss": "Offline custody of crypto keys.", "confidence": "low" }
+      { "sense": "cold storage", "gloss": "Offline custody of crypto keys.", "confidence": "low", "keywords": ["cold storage", "cold wallet"] }
     ],
     "🏦": [
-      { "sense": "traditional finance", "gloss": "Often pejorative in crypto contexts, as 'tradfi'.", "confidence": "low" }
+      { "sense": "traditional finance", "gloss": "Often pejorative in crypto contexts, as 'tradfi'.", "confidence": "low", "keywords": ["tradfi", "bank", "traditional finance"] }
     ],
     "💰": [
-      { "sense": "profit taken", "gloss": "Announcing a realised gain.", "confidence": "medium" }
+      { "sense": "profit taken", "gloss": "Announcing a realised gain.", "confidence": "medium", "keywords": ["profit", "gains", "cashed out"] }
     ],
     "🤑": [
-      { "sense": "greed, usually self-mocking", "gloss": "Rarely a sincere expression of wealth.", "confidence": "medium" }
+      { "sense": "greed, usually self-mocking", "gloss": "Rarely a sincere expression of wealth.", "confidence": "medium", "keywords": ["greed", "money face", "rich"] }
     ]
   }
 }

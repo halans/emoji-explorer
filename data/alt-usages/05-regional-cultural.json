@@ -4,105 +4,105 @@
   "provenance": "Senses that differ by region, language or culture. These are the highest-stakes alternate usages in the set, because the same glyph can be neutral in one country and obscene in another. Gesture divergences are documented in cross-cultural communication literature and in Unicode's own guidance on gesture emoji.",
   "entries": {
     "👌": [
-      { "sense": "grossly offensive", "gloss": "In Brazil, Turkey and parts of the Mediterranean and Middle East the ring gesture is an insult roughly equivalent to a raised middle finger.", "confidence": "high" },
-      { "sense": "white power symbol", "gloss": "Appropriated as a hate signal from around 2017. The Anti-Defamation League lists it, while noting the overwhelming majority of uses remain innocent.", "confidence": "high" }
+      { "sense": "grossly offensive", "gloss": "In Brazil, Turkey and parts of the Mediterranean and Middle East the ring gesture is an insult roughly equivalent to a raised middle finger.", "confidence": "high", "keywords": ["offensive gesture", "insult", "brazil", "turkey"] },
+      { "sense": "white power symbol", "gloss": "Appropriated as a hate signal from around 2017. The Anti-Defamation League lists it, while noting the overwhelming majority of uses remain innocent.", "confidence": "high", "keywords": ["hate symbol", "white power", "ok hand"] }
     ],
     "👍": [
-      { "sense": "grossly offensive", "gloss": "Read as an obscene insult in parts of the Middle East, West Africa and South America.", "confidence": "high" }
+      { "sense": "grossly offensive", "gloss": "Read as an obscene insult in parts of the Middle East, West Africa and South America.", "confidence": "high", "keywords": ["offensive gesture", "insult", "middle east"] }
     ],
     "🤙": [
-      { "sense": "shaka, or 'call me'", "gloss": "A Hawaiian greeting of goodwill; elsewhere read as a telephone gesture. Also appropriated by some far-right groups, complicating its use.", "confidence": "medium" }
+      { "sense": "shaka, or 'call me'", "gloss": "A Hawaiian greeting of goodwill; elsewhere read as a telephone gesture. Also appropriated by some far-right groups, complicating its use.", "confidence": "medium", "keywords": ["shaka", "hang loose", "call me"] }
     ],
     "🤘": [
-      { "sense": "obscene in Latin cultures", "gloss": "The 'corna' implies a man's partner is unfaithful in Italy, Spain and parts of Latin America, quite apart from its rock-music sense.", "confidence": "high" }
+      { "sense": "obscene in Latin cultures", "gloss": "The 'corna' implies a man's partner is unfaithful in Italy, Spain and parts of Latin America, quite apart from its rock-music sense.", "confidence": "high", "keywords": ["corna", "cuckold", "unfaithful"] }
     ],
     "✌️": [
-      { "sense": "offensive palm-inward", "gloss": "In Britain, Ireland, Australia and New Zealand the palm-inward two fingers is an insult; most emoji fonts render the palm outward, which defuses it.", "confidence": "medium" },
-      { "sense": "cute photo pose", "gloss": "In Japan, Korea and much of East Asia the V-sign is the default gesture for photographs, carrying no peace-movement meaning.", "confidence": "high" }
+      { "sense": "offensive palm-inward", "gloss": "In Britain, Ireland, Australia and New Zealand the palm-inward two fingers is an insult; most emoji fonts render the palm outward, which defuses it.", "confidence": "medium", "keywords": ["v sign", "offensive gesture", "british insult"] },
+      { "sense": "cute photo pose", "gloss": "In Japan, Korea and much of East Asia the V-sign is the default gesture for photographs, carrying no peace-movement meaning.", "confidence": "high", "keywords": ["peace sign", "photo pose", "victory sign"] }
     ],
     "🙏": [
-      { "sense": "gassho", "gloss": "Originates as the Japanese prayer and thanks gesture; the emoji came from Japanese carrier sets, not from Christian prayer imagery.", "confidence": "high" }
+      { "sense": "gassho", "gloss": "Originates as the Japanese prayer and thanks gesture; the emoji came from Japanese carrier sets, not from Christian prayer imagery.", "confidence": "high", "keywords": ["gassho", "japanese prayer", "thanks"] }
     ],
     "🖕": [
-      { "sense": "varying severity", "gloss": "Universally rude but calibrated very differently by culture, and filtered outright by some platforms and keyboards.", "confidence": "high" }
+      { "sense": "varying severity", "gloss": "Universally rude but calibrated very differently by culture, and filtered outright by some platforms and keyboards.", "confidence": "high", "keywords": ["middle finger", "insult", "rude gesture", "fuck you"] }
     ],
     "🤌": [
-      { "sense": "genuine Italian gesture", "gloss": "'Ma che vuoi' expresses exasperated questioning, a real gesture with real grammar rather than only a meme.", "confidence": "high" }
+      { "sense": "genuine Italian gesture", "gloss": "'Ma che vuoi' expresses exasperated questioning, a real gesture with real grammar rather than only a meme.", "confidence": "high", "keywords": ["ma che vuoi", "italian gesture", "what do you want"] }
     ],
     "👏": [
-      { "sense": "sarcastic slow clap", "gloss": "Clap-between-every-word is an emphatic device online; in some Middle Eastern contexts the gesture itself can read as insulting.", "confidence": "medium" }
+      { "sense": "sarcastic slow clap", "gloss": "Clap-between-every-word is an emphatic device online; in some Middle Eastern contexts the gesture itself can read as insulting.", "confidence": "medium", "keywords": ["slow clap", "sarcastic clap", "clap emphasis"] }
     ],
     "😊": [
-      { "sense": "restraint rather than joy", "gloss": "In Japanese usage smiling emoji often soften a message or mask discomfort, closer to politeness than happiness.", "confidence": "medium" }
+      { "sense": "restraint rather than joy", "gloss": "In Japanese usage smiling emoji often soften a message or mask discomfort, closer to politeness than happiness.", "confidence": "medium", "keywords": ["polite smile", "japanese", "masking discomfort"] }
     ],
     "😅": [
-      { "sense": "apology softener", "gloss": "A common politeness marker in Japanese and Chinese messaging.", "confidence": "medium" }
+      { "sense": "apology softener", "gloss": "A common politeness marker in Japanese and Chinese messaging.", "confidence": "medium", "keywords": ["sorry", "polite apology", "japanese"] }
     ],
     "🙂": [
-      { "sense": "sincere in Chinese platforms", "gloss": "On WeChat the plain smile has its own strong passive-aggressive reading, sometimes described as 'goodbye to our friendship'.", "confidence": "medium" }
+      { "sense": "sincere in Chinese platforms", "gloss": "On WeChat the plain smile has its own strong passive-aggressive reading, sometimes described as 'goodbye to our friendship'.", "confidence": "medium", "keywords": ["wechat", "goodbye to our friendship", "chinese"] }
     ],
     "🌸": [
-      { "sense": "transience", "gloss": "Cherry blossom carries the Japanese aesthetic of mono no aware, impermanence, rather than generic prettiness.", "confidence": "medium" }
+      { "sense": "transience", "gloss": "Cherry blossom carries the Japanese aesthetic of mono no aware, impermanence, rather than generic prettiness.", "confidence": "medium", "keywords": ["cherry blossom", "mono no aware", "impermanence"] }
     ],
     "🎋": [
-      { "sense": "Tanabata wish", "gloss": "The tanabata tree is specific to the Japanese July festival; largely opaque outside Japan.", "confidence": "high" }
+      { "sense": "Tanabata wish", "gloss": "The tanabata tree is specific to the Japanese July festival; largely opaque outside Japan.", "confidence": "high", "keywords": ["tanabata", "star festival", "wish tree"] }
     ],
     "🎍": [
-      { "sense": "Japanese New Year", "gloss": "Kadomatsu, a New Year decoration, frequently mistaken for generic bamboo.", "confidence": "high" }
+      { "sense": "Japanese New Year", "gloss": "Kadomatsu, a New Year decoration, frequently mistaken for generic bamboo.", "confidence": "high", "keywords": ["kadomatsu", "japanese new year"] }
     ],
     "🎎": [
-      { "sense": "Hinamatsuri", "gloss": "Japanese Doll Festival dolls, not generic figurines.", "confidence": "high" }
+      { "sense": "Hinamatsuri", "gloss": "Japanese Doll Festival dolls, not generic figurines.", "confidence": "high", "keywords": ["hinamatsuri", "doll festival"] }
     ],
     "🈁": [
-      { "sense": "Japanese 'here'", "gloss": "A squared Japanese ideograph; one of a family of glyphs that are pure signage to Japanese readers and decorative noise to everyone else.", "confidence": "high" }
+      { "sense": "Japanese 'here'", "gloss": "A squared Japanese ideograph; one of a family of glyphs that are pure signage to Japanese readers and decorative noise to everyone else.", "confidence": "high", "keywords": ["here", "japanese signage"] }
     ],
     "🉐": [
-      { "sense": "bargain", "gloss": "Japanese retail signage for a good deal.", "confidence": "high" }
+      { "sense": "bargain", "gloss": "Japanese retail signage for a good deal.", "confidence": "high", "keywords": ["bargain", "japanese signage", "good deal"] }
     ],
     "🈹": [
-      { "sense": "discount", "gloss": "Japanese sale signage.", "confidence": "high" }
+      { "sense": "discount", "gloss": "Japanese sale signage.", "confidence": "high", "keywords": ["discount", "sale", "japanese signage"] }
     ],
     "💮": [
-      { "sense": "well done", "gloss": "The white flower is a Japanese school marking for excellent work, not a botanical illustration.", "confidence": "high" }
+      { "sense": "well done", "gloss": "The white flower is a Japanese school marking for excellent work, not a botanical illustration.", "confidence": "high", "keywords": ["well done", "school marking", "japanese"] }
     ],
     "🍥": [
-      { "sense": "narutomaki", "gloss": "A specific fish-cake garnish; widely misread as a generic swirl or, in anime fandom, as a Naruto reference.", "confidence": "high" }
+      { "sense": "narutomaki", "gloss": "A specific fish-cake garnish; widely misread as a generic swirl or, in anime fandom, as a Naruto reference.", "confidence": "high", "keywords": ["narutomaki", "fish cake", "naruto"] }
     ],
     "🍡": [
-      { "sense": "dango", "gloss": "Japanese sweet dumplings, often mistaken for kebabs or lollipops.", "confidence": "medium" }
+      { "sense": "dango", "gloss": "Japanese sweet dumplings, often mistaken for kebabs or lollipops.", "confidence": "medium", "keywords": ["dango", "japanese dumplings"] }
     ],
     "🎏": [
-      { "sense": "Children's Day", "gloss": "Koinobori carp streamers flown in May in Japan.", "confidence": "high" }
+      { "sense": "Children's Day", "gloss": "Koinobori carp streamers flown in May in Japan.", "confidence": "high", "keywords": ["koinobori", "carp streamer", "childrens day"] }
     ],
     "🏮": [
-      { "sense": "izakaya", "gloss": "The red paper lantern signals a Japanese pub, functioning as a wayfinding sign.", "confidence": "medium" }
+      { "sense": "izakaya", "gloss": "The red paper lantern signals a Japanese pub, functioning as a wayfinding sign.", "confidence": "medium", "keywords": ["izakaya", "japanese pub", "red lantern"] }
     ],
     "🕉️": [
-      { "sense": "Om", "gloss": "A sacred Hindu, Jain and Buddhist symbol; casual decorative use is read by many as appropriative.", "confidence": "high" }
+      { "sense": "Om", "gloss": "A sacred Hindu, Jain and Buddhist symbol; casual decorative use is read by many as appropriative.", "confidence": "high", "keywords": ["om", "hindu symbol", "sacred"] }
     ],
     "☪️": [
-      { "sense": "Islam", "gloss": "Used as a religious identity marker, and consequently a target in harassment campaigns.", "confidence": "medium" }
+      { "sense": "Islam", "gloss": "Used as a religious identity marker, and consequently a target in harassment campaigns.", "confidence": "medium", "keywords": ["islam", "muslim", "crescent"] }
     ],
     "✡️": [
-      { "sense": "Judaism", "gloss": "Identity marker, similarly weaponised in antisemitic harassment.", "confidence": "medium" }
+      { "sense": "Judaism", "gloss": "Identity marker, similarly weaponised in antisemitic harassment.", "confidence": "medium", "keywords": ["judaism", "jewish", "star of david"] }
     ],
     "🇹🇷": [
-      { "sense": "flag politics", "gloss": "National flag emoji broadly function as diaspora identity, sporting allegiance and political signalling far more than geography.", "confidence": "medium" }
+      { "sense": "flag politics", "gloss": "National flag emoji broadly function as diaspora identity, sporting allegiance and political signalling far more than geography.", "confidence": "medium", "keywords": ["flag", "diaspora", "national identity"] }
     ],
     "🏳️": [
-      { "sense": "surrender or concession", "gloss": "'I give up' in argument, not literal capitulation.", "confidence": "medium" }
+      { "sense": "surrender or concession", "gloss": "'I give up' in argument, not literal capitulation.", "confidence": "medium", "keywords": ["surrender", "give up", "white flag"] }
     ],
     "🍀": [
-      { "sense": "Irish shorthand", "gloss": "Frequently stands in for Ireland, though the national emblem is properly the shamrock ☘️.", "confidence": "medium" }
+      { "sense": "Irish shorthand", "gloss": "Frequently stands in for Ireland, though the national emblem is properly the shamrock ☘️.", "confidence": "medium", "keywords": ["ireland", "irish", "shamrock"] }
     ],
     "🥀": [
-      { "sense": "melancholy aesthetic", "gloss": "Strongly associated with sad-rap and Arabic-language melancholy posting.", "confidence": "medium" }
+      { "sense": "melancholy aesthetic", "gloss": "Strongly associated with sad-rap and Arabic-language melancholy posting.", "confidence": "medium", "keywords": ["sad rap", "melancholy", "wilted rose"] }
     ],
     "🫱🏻‍🫲🏽": [
-      { "sense": "cross-racial solidarity", "gloss": "The two-tone handshake, added in Emoji 14.0, is used deliberately to depict interracial cooperation.", "confidence": "medium" }
+      { "sense": "cross-racial solidarity", "gloss": "The two-tone handshake, added in Emoji 14.0, is used deliberately to depict interracial cooperation.", "confidence": "medium", "keywords": ["interracial", "solidarity", "handshake"] }
     ],
     "🤝🏿": [
-      { "sense": "solidarity", "gloss": "Skin-tone-specified handshakes carry a deliberate identity claim absent from the neutral form.", "confidence": "low" }
+      { "sense": "solidarity", "gloss": "Skin-tone-specified handshakes carry a deliberate identity claim absent from the neutral form.", "confidence": "low", "keywords": ["solidarity", "handshake", "identity"] }
     ]
   }
 }

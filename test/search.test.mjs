@@ -339,7 +339,7 @@ test('exhaustive: a gated sense cannot be reached by its own wording', () => {
   for (const rec of dataset.records) {
     const cleanText = rec.altUsages
       .filter((a) => !a.explicit)
-      .map((a) => `${a.sense} ${a.gloss ?? ''}`.toLowerCase())
+      .map((a) => `${a.sense} ${a.gloss ?? ''} ${(a.keywords ?? []).join(' ')}`.toLowerCase())
       .join(' ');
 
     for (const a of rec.altUsages.filter((x) => x.explicit)) {

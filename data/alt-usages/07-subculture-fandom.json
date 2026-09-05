@@ -4,144 +4,144 @@
   "provenance": "Senses that function as in-group markers: fandom, music scene, gaming, sport and online community shorthand. Legible inside the community and largely invisible outside it.",
   "entries": {
     "🐝": [
-      { "sense": "Beyonce fandom", "gloss": "The BeyHive; the bee is a membership badge.", "confidence": "high" }
+      { "sense": "Beyonce fandom", "gloss": "The BeyHive; the bee is a membership badge.", "confidence": "high", "keywords": ["beyhive", "beyonce", "bee"] }
     ],
     "🐍": [
-      { "sense": "Taylor Swift reclaimed symbol", "gloss": "Turned from a 2016 pile-on into merchandise and stage imagery for the Reputation era.", "confidence": "high" },
-      { "sense": "Python", "gloss": "In technical contexts the snake is the programming language, overriding both the betrayal and anatomical senses.", "confidence": "high" }
+      { "sense": "Taylor Swift reclaimed symbol", "gloss": "Turned from a 2016 pile-on into merchandise and stage imagery for the Reputation era.", "confidence": "high", "keywords": ["taylor swift", "reputation", "swiftie"] },
+      { "sense": "Python", "gloss": "In technical contexts the snake is the programming language, overriding both the betrayal and anatomical senses.", "confidence": "high", "keywords": ["python", "programming language"] }
     ],
     "🧣": [
-      { "sense": "Taylor Swift 'All Too Well'", "gloss": "The scarf is a lyric reference functioning as a fandom handshake.", "confidence": "medium" }
+      { "sense": "Taylor Swift 'All Too Well'", "gloss": "The scarf is a lyric reference functioning as a fandom handshake.", "confidence": "medium", "keywords": ["all too well", "taylor swift", "swiftie"] }
     ],
     "💛": [
-      { "sense": "Harry Styles fandom, or platonic love", "gloss": "Colour hearts carry fandom allegiances that override any generic reading.", "confidence": "low" }
+      { "sense": "Harry Styles fandom, or platonic love", "gloss": "Colour hearts carry fandom allegiances that override any generic reading.", "confidence": "low", "keywords": ["harry styles", "yellow heart", "platonic"] }
     ],
     "🍉": [
-      { "sense": "Palestinian solidarity", "gloss": "The watermelon stands in for the Palestinian flag's colours; adopted widely from 2023 partly to evade suspected algorithmic suppression of flag imagery.", "confidence": "high" }
+      { "sense": "Palestinian solidarity", "gloss": "The watermelon stands in for the Palestinian flag's colours; adopted widely from 2023 partly to evade suspected algorithmic suppression of flag imagery.", "confidence": "high", "keywords": ["palestine", "watermelon", "solidarity"] }
     ],
     "🍊": [
-      { "sense": "political shorthand", "gloss": "Used in US political posting as a reference to Donald Trump's complexion; hostile.", "confidence": "medium" }
+      { "sense": "political shorthand", "gloss": "Used in US political posting as a reference to Donald Trump's complexion; hostile.", "confidence": "medium", "keywords": ["trump", "orange", "political insult"] }
     ],
     "🐘": [
-      { "sense": "Mastodon", "gloss": "The fediverse platform's mascot; also the US Republican party symbol.", "confidence": "medium" },
-      { "sense": "PostgreSQL or PHP", "gloss": "Both projects use elephant mascots; context disambiguates.", "confidence": "medium" }
+      { "sense": "Mastodon", "gloss": "The fediverse platform's mascot; also the US Republican party symbol.", "confidence": "medium", "keywords": ["mastodon", "fediverse", "republican"] },
+      { "sense": "PostgreSQL or PHP", "gloss": "Both projects use elephant mascots; context disambiguates.", "confidence": "medium", "keywords": ["postgres", "php", "elephant logo"] }
     ],
     "🦣": [
-      { "sense": "Mastodon", "gloss": "The literal mammoth, adopted by the platform's users after its 2021 addition.", "confidence": "medium" }
+      { "sense": "Mastodon", "gloss": "The literal mammoth, adopted by the platform's users after its 2021 addition.", "confidence": "medium", "keywords": ["mastodon", "fediverse", "mammoth"] }
     ],
     "🐦": [
-      { "sense": "Twitter", "gloss": "Stood for the platform for over a decade; now also nostalgia for it, post-rebrand.", "confidence": "high" }
+      { "sense": "Twitter", "gloss": "Stood for the platform for over a decade; now also nostalgia for it, post-rebrand.", "confidence": "high", "keywords": ["twitter", "bird logo", "nostalgia"] }
     ],
     "🦋": [
-      { "sense": "Bluesky", "gloss": "The platform's logo; a butterfly in a social-media context usually means an invite or a handle.", "confidence": "high" }
+      { "sense": "Bluesky", "gloss": "The platform's logo; a butterfly in a social-media context usually means an invite or a handle.", "confidence": "high", "keywords": ["bluesky", "butterfly logo", "invite"] }
     ],
     "🌻": [
-      { "sense": "Ukrainian solidarity", "gloss": "The sunflower, Ukraine's national flower, became a support marker from 2022.", "confidence": "high" }
+      { "sense": "Ukrainian solidarity", "gloss": "The sunflower, Ukraine's national flower, became a support marker from 2022.", "confidence": "high", "keywords": ["ukraine", "sunflower", "solidarity"] }
     ],
     "🦈": [
-      { "sense": "Gawr Gura, or Left Shark", "gloss": "A VTuber fandom marker, and separately a durable 2015 Super Bowl meme.", "confidence": "medium" }
+      { "sense": "Gawr Gura, or Left Shark", "gloss": "A VTuber fandom marker, and separately a durable 2015 Super Bowl meme.", "confidence": "medium", "keywords": ["gawr gura", "vtuber", "left shark"] }
     ],
     "🎮": [
-      { "sense": "invitation to play", "gloss": "Functions as a request rather than a description in gaming chat.", "confidence": "low" }
+      { "sense": "invitation to play", "gloss": "Functions as a request rather than a description in gaming chat.", "confidence": "low", "keywords": ["wanna play", "gaming invite", "lets game"] }
     ],
     "🎣": [
-      { "sense": "fishing minigame", "gloss": "In gaming communities frequently a specific in-game activity reference.", "confidence": "low" }
+      { "sense": "fishing minigame", "gloss": "In gaming communities frequently a specific in-game activity reference.", "confidence": "low", "keywords": ["fishing minigame", "in-game activity"] }
     ],
     "⚔️": [
-      { "sense": "PvP", "gloss": "Player-versus-player combat in game contexts.", "confidence": "medium" }
+      { "sense": "PvP", "gloss": "Player-versus-player combat in game contexts.", "confidence": "medium", "keywords": ["pvp", "combat", "battle"] }
     ],
     "🛡️": [
-      { "sense": "tank role", "gloss": "The defensive party role in team games.", "confidence": "medium" }
+      { "sense": "tank role", "gloss": "The defensive party role in team games.", "confidence": "medium", "keywords": ["tank", "defense role", "gaming role"] }
     ],
     "💉": [
-      { "sense": "healer role", "gloss": "Support class shorthand, alongside vaccine and drug senses.", "confidence": "low" }
+      { "sense": "healer role", "gloss": "Support class shorthand, alongside vaccine and drug senses.", "confidence": "low", "keywords": ["healer", "support class", "gaming role"] }
     ],
     "🏳️‍🌈": [
-      { "sense": "queer identity", "gloss": "Far more often a personal identity declaration in a bio than a reference to a physical flag.", "confidence": "high" }
+      { "sense": "queer identity", "gloss": "Far more often a personal identity declaration in a bio than a reference to a physical flag.", "confidence": "high", "keywords": ["queer", "lgbtq", "bio identity"] }
     ],
     "💚": [
-      { "sense": "environmentalism", "gloss": "Green politics and sustainability rather than affection.", "confidence": "medium" }
+      { "sense": "environmentalism", "gloss": "Green politics and sustainability rather than affection.", "confidence": "medium", "keywords": ["environmentalism", "green politics", "sustainability"] }
     ],
     "🐢": [
-      { "sense": "slow connection or slow player", "gloss": "Latency complaint in gaming and streaming contexts.", "confidence": "low" }
+      { "sense": "slow connection or slow player", "gloss": "Latency complaint in gaming and streaming contexts.", "confidence": "low", "keywords": ["lag", "slow connection", "latency"] }
     ],
     "🧙": [
-      { "sense": "someone who fixed something inexplicably", "gloss": "'Wizard' as praise for technical skill.", "confidence": "medium" }
+      { "sense": "someone who fixed something inexplicably", "gloss": "'Wizard' as praise for technical skill.", "confidence": "medium", "keywords": ["wizard", "technical skill", "praise"] }
     ],
     "🥁": [
-      { "sense": "anticipation", "gloss": "'Drumroll please' before a reveal.", "confidence": "medium" }
+      { "sense": "anticipation", "gloss": "'Drumroll please' before a reveal.", "confidence": "medium", "keywords": ["drumroll", "anticipation", "reveal"] }
     ],
     "🎺": [
-      { "sense": "sad trombone or fanfare", "gloss": "Ambiguous between mockery of failure and celebration.", "confidence": "low" }
+      { "sense": "sad trombone or fanfare", "gloss": "Ambiguous between mockery of failure and celebration.", "confidence": "low", "keywords": ["sad trombone", "fanfare", "fail sound"] }
     ],
     "🪗": [
-      { "sense": "unwelcome music joke", "gloss": "The accordion is a standing punchline about instruments nobody requested.", "confidence": "low" }
+      { "sense": "unwelcome music joke", "gloss": "The accordion is a standing punchline about instruments nobody requested.", "confidence": "low", "keywords": ["accordion joke", "unwelcome music"] }
     ],
     "🎸": [
-      { "sense": "rock affiliation", "gloss": "Genre marker in music discourse.", "confidence": "low" }
+      { "sense": "rock affiliation", "gloss": "Genre marker in music discourse.", "confidence": "low", "keywords": ["rock music", "genre marker"] }
     ],
     "🎧": [
-      { "sense": "do not disturb", "gloss": "In workplace and stream chat, signals unavailability.", "confidence": "medium" }
+      { "sense": "do not disturb", "gloss": "In workplace and stream chat, signals unavailability.", "confidence": "medium", "keywords": ["do not disturb", "unavailable", "focus mode"] }
     ],
     "🍿": [
-      { "sense": "watching drama unfold", "gloss": "Spectating a public argument without participating.", "confidence": "high" }
+      { "sense": "watching drama unfold", "gloss": "Spectating a public argument without participating.", "confidence": "high", "keywords": ["popcorn", "drama", "watching"] }
     ],
     "🧵": [
-      { "sense": "a thread of posts", "gloss": "Announces a multi-post sequence; almost never sewing.", "confidence": "high" }
+      { "sense": "a thread of posts", "gloss": "Announces a multi-post sequence; almost never sewing.", "confidence": "high", "keywords": ["thread", "twitter thread", "multi-post"] }
     ],
     "📌": [
-      { "sense": "pinned or bookmarked", "gloss": "Interface metaphor rather than stationery.", "confidence": "medium" }
+      { "sense": "pinned or bookmarked", "gloss": "Interface metaphor rather than stationery.", "confidence": "medium", "keywords": ["pinned", "bookmarked", "saved"] }
     ],
     "🔖": [
-      { "sense": "saving for later", "gloss": "Same interface-metaphor function as 📌.", "confidence": "low" }
+      { "sense": "saving for later", "gloss": "Same interface-metaphor function as 📌.", "confidence": "low", "keywords": ["bookmark", "saved for later"] }
     ],
     "🚨": [
-      { "sense": "breaking news", "gloss": "Attention-grabbing prefix on announcement posts, often overstated.", "confidence": "high" }
+      { "sense": "breaking news", "gloss": "Attention-grabbing prefix on announcement posts, often overstated.", "confidence": "high", "keywords": ["breaking news", "alert", "attention"] }
     ],
     "🪦": [
-      { "sense": "something is dead or discontinued", "gloss": "Marks a cancelled product, defunct trend or ended argument.", "confidence": "medium" }
+      { "sense": "something is dead or discontinued", "gloss": "Marks a cancelled product, defunct trend or ended argument.", "confidence": "medium", "keywords": ["dead", "discontinued", "cancelled", "rip"] }
     ],
     "🧟": [
-      { "sense": "exhausted", "gloss": "Running on no sleep rather than the undead.", "confidence": "low" }
+      { "sense": "exhausted", "gloss": "Running on no sleep rather than the undead.", "confidence": "low", "keywords": ["exhausted", "no sleep", "zombie tired"] }
     ],
     "🦦": [
-      { "sense": "affectionate wholesomeness", "gloss": "The otter functions as a generic 'this is adorable' marker.", "confidence": "low" }
+      { "sense": "affectionate wholesomeness", "gloss": "The otter functions as a generic 'this is adorable' marker.", "confidence": "low", "keywords": ["wholesome", "adorable", "cute"] }
     ],
     "🐌": [
-      { "sense": "snail mail or slowness", "gloss": "Physical post, or a complaint about pace.", "confidence": "medium" }
+      { "sense": "snail mail or slowness", "gloss": "Physical post, or a complaint about pace.", "confidence": "medium", "keywords": ["snail mail", "slow", "slowness"] }
     ],
     "🦥": [
-      { "sense": "deliberate laziness", "gloss": "Self-deprecating rest advocacy.", "confidence": "low" }
+      { "sense": "deliberate laziness", "gloss": "Self-deprecating rest advocacy.", "confidence": "low", "keywords": ["lazy", "sloth", "resting"] }
     ],
     "🐙": [
-      { "sense": "GitHub", "gloss": "Octocat association makes the octopus a developer-platform reference.", "confidence": "medium" }
+      { "sense": "GitHub", "gloss": "Octocat association makes the octopus a developer-platform reference.", "confidence": "medium", "keywords": ["github", "octocat"] }
     ],
     "🐧": [
-      { "sense": "Linux", "gloss": "Tux the mascot; in tech contexts the penguin means the operating system.", "confidence": "high" }
+      { "sense": "Linux", "gloss": "Tux the mascot; in tech contexts the penguin means the operating system.", "confidence": "high", "keywords": ["linux", "tux"] }
     ],
     "☕": [
-      { "sense": "Java", "gloss": "In programming contexts the coffee cup is the language, not the drink.", "confidence": "medium" }
+      { "sense": "Java", "gloss": "In programming contexts the coffee cup is the language, not the drink.", "confidence": "medium", "keywords": ["java", "programming language"] }
     ],
     "💎": [
-      { "sense": "Ruby", "gloss": "The programming language's logo, separate from the diamond-hands sense.", "confidence": "medium" }
+      { "sense": "Ruby", "gloss": "The programming language's logo, separate from the diamond-hands sense.", "confidence": "medium", "keywords": ["ruby", "programming language"] }
     ],
     "🦀": [
-      { "sense": "Rust", "gloss": "Ferris the crab is the Rust community mascot.", "confidence": "high" }
+      { "sense": "Rust", "gloss": "Ferris the crab is the Rust community mascot.", "confidence": "high", "keywords": ["rust", "ferris the crab"] }
     ],
     "🐳": [
-      { "sense": "Docker", "gloss": "The whale is the container platform's logo in devops contexts.", "confidence": "high" }
+      { "sense": "Docker", "gloss": "The whale is the container platform's logo in devops contexts.", "confidence": "high", "keywords": ["docker", "containers", "devops"] }
     ],
     "☸️": [
-      { "sense": "Kubernetes", "gloss": "The helm-like dharma wheel is used as a stand-in for the k8s logo, despite being a Buddhist religious symbol.", "confidence": "medium" }
+      { "sense": "Kubernetes", "gloss": "The helm-like dharma wheel is used as a stand-in for the k8s logo, despite being a Buddhist religious symbol.", "confidence": "medium", "keywords": ["kubernetes", "k8s"] }
     ],
     "🍃": [
-      { "sense": "MongoDB", "gloss": "The leaf logo in database contexts.", "confidence": "low" }
+      { "sense": "MongoDB", "gloss": "The leaf logo in database contexts.", "confidence": "low", "keywords": ["mongodb", "database"] }
     ],
     "⚛️": [
-      { "sense": "React", "gloss": "The atom symbol reads as the JavaScript framework in frontend discussion.", "confidence": "high" }
+      { "sense": "React", "gloss": "The atom symbol reads as the JavaScript framework in frontend discussion.", "confidence": "high", "keywords": ["react", "javascript framework"] }
     ],
     "🔺": [
-      { "sense": "Vercel or Next.js", "gloss": "The triangle as a deployment-platform logo.", "confidence": "medium" }
+      { "sense": "Vercel or Next.js", "gloss": "The triangle as a deployment-platform logo.", "confidence": "medium", "keywords": ["vercel", "nextjs", "deployment"] }
     ]
   }
 }

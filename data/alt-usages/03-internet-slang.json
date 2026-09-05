@@ -4,163 +4,163 @@
   "provenance": "Internet-native senses that arose from meme circulation rather than from the emoji's design. Attested through sustained mainstream usage; where a sense originates in a specific documented event it is named.",
   "entries": {
     "🚩": [
-      { "sense": "warning sign in a person", "gloss": "'Red flag' as a dealbreaker trait. A 2021 meme format of stacking red flags after a statement made this the dominant reading.", "confidence": "high" }
+      { "sense": "warning sign in a person", "gloss": "'Red flag' as a dealbreaker trait. A 2021 meme format of stacking red flags after a statement made this the dominant reading.", "confidence": "high", "keywords": ["red flag", "dealbreaker", "warning"] }
     ],
     "🧢": [
-      { "sense": "lying", "gloss": "'Cap' means a lie in AAVE; the cap emoji asserts someone is lying, and 🚫🧢 or 'no cap' asserts sincerity.", "confidence": "high" }
+      { "sense": "lying", "gloss": "'Cap' means a lie in AAVE; the cap emoji asserts someone is lying, and 🚫🧢 or 'no cap' asserts sincerity.", "confidence": "high", "keywords": ["cap", "lying", "no cap"] }
     ],
     "🐐": [
-      { "sense": "greatest of all time", "gloss": "The GOAT acronym, overwhelmingly in sports discourse. Almost never refers to the animal.", "confidence": "high" }
+      { "sense": "greatest of all time", "gloss": "The GOAT acronym, overwhelmingly in sports discourse. Almost never refers to the animal.", "confidence": "high", "keywords": ["goat", "best ever"] }
     ],
     "🔥": [
-      { "sense": "excellent", "gloss": "'Fire' as high praise, especially for music, food and clothing.", "confidence": "high" }
+      { "sense": "excellent", "gloss": "'Fire' as high praise, especially for music, food and clothing.", "confidence": "high", "keywords": ["fire", "awesome", "lit"] }
     ],
     "💯": [
-      { "sense": "full agreement", "gloss": "Emphatic endorsement; the 'keep it 100' sense of authenticity.", "confidence": "high" }
+      { "sense": "full agreement", "gloss": "Emphatic endorsement; the 'keep it 100' sense of authenticity.", "confidence": "high", "keywords": ["100", "agreed", "facts", "truth", "percentage"] }
     ],
     "🐍": [
-      { "sense": "betrayer", "gloss": "A two-faced person. Mass-deployed against Taylor Swift in 2016, which cemented the sense; she later reclaimed it.", "confidence": "high" }
+      { "sense": "betrayer", "gloss": "A two-faced person. Mass-deployed against Taylor Swift in 2016, which cemented the sense; she later reclaimed it.", "confidence": "high", "keywords": ["snake", "backstabber", "traitor"] }
     ],
     "🐀": [
-      { "sense": "informant", "gloss": "Someone who betrays confidence to authority.", "confidence": "medium" }
+      { "sense": "informant", "gloss": "Someone who betrays confidence to authority.", "confidence": "medium", "keywords": ["snitch", "rat", "informant"] }
     ],
     "🧠": [
-      { "sense": "oral sex", "gloss": "'Brain' as slang for fellatio, distinct from the intelligence reading.", "confidence": "medium", "explicit": true },
-      { "sense": "intelligence or overthinking", "gloss": "Also the 'big brain' / 'galaxy brain' sense marking an idea as clever or absurdly overreasoned.", "confidence": "high" }
+      { "sense": "oral sex", "gloss": "'Brain' as slang for fellatio, distinct from the intelligence reading.", "confidence": "medium", "explicit": true, "keywords": ["brain", "blowjob"] },
+      { "sense": "intelligence or overthinking", "gloss": "Also the 'big brain' / 'galaxy brain' sense marking an idea as clever or absurdly overreasoned.", "confidence": "high", "keywords": ["big brain", "smart", "galaxy brain"] }
     ],
     "💅": [
-      { "sense": "unbothered confidence", "gloss": "Terminal punctuation asserting the speaker does not care what you think. Drawn from ballroom and drag culture.", "confidence": "high" }
+      { "sense": "unbothered confidence", "gloss": "Terminal punctuation asserting the speaker does not care what you think. Drawn from ballroom and drag culture.", "confidence": "high", "keywords": ["sassy", "dont care", "confidence"] }
     ],
     "🐸": [
-      { "sense": "Pepe reference", "gloss": "Carries baggage from the Pepe the Frog meme, which the Anti-Defamation League listed as a hate symbol in 2016 while noting most uses remain innocuous.", "confidence": "medium" },
-      { "sense": "'but that's none of my business'", "gloss": "Paired with 🍵 in the Kermit sipping-tea format.", "confidence": "medium" }
+      { "sense": "Pepe reference", "gloss": "Carries baggage from the Pepe the Frog meme, which the Anti-Defamation League listed as a hate symbol in 2016 while noting most uses remain innocuous.", "confidence": "medium", "keywords": ["pepe", "meme frog"] },
+      { "sense": "'but that's none of my business'", "gloss": "Paired with 🍵 in the Kermit sipping-tea format.", "confidence": "medium", "keywords": ["kermit", "none of my business", "shade"] }
     ],
     "🍵": [
-      { "sense": "gossip", "gloss": "'Spilling the tea'. From Black drag culture via 'T' for truth.", "confidence": "high" }
+      { "sense": "gossip", "gloss": "'Spilling the tea'. From Black drag culture via 'T' for truth.", "confidence": "high", "keywords": ["tea", "gossip", "spill"] }
     ],
     "☕": [
-      { "sense": "gossip, or pointed disinterest", "gloss": "Shares the 'tea' sense and the Kermit 'none of my business' sense.", "confidence": "medium" }
+      { "sense": "gossip, or pointed disinterest", "gloss": "Shares the 'tea' sense and the Kermit 'none of my business' sense.", "confidence": "medium", "keywords": ["tea", "gossip", "none of my business"] }
     ],
     "👀": [
-      { "sense": "noticed and interested", "gloss": "Signals attention to something spicy or suspicious without commenting.", "confidence": "high" }
+      { "sense": "noticed and interested", "gloss": "Signals attention to something spicy or suspicious without commenting.", "confidence": "high", "keywords": ["eyes", "watching", "suspicious"] }
     ],
     "🫂": [
-      { "sense": "condolence", "gloss": "A hug offered when words are inadequate; standard in grief threads.", "confidence": "medium" }
+      { "sense": "condolence", "gloss": "A hug offered when words are inadequate; standard in grief threads.", "confidence": "medium", "keywords": ["hug", "sorry", "condolences"] }
     ],
     "😈": [
-      { "sense": "mischief or flirtation", "gloss": "Playful wickedness rather than evil.", "confidence": "high" }
+      { "sense": "mischief or flirtation", "gloss": "Playful wickedness rather than evil.", "confidence": "high", "keywords": ["mischief", "flirty", "naughty"] }
     ],
     "🤌": [
-      { "sense": "Italian gesticulation meme", "gloss": "Added in 2020 and immediately absorbed into an Italian-stereotype meme; also used for chef's-kiss precision.", "confidence": "high" }
+      { "sense": "Italian gesticulation meme", "gloss": "Added in 2020 and immediately absorbed into an Italian-stereotype meme; also used for chef's-kiss precision.", "confidence": "high", "keywords": ["chefs kiss", "italian", "precise"] }
     ],
     "🤏": [
-      { "sense": "a tiny amount", "gloss": "Often sarcastic understatement.", "confidence": "medium" }
+      { "sense": "a tiny amount", "gloss": "Often sarcastic understatement.", "confidence": "medium", "keywords": ["tiny", "small amount", "barely"] }
     ],
     "💅🏻": [
-      { "sense": "unbothered confidence", "gloss": "Tone variants carry the identical sense.", "confidence": "high" }
+      { "sense": "unbothered confidence", "gloss": "Tone variants carry the identical sense.", "confidence": "high", "keywords": ["sassy", "dont care", "confidence"] }
     ],
     "🦋": [
-      { "sense": "nervous attraction", "gloss": "'Butterflies' in the stomach.", "confidence": "medium" }
+      { "sense": "nervous attraction", "gloss": "'Butterflies' in the stomach.", "confidence": "medium", "keywords": ["butterflies", "nervous", "crush"] }
     ],
     "🎯": [
-      { "sense": "exactly right", "gloss": "Agreement marker equivalent to 'nailed it'.", "confidence": "high" }
+      { "sense": "exactly right", "gloss": "Agreement marker equivalent to 'nailed it'.", "confidence": "high", "keywords": ["nailed it", "spot on", "bullseye"] }
     ],
     "🧿": [
-      { "sense": "protection from envy", "gloss": "The nazar amulet, used sincerely against the evil eye and jokingly to ward off bad vibes.", "confidence": "high" }
+      { "sense": "protection from envy", "gloss": "The nazar amulet, used sincerely against the evil eye and jokingly to ward off bad vibes.", "confidence": "high", "keywords": ["evil eye", "nazar", "protection"] }
     ],
     "🪬": [
-      { "sense": "protection", "gloss": "The hamsa, used similarly to 🧿.", "confidence": "medium" }
+      { "sense": "protection", "gloss": "The hamsa, used similarly to 🧿.", "confidence": "medium", "keywords": ["hamsa", "protection"] }
     ],
     "🙏": [
-      { "sense": "thanks or please", "gloss": "In much Western usage a request or gratitude marker rather than prayer.", "confidence": "high" },
-      { "sense": "high five", "gloss": "A persistent folk reading, though the emoji derives from the Japanese gassho prayer gesture.", "confidence": "medium" }
+      { "sense": "thanks or please", "gloss": "In much Western usage a request or gratitude marker rather than prayer.", "confidence": "high", "keywords": ["thanks", "please", "pray"] },
+      { "sense": "high five", "gloss": "A persistent folk reading, though the emoji derives from the Japanese gassho prayer gesture.", "confidence": "medium", "keywords": ["high five"] }
     ],
     "💩": [
-      { "sense": "worthless", "gloss": "Dismissal of quality; also affectionate nonsense.", "confidence": "high" }
+      { "sense": "worthless", "gloss": "Dismissal of quality; also affectionate nonsense.", "confidence": "high", "keywords": ["crap", "trash", "garbage"] }
     ],
     "🤝": [
-      { "sense": "shared trait", "gloss": "The 'handshake meme' format links two things by what they have in common.", "confidence": "high" }
+      { "sense": "shared trait", "gloss": "The 'handshake meme' format links two things by what they have in common.", "confidence": "high", "keywords": ["handshake meme", "relatable", "in common"] }
     ],
     "📈": [
-      { "sense": "improvement in anything", "gloss": "Applied to non-numeric things: mood, form, taste.", "confidence": "medium" }
+      { "sense": "improvement in anything", "gloss": "Applied to non-numeric things: mood, form, taste.", "confidence": "medium", "keywords": ["improving", "up", "better"] }
     ],
     "📉": [
-      { "sense": "decline in anything", "gloss": "The inverse of 📈, equally non-financial.", "confidence": "medium" }
+      { "sense": "decline in anything", "gloss": "The inverse of 📈, equally non-financial.", "confidence": "medium", "keywords": ["declining", "down", "worse"] }
     ],
     "🫵": [
-      { "sense": "accusation or callout", "gloss": "'You specifically'. Frequently comedic.", "confidence": "high" }
+      { "sense": "accusation or callout", "gloss": "'You specifically'. Frequently comedic.", "confidence": "high", "keywords": ["you", "calling out", "pointing"] }
     ],
     "🗣️": [
-      { "sense": "emphatic co-signing", "gloss": "'Say it louder'. Amplifies rather than describes speech.", "confidence": "medium" }
+      { "sense": "emphatic co-signing", "gloss": "'Say it louder'. Amplifies rather than describes speech.", "confidence": "medium", "keywords": ["say it louder", "preach", "facts"] }
     ],
     "📢": [
-      { "sense": "announcement emphasis", "gloss": "Used to make a statement unignorable.", "confidence": "low" }
+      { "sense": "announcement emphasis", "gloss": "Used to make a statement unignorable.", "confidence": "low", "keywords": ["announcement", "attention", "psa"] }
     ],
     "🤓": [
-      { "sense": "mocking pedantry", "gloss": "Quoting someone with this emoji frames them as an insufferable know-it-all. Distinctly hostile.", "confidence": "high" }
+      { "sense": "mocking pedantry", "gloss": "Quoting someone with this emoji frames them as an insufferable know-it-all. Distinctly hostile.", "confidence": "high", "keywords": ["nerd", "well actually", "know it all"] }
     ],
     "🥱": [
-      { "sense": "boring take", "gloss": "Dismisses an opinion as tired.", "confidence": "medium" }
+      { "sense": "boring take", "gloss": "Dismisses an opinion as tired.", "confidence": "medium", "keywords": ["boring", "yawn", "tired take"] }
     ],
     "🧌": [
-      { "sense": "internet troll", "gloss": "The troll emoji was adopted for the online sense almost immediately over the folkloric one.", "confidence": "medium" }
+      { "sense": "internet troll", "gloss": "The troll emoji was adopted for the online sense almost immediately over the folkloric one.", "confidence": "medium", "keywords": ["troll", "trolling"] }
     ],
     "🫧": [
-      { "sense": "aesthetic softness", "gloss": "Decorative marker in 'cleangirl' and bubble aesthetics rather than literal bubbles.", "confidence": "low" }
+      { "sense": "aesthetic softness", "gloss": "Decorative marker in 'cleangirl' and bubble aesthetics rather than literal bubbles.", "confidence": "low", "keywords": ["clean girl", "soft aesthetic", "bubbles"] }
     ],
     "🎣": [
-      { "sense": "fishing for compliments or engagement bait", "gloss": "Names a rhetorical move rather than the hobby.", "confidence": "medium" }
+      { "sense": "fishing for compliments or engagement bait", "gloss": "Names a rhetorical move rather than the hobby.", "confidence": "medium", "keywords": ["fishing", "engagement bait", "clout"] }
     ],
     "🧊": [
-      { "sense": "emotional coldness, or composure", "gloss": "'Ice cold' cuts both ways: unfeeling, or unflappable.", "confidence": "medium" }
+      { "sense": "emotional coldness, or composure", "gloss": "'Ice cold' cuts both ways: unfeeling, or unflappable.", "confidence": "medium", "keywords": ["ice cold", "cold", "composed"] }
     ],
     "🪑": [
-      { "sense": "absurdist non-sequitur", "gloss": "A running joke where the chair is deployed for no reason at all; its meaninglessness is the point.", "confidence": "medium" }
+      { "sense": "absurdist non-sequitur", "gloss": "A running joke where the chair is deployed for no reason at all; its meaninglessness is the point.", "confidence": "medium", "keywords": ["chair", "random", "non sequitur"] }
     ],
     "🦆": [
-      { "sense": "substitute for a censored expletive", "gloss": "'Duck' as autocorrect's replacement for a swear word.", "confidence": "medium" }
+      { "sense": "substitute for a censored expletive", "gloss": "'Duck' as autocorrect's replacement for a swear word.", "confidence": "medium", "keywords": ["duck", "censored swear", "autocorrect"] }
     ],
     "😶": [
-      { "sense": "deliberate silence", "gloss": "Withholding comment pointedly.", "confidence": "medium" }
+      { "sense": "deliberate silence", "gloss": "Withholding comment pointedly.", "confidence": "medium", "keywords": ["silent", "no comment", "speechless"] }
     ],
     "🫰": [
-      { "sense": "affection, or money", "gloss": "The Korean finger heart, mainstreamed globally by K-pop; also a 'cash' gesture in some contexts.", "confidence": "high" }
+      { "sense": "affection, or money", "gloss": "The Korean finger heart, mainstreamed globally by K-pop; also a 'cash' gesture in some contexts.", "confidence": "high", "keywords": ["finger heart", "money", "cash"] }
     ],
     "🤟": [
-      { "sense": "I love you in ASL", "gloss": "A genuine sign-language letterform, distinct from 🤘 which is a rock-music horns gesture.", "confidence": "high" }
+      { "sense": "I love you in ASL", "gloss": "A genuine sign-language letterform, distinct from 🤘 which is a rock-music horns gesture.", "confidence": "high", "keywords": ["ily", "love you", "asl"] }
     ],
     "💜": [
-      { "sense": "K-pop fandom affiliation", "gloss": "Strongly associated with BTS and their 'I purple you' coinage.", "confidence": "medium" }
+      { "sense": "K-pop fandom affiliation", "gloss": "Strongly associated with BTS and their 'I purple you' coinage.", "confidence": "medium", "keywords": ["kpop", "bts", "purple heart"] }
     ],
     "🖤": [
-      { "sense": "aesthetic darkness", "gloss": "Signals a goth, alt or emo register rather than grief.", "confidence": "medium" }
+      { "sense": "aesthetic darkness", "gloss": "Signals a goth, alt or emo register rather than grief.", "confidence": "medium", "keywords": ["goth", "emo", "alt"] }
     ],
     "🤍": [
-      { "sense": "minimalist affection", "gloss": "Understated warmth; a soft-aesthetic marker.", "confidence": "low" }
+      { "sense": "minimalist affection", "gloss": "Understated warmth; a soft-aesthetic marker.", "confidence": "low", "keywords": ["soft", "minimalist", "pure"] }
     ],
     "❤️‍🔥": [
-      { "sense": "passion or obsession", "gloss": "Intensity beyond ordinary affection.", "confidence": "medium" }
+      { "sense": "passion or obsession", "gloss": "Intensity beyond ordinary affection.", "confidence": "medium", "keywords": ["passion", "obsessed", "intense"] }
     ],
     "🫶": [
-      { "sense": "gratitude and community", "gloss": "The heart-hands gesture, used to close warm messages.", "confidence": "high" }
+      { "sense": "gratitude and community", "gloss": "The heart-hands gesture, used to close warm messages.", "confidence": "high", "keywords": ["heart hands", "love", "gratitude"] }
     ],
     "😇": [
-      { "sense": "feigned innocence", "gloss": "Deployed immediately after admitting to something.", "confidence": "high" }
+      { "sense": "feigned innocence", "gloss": "Deployed immediately after admitting to something.", "confidence": "high", "keywords": ["innocent", "who me", "angel"] }
     ],
     "🍀": [
-      { "sense": "wishing luck", "gloss": "Conventional good-luck token rather than botany.", "confidence": "high" }
+      { "sense": "wishing luck", "gloss": "Conventional good-luck token rather than botany.", "confidence": "high", "keywords": ["good luck", "luck", "lucky"] }
     ],
     "🌚": [
-      { "sense": "mischief or shade", "gloss": "The new moon face implies something is being left unsaid.", "confidence": "medium" }
+      { "sense": "mischief or shade", "gloss": "The new moon face implies something is being left unsaid.", "confidence": "medium", "keywords": ["shade", "sus", "mischief"] }
     ],
     "🌝": [
-      { "sense": "smug knowing", "gloss": "The full moon face's counterpart sense to 🌚.", "confidence": "medium" }
+      { "sense": "smug knowing", "gloss": "The full moon face's counterpart sense to 🌚.", "confidence": "medium", "keywords": ["smug", "knowing", "suspicious"] }
     ],
     "🧚": [
-      { "sense": "fairy comment", "gloss": "Prefaces a copypasta that starts sweetly and turns abusive.", "confidence": "medium" }
+      { "sense": "fairy comment", "gloss": "Prefaces a copypasta that starts sweetly and turns abusive.", "confidence": "medium", "keywords": ["fairy comment", "copypasta", "sickly sweet"] }
     ],
     "🪩": [
-      { "sense": "party or camp glamour", "gloss": "Signals nightlife rather than the object.", "confidence": "low" }
+      { "sense": "party or camp glamour", "gloss": "Signals nightlife rather than the object.", "confidence": "low", "keywords": ["party", "disco", "glamour"] }
     ]
   }
 }

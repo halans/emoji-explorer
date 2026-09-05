@@ -4,100 +4,100 @@
   "provenance": "Community taxonomy and BDSM/fetish signalling. Kept separate from the `sexual` register because it answers a different question: `sexual` decodes a euphemism in a message, `kink` decodes an *affiliation* declared in a profile. The gay-community animal taxonomy in particular is a decades-old self-descriptive system with its own published glossaries, not slang. Descriptive reference; gated by default.",
   "entries": {
     "🐻": [
-      { "sense": "bear", "gloss": "A larger, hairier gay man. The oldest and best-established term in the animal taxonomy, with its own bars, events and flag since the 1980s. Entirely self-descriptive and not pejorative.", "confidence": "high" }
+      { "sense": "bear", "gloss": "A larger, hairier gay man. The oldest and best-established term in the animal taxonomy, with its own bars, events and flag since the 1980s. Entirely self-descriptive and not pejorative.", "confidence": "high", "keywords": ["bear", "gay community"] }
     ],
     "🦦": [
-      { "sense": "otter", "gloss": "Slimmer and hairy, in the same taxonomy. The otter emoji arrived in Emoji 12.0 and the community adopted it immediately.", "confidence": "medium" }
+      { "sense": "otter", "gloss": "Slimmer and hairy, in the same taxonomy. The otter emoji arrived in Emoji 12.0 and the community adopted it immediately.", "confidence": "medium", "keywords": ["otter", "gay community"] }
     ],
     "🐺": [
-      { "sense": "wolf", "gloss": "Lean and hairy, more assertive in connotation than otter.", "confidence": "low" }
+      { "sense": "wolf", "gloss": "Lean and hairy, more assertive in connotation than otter.", "confidence": "low", "keywords": ["wolf", "gay community"] }
     ],
     "🐷": [
-      { "sense": "pig", "gloss": "Signals uninhibited or extreme preferences. Self-applied and worn as a badge.", "confidence": "medium" }
+      { "sense": "pig", "gloss": "Signals uninhibited or extreme preferences. Self-applied and worn as a badge.", "confidence": "medium", "keywords": ["pig", "uninhibited"] }
     ],
     "🐶": [
-      { "sense": "pup play", "gloss": "A role-play identity with a substantial community, its own gear and its own flag. Distinct from the 'single dog' and general-affection senses.", "confidence": "high" }
+      { "sense": "pup play", "gloss": "A role-play identity with a substantial community, its own gear and its own flag. Distinct from the 'single dog' and general-affection senses.", "confidence": "high", "keywords": ["pup play", "puppy play"] }
     ],
     "🐾": [
-      { "sense": "pet play generally", "gloss": "Covers pup, kitten and pony play as an umbrella marker.", "confidence": "medium" }
+      { "sense": "pet play generally", "gloss": "Covers pup, kitten and pony play as an umbrella marker.", "confidence": "medium", "keywords": ["pet play", "paw prints"] }
     ],
     "🐱": [
-      { "sense": "kitten play", "gloss": "The submissive counterpart to pup play, distinct from the anatomical euphemism recorded in the sexual register.", "confidence": "medium" }
+      { "sense": "kitten play", "gloss": "The submissive counterpart to pup play, distinct from the anatomical euphemism recorded in the sexual register.", "confidence": "medium", "keywords": ["kitten play"] }
     ],
     "🦄": [
-      { "sense": "unicorn", "gloss": "A single person willing to join an existing couple. Named for perceived rarity, and often used wryly by the people so described, who find the framing dehumanising.", "confidence": "high" }
+      { "sense": "unicorn", "gloss": "A single person willing to join an existing couple. Named for perceived rarity, and often used wryly by the people so described, who find the framing dehumanising.", "confidence": "high", "keywords": ["unicorn", "third for couple"] }
     ],
     "🪢": [
-      { "sense": "rope, shibari", "gloss": "The knot emoji, added in Emoji 13.0, became the rope-bondage marker because nothing else fit. Japanese rope bondage is a discipline with its own instructors and safety literature.", "confidence": "medium" }
+      { "sense": "rope, shibari", "gloss": "The knot emoji, added in Emoji 13.0, became the rope-bondage marker because nothing else fit. Japanese rope bondage is a discipline with its own instructors and safety literature.", "confidence": "medium", "keywords": ["shibari", "rope bondage"] }
     ],
     "⛓️": [
-      { "sense": "bondage or restraint", "gloss": "The broader restraint signal where 🪢 is rope-specific.", "confidence": "medium" }
+      { "sense": "bondage or restraint", "gloss": "The broader restraint signal where 🪢 is rope-specific.", "confidence": "medium", "keywords": ["bondage", "restraint", "chains"] }
     ],
     "🔒": [
-      { "sense": "chastity", "gloss": "A specific practice, and the reason the lock appears in bios alongside 🔑.", "confidence": "medium" }
+      { "sense": "chastity", "gloss": "A specific practice, and the reason the lock appears in bios alongside 🔑.", "confidence": "medium", "keywords": ["chastity", "locked"] }
     ],
     "🔑": [
-      { "sense": "keyholder", "gloss": "The counterpart role to 🔒 — the partner holding control. The pair is the compact form.", "confidence": "medium" }
+      { "sense": "keyholder", "gloss": "The counterpart role to 🔒 — the partner holding control. The pair is the compact form.", "confidence": "medium", "keywords": ["keyholder", "chastity"] }
     ],
     "🖤": [
-      { "sense": "leather and BDSM", "gloss": "The black heart as a scene affiliation marker, older than its goth-aesthetic reading and easily confused with it.", "confidence": "medium" }
+      { "sense": "leather and BDSM", "gloss": "The black heart as a scene affiliation marker, older than its goth-aesthetic reading and easily confused with it.", "confidence": "medium", "keywords": ["leather", "bdsm", "scene affiliation"] }
     ],
     "🎀": [
-      { "sense": "submissive", "gloss": "The bow as a submissive or 'owned' marker; collides in practice with the coquette aesthetic, which is part of why it works.", "confidence": "medium" }
+      { "sense": "submissive", "gloss": "The bow as a submissive or 'owned' marker; collides in practice with the coquette aesthetic, which is part of why it works.", "confidence": "medium", "keywords": ["submissive", "owned"] }
     ],
     "👑": [
-      { "sense": "dominant", "gloss": "A hierarchy claim in profiles; also simply the LeBron and top-creator senses elsewhere.", "confidence": "medium" }
+      { "sense": "dominant", "gloss": "A hierarchy claim in profiles; also simply the LeBron and top-creator senses elsewhere.", "confidence": "medium", "keywords": ["dominant", "hierarchy"] }
     ],
     "🦶": [
-      { "sense": "foot fetish", "gloss": "The most-discussed single fetish online and the reason the foot emoji rarely reads as podiatry.", "confidence": "high" }
+      { "sense": "foot fetish", "gloss": "The most-discussed single fetish online and the reason the foot emoji rarely reads as podiatry.", "confidence": "high", "keywords": ["foot fetish"] }
     ],
     "👣": [
-      { "sense": "foot content", "gloss": "Used interchangeably with 🦶 in creator bios.", "confidence": "medium" }
+      { "sense": "foot content", "gloss": "Used interchangeably with 🦶 in creator bios.", "confidence": "medium", "keywords": ["foot content", "foot fetish"] }
     ],
     "🧦": [
-      { "sense": "sock fetish, or worn-item sales", "gloss": "A real category of creator commerce, adjacent to the foot register.", "confidence": "medium" }
+      { "sense": "sock fetish, or worn-item sales", "gloss": "A real category of creator commerce, adjacent to the foot register.", "confidence": "medium", "keywords": ["sock fetish", "worn item sales"] }
     ],
     "👠": [
-      { "sense": "femdom", "gloss": "The heel as a dominance marker, drawing on a long visual tradition.", "confidence": "medium" }
+      { "sense": "femdom", "gloss": "The heel as a dominance marker, drawing on a long visual tradition.", "confidence": "medium", "keywords": ["femdom", "high heel"] }
     ],
     "🧤": [
-      { "sense": "gloves as gear", "gloss": "Fetish-wear signalling, particularly in leather contexts.", "confidence": "low" }
+      { "sense": "gloves as gear", "gloss": "Fetish-wear signalling, particularly in leather contexts.", "confidence": "low", "keywords": ["gloves", "leather gear"] }
     ],
     "🤐": [
-      { "sense": "gagged, or sworn to silence", "gloss": "Both a gear reference and an ordinary 'saying nothing' marker.", "confidence": "low" }
+      { "sense": "gagged, or sworn to silence", "gloss": "Both a gear reference and an ordinary 'saying nothing' marker.", "confidence": "low", "keywords": ["gagged", "silenced"] }
     ],
     "🙈": [
-      { "sense": "blindfolded", "gloss": "Sensory-deprivation reference alongside the far more common bashful reading.", "confidence": "low" }
+      { "sense": "blindfolded", "gloss": "Sensory-deprivation reference alongside the far more common bashful reading.", "confidence": "low", "keywords": ["blindfolded", "sensory deprivation"] }
     ],
     "✋": [
-      { "sense": "spanking, in combination", "gloss": "Only carries this reading paired with 🍑; alone it is a plain raised hand.", "confidence": "medium" }
+      { "sense": "spanking, in combination", "gloss": "Only carries this reading paired with 🍑; alone it is a plain raised hand.", "confidence": "medium", "keywords": ["spanking"] }
     ],
     "🕯️": [
-      { "sense": "wax play", "gloss": "A specific practice; the candle otherwise means vigil or remembrance.", "confidence": "low" }
+      { "sense": "wax play", "gloss": "A specific practice; the candle otherwise means vigil or remembrance.", "confidence": "low", "keywords": ["wax play"] }
     ],
     "🧊": [
-      { "sense": "temperature play", "gloss": "Another sensation practice, and the sixth recorded sense for this glyph.", "confidence": "low" }
+      { "sense": "temperature play", "gloss": "Another sensation practice, and the sixth recorded sense for this glyph.", "confidence": "low", "keywords": ["temperature play", "ice play"] }
     ],
     "🪶": [
-      { "sense": "tickling", "gloss": "Niche but with its own established community.", "confidence": "low" }
+      { "sense": "tickling", "gloss": "Niche but with its own established community.", "confidence": "low", "keywords": ["tickling", "feather"] }
     ],
     "🎭": [
-      { "sense": "role play", "gloss": "Scene and scenario play, alongside the accusation-of-performativity sense.", "confidence": "low" }
+      { "sense": "role play", "gloss": "Scene and scenario play, alongside the accusation-of-performativity sense.", "confidence": "low", "keywords": ["role play", "scene play"] }
     ],
     "🧸": [
-      { "sense": "age-play or caregiver dynamic", "gloss": "The teddy bear as a marker in DDlg-adjacent dynamics between consenting adults. Also, and far more often, a literal comfort object.", "confidence": "low" }
+      { "sense": "age-play or caregiver dynamic", "gloss": "The teddy bear as a marker in DDlg-adjacent dynamics between consenting adults. Also, and far more often, a literal comfort object.", "confidence": "low", "keywords": ["age play", "caregiver dynamic", "ddlg"] }
     ],
     "🍼": [
-      { "sense": "age-play or caregiver dynamic", "gloss": "Used in the same register as 🧸; overwhelmingly a literal infant-care glyph outside it.", "confidence": "low" }
+      { "sense": "age-play or caregiver dynamic", "gloss": "Used in the same register as 🧸; overwhelmingly a literal infant-care glyph outside it.", "confidence": "low", "keywords": ["age play", "caregiver dynamic"] }
     ],
     "🌈": [
-      { "sense": "queer kink community", "gloss": "In scene contexts the rainbow marks community membership rather than a general pride statement.", "confidence": "low" }
+      { "sense": "queer kink community", "gloss": "In scene contexts the rainbow marks community membership rather than a general pride statement.", "confidence": "low", "keywords": ["queer kink", "scene community"] }
     ],
     "💧": [
-      { "sense": "watersports", "gloss": "A euphemism opaque enough that the literal droplet reading dominates everywhere else.", "confidence": "low" }
+      { "sense": "watersports", "gloss": "A euphemism opaque enough that the literal droplet reading dominates everywhere else.", "confidence": "low", "keywords": ["watersports"] }
     ],
     "🔨": [
-      { "sense": "impact play", "gloss": "Gear reference; the hammer otherwise means West Ham or plain construction.", "confidence": "low" }
+      { "sense": "impact play", "gloss": "Gear reference; the hammer otherwise means West Ham or plain construction.", "confidence": "low", "keywords": ["impact play"] }
     ]
   }
 }

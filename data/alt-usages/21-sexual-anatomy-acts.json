@@ -4,121 +4,121 @@
   "provenance": "Second pass on the sexual register, correcting a coverage skew: the original file was half fruit-and-vegetable euphemism, which is the most famous slice of the vocabulary but a small one. This file covers the flirtation glyphs that are actually highest-frequency (🫦 👅 🤤 were absent entirely), shape- and pun-based euphemisms, act references, garment and setting cues, and the numeric construction. Descriptive reference in the same spirit as published platform trust-and-safety guidance; gated by default.",
   "entries": {
     "🫦": [
-      { "sense": "flirtatious anticipation", "gloss": "Added in Emoji 14.0 and adopted almost immediately as a flirtation marker. Higher-frequency in that role than most of the classic food euphemisms, which is why its absence from a euphemism list is a real gap.", "confidence": "high" }
+      { "sense": "flirtatious anticipation", "gloss": "Added in Emoji 14.0 and adopted almost immediately as a flirtation marker. Higher-frequency in that role than most of the classic food euphemisms, which is why its absence from a euphemism list is a real gap.", "confidence": "high", "keywords": ["bite lip", "flirty", "anticipation"] }
     ],
     "👅": [
-      { "sense": "oral reference", "gloss": "The tongue is the most direct non-food glyph in the register; also used non-sexually for cheek or mockery.", "confidence": "high" }
+      { "sense": "oral reference", "gloss": "The tongue is the most direct non-food glyph in the register; also used non-sexually for cheek or mockery.", "confidence": "high", "keywords": ["tongue", "oral", "licking"] }
     ],
     "🤤": [
-      { "sense": "desire", "gloss": "'Drooling over' someone. Also applied entirely innocently to food, which is what makes it deniable.", "confidence": "high" }
+      { "sense": "desire", "gloss": "'Drooling over' someone. Also applied entirely innocently to food, which is what makes it deniable.", "confidence": "high", "keywords": ["drooling", "desire", "lusting"] }
     ],
     "🍈": [
-      { "sense": "breasts", "gloss": "'Melons'. A long-standing English euphemism that predates emoji by decades.", "confidence": "medium" }
+      { "sense": "breasts", "gloss": "'Melons'. A long-standing English euphemism that predates emoji by decades.", "confidence": "medium", "keywords": ["melons", "boobs"] }
     ],
     "🥥": [
-      { "sense": "breasts", "gloss": "Parallel to 🍈; the shape-pair reading.", "confidence": "low" }
+      { "sense": "breasts", "gloss": "Parallel to 🍈; the shape-pair reading.", "confidence": "low", "keywords": ["boobs", "coconuts"] }
     ],
     "🥜": [
-      { "sense": "testicles", "gloss": "'Nuts'. Direct lexical carry-over from English slang.", "confidence": "medium" }
+      { "sense": "testicles", "gloss": "'Nuts'. Direct lexical carry-over from English slang.", "confidence": "medium", "keywords": ["nuts", "balls"] }
     ],
     "🌰": [
-      { "sense": "testicles", "gloss": "A substitute for 🥜, used where that is filtered.", "confidence": "low" }
+      { "sense": "testicles", "gloss": "A substitute for 🥜, used where that is filtered.", "confidence": "low", "keywords": ["nuts", "balls"] }
     ],
     "🥚": [
-      { "sense": "testicles, or fertility", "gloss": "Splits between the anatomical euphemism and genuine conception and IVF discussion.", "confidence": "low" }
+      { "sense": "testicles, or fertility", "gloss": "Splits between the anatomical euphemism and genuine conception and IVF discussion.", "confidence": "low", "keywords": ["balls", "fertility", "eggs"] }
     ],
     "🕳️": [
-      { "sense": "orifice", "gloss": "Crude and unambiguous in context; the literal 'hole' reading survives mainly in gaming and hiking talk.", "confidence": "medium" }
+      { "sense": "orifice", "gloss": "Crude and unambiguous in context; the literal 'hole' reading survives mainly in gaming and hiking talk.", "confidence": "medium", "keywords": ["hole", "orifice"] }
     ],
     "🍭": [
-      { "sense": "oral reference", "gloss": "Licking-based euphemism, in the same family as 🍦.", "confidence": "medium" }
+      { "sense": "oral reference", "gloss": "Licking-based euphemism, in the same family as 🍦.", "confidence": "medium", "keywords": ["lollipop", "oral", "licking"] }
     ],
     "🥕": [
-      { "sense": "penis", "gloss": "A shape substitute for 🍆, useful precisely because it is less filtered.", "confidence": "medium" }
+      { "sense": "penis", "gloss": "A shape substitute for 🍆, useful precisely because it is less filtered.", "confidence": "medium", "keywords": ["dick", "carrot"] }
     ],
     "🔩": [
-      { "sense": "intercourse", "gloss": "'Screw'. A pun on the object's name rather than its shape, which makes it opaque outside English.", "confidence": "medium" }
+      { "sense": "intercourse", "gloss": "'Screw'. A pun on the object's name rather than its shape, which makes it opaque outside English.", "confidence": "medium", "keywords": ["screw", "sex pun"] }
     ],
     "🕹️": [
-      { "sense": "penis", "gloss": "'Joystick'. Another English-specific pun.", "confidence": "low" }
+      { "sense": "penis", "gloss": "'Joystick'. Another English-specific pun.", "confidence": "low", "keywords": ["joystick", "dick"] }
     ],
     "🥄": [
-      { "sense": "spooning", "gloss": "Non-penetrative physical closeness; frequently affectionate rather than sexual.", "confidence": "medium" }
+      { "sense": "spooning", "gloss": "Non-penetrative physical closeness; frequently affectionate rather than sexual.", "confidence": "medium", "keywords": ["spooning", "cuddling"] }
     ],
     "🚿": [
-      { "sense": "shower sex", "gloss": "Setting cue rather than an act reference.", "confidence": "low" }
+      { "sense": "shower sex", "gloss": "Setting cue rather than an act reference.", "confidence": "low", "keywords": ["shower sex", "setting"] }
     ],
     "🛋️": [
-      { "sense": "casual encounter setting", "gloss": "Contextual cue in the same family as 🛏️.", "confidence": "low" }
+      { "sense": "casual encounter setting", "gloss": "Contextual cue in the same family as 🛏️.", "confidence": "low", "keywords": ["hookup setting", "couch"] }
     ],
     "🏩": [
-      { "sense": "love hotel", "gloss": "This is the *official* Unicode name. A specific Japanese institution — short-stay rooms rented by the hour — that most Western users read as a generic hotel or, because of the heart, a maternity ward.", "confidence": "high" }
+      { "sense": "love hotel", "gloss": "This is the *official* Unicode name. A specific Japanese institution — short-stay rooms rented by the hour — that most Western users read as a generic hotel or, because of the heart, a maternity ward.", "confidence": "high", "keywords": ["love hotel", "japanese hotel"] }
     ],
     "🎈": [
-      { "sense": "condom", "gloss": "Inflation-based euphemism, and a stand-in where no dedicated glyph exists.", "confidence": "low" }
+      { "sense": "condom", "gloss": "Inflation-based euphemism, and a stand-in where no dedicated glyph exists.", "confidence": "low", "keywords": ["condom", "protection"] }
     ],
     "🧴": [
-      { "sense": "lubricant", "gloss": "The lotion bottle covers this by default because Unicode has no dedicated glyph; also used entirely literally for skincare.", "confidence": "medium" }
+      { "sense": "lubricant", "gloss": "The lotion bottle covers this by default because Unicode has no dedicated glyph; also used entirely literally for skincare.", "confidence": "medium", "keywords": ["lube", "lubricant"] }
     ],
     "💊": [
-      { "sense": "erectile-dysfunction medication, or PrEP", "gloss": "Two distinct sexual-health readings sitting alongside the recreational and literal-medication senses.", "confidence": "low" }
+      { "sense": "erectile-dysfunction medication, or PrEP", "gloss": "Two distinct sexual-health readings sitting alongside the recreational and literal-medication senses.", "confidence": "low", "keywords": ["viagra", "prep", "ed medication"] }
     ],
     "6️⃣9️⃣": [
-      { "sense": "the numeric position reference", "gloss": "A two-keycap construction rather than a single glyph. Also appears as a bare number in usernames and bios for the same joke.", "confidence": "high" }
+      { "sense": "the numeric position reference", "gloss": "A two-keycap construction rather than a single glyph. Also appears as a bare number in usernames and bios for the same joke.", "confidence": "high", "keywords": ["69", "sex position"] }
     ],
     "💏": [
-      { "sense": "kissing, sincere or suggestive", "gloss": "Officially just 'kiss'; ambiguous between romance and innuendo by design.", "confidence": "medium" }
+      { "sense": "kissing, sincere or suggestive", "gloss": "Officially just 'kiss'; ambiguous between romance and innuendo by design.", "confidence": "medium", "keywords": ["kissing", "kiss"] }
     ],
     "💑": [
-      { "sense": "a couple", "gloss": "Relationship-status marker more than an act reference.", "confidence": "low" }
+      { "sense": "a couple", "gloss": "Relationship-status marker more than an act reference.", "confidence": "low", "keywords": ["couple", "relationship"] }
     ],
     "✊": [
-      { "sense": "masturbation, in combination", "gloss": "Only carries this reading paired with a phallic glyph; alone it is overwhelmingly solidarity or a fist bump.", "confidence": "medium" }
+      { "sense": "masturbation, in combination", "gloss": "Only carries this reading paired with a phallic glyph; alone it is overwhelmingly solidarity or a fist bump.", "confidence": "medium", "keywords": ["masturbation", "fist"] }
     ],
     "🤏": [
-      { "sense": "small penis", "gloss": "The pinching hand as a size insult, quite separate from its 'a tiny amount' sense.", "confidence": "medium" }
+      { "sense": "small penis", "gloss": "The pinching hand as a size insult, quite separate from its 'a tiny amount' sense.", "confidence": "medium", "keywords": ["small penis", "size insult"] }
     ],
     "🌶️": [
-      { "sense": "small penis, or spicy content", "gloss": "Two unrelated sexual readings: a size insult in some cultures, and the 'spicy' content marker documented in the algospeak file.", "confidence": "medium" }
+      { "sense": "small penis, or spicy content", "gloss": "Two unrelated sexual readings: a size insult in some cultures, and the 'spicy' content marker documented in the algospeak file.", "confidence": "medium", "keywords": ["small penis", "spicy content"] }
     ],
     "📏": [
-      { "sense": "size claim", "gloss": "In dating bios a height disclosure; in flirtation, a different measurement.", "confidence": "low" }
+      { "sense": "size claim", "gloss": "In dating bios a height disclosure; in flirtation, a different measurement.", "confidence": "low", "keywords": ["size claim", "measurement"] }
     ],
     "🧎": [
-      { "sense": "oral position, or submission", "gloss": "Kneeling; overlaps heavily with the comedic-begging and devotional senses.", "confidence": "low" }
+      { "sense": "oral position, or submission", "gloss": "Kneeling; overlaps heavily with the comedic-begging and devotional senses.", "confidence": "low", "keywords": ["kneeling", "submission", "oral position"] }
     ],
     "👙": [
-      { "sense": "revealing photo", "gloss": "Signals the kind of image rather than the garment; common in creator-account bios.", "confidence": "medium" }
+      { "sense": "revealing photo", "gloss": "Signals the kind of image rather than the garment; common in creator-account bios.", "confidence": "medium", "keywords": ["revealing photo", "bikini pic"] }
     ],
     "🩲": [
-      { "sense": "underwear photo", "gloss": "Added in Emoji 12.0 and used the same way as 👙.", "confidence": "low" }
+      { "sense": "underwear photo", "gloss": "Added in Emoji 12.0 and used the same way as 👙.", "confidence": "low", "keywords": ["underwear photo", "briefs"] }
     ],
     "🩱": [
-      { "sense": "revealing photo", "gloss": "Same function as 👙, marginally softer.", "confidence": "low" }
+      { "sense": "revealing photo", "gloss": "Same function as 👙, marginally softer.", "confidence": "low", "keywords": ["revealing photo", "swimsuit"] }
     ],
     "💄": [
-      { "sense": "flirtation or glamour", "gloss": "Marks a message as done-up and forward; also straightforwardly cosmetic.", "confidence": "low" }
+      { "sense": "flirtation or glamour", "gloss": "Marks a message as done-up and forward; also straightforwardly cosmetic.", "confidence": "low", "keywords": ["flirtation", "glam", "lipstick"] }
     ],
     "🌊": [
-      { "sense": "female ejaculation", "gloss": "A wave-based euphemism in the same family as 💦, considerably less common.", "confidence": "low" }
+      { "sense": "female ejaculation", "gloss": "A wave-based euphemism in the same family as 💦, considerably less common.", "confidence": "low", "keywords": ["squirting", "wave euphemism"] }
     ],
     "🦄": [
-      { "sense": "horny", "gloss": "Feeling frisky or naughty, horny.", "confidence": "low" }
+      { "sense": "horny", "gloss": "Feeling frisky or naughty, horny.", "confidence": "low", "keywords": ["horny", "frisky"] }
     ],
     "😈": [
-      { "sense": "naughty", "gloss": "Feeling frisky or naughty.", "confidence": "high" }
+      { "sense": "naughty", "gloss": "Feeling frisky or naughty.", "confidence": "high", "keywords": ["naughty", "frisky", "mischievous"] }
     ],
     "🍜": [
-      { "sense": "nudes", "gloss": "Nudes, which are often called 'noods'.", "confidence": "low" }
+      { "sense": "nudes", "gloss": "Nudes, which are often called 'noods'.", "confidence": "low", "keywords": ["nudes", "noods"] }
     ],
     "🔨": [
-      { "sense": "hammer", "gloss": "Sexual activity, banging.", "confidence": "low" }
+      { "sense": "hammer", "gloss": "Sexual activity, banging.", "confidence": "low", "keywords": ["banging", "sex"] }
     ],
     "👀": [
-      { "sense": "eyes", "gloss": "Looking at something with interest or desire.", "confidence": "low" }
+      { "sense": "eyes", "gloss": "Looking at something with interest or desire.", "confidence": "low", "keywords": ["eyeing", "checking out"] }
     ],
     "🍫": [
-      { "sense": "skin-tone compliment", "gloss": "Used as a compliment about complexion in flirtation; read by many as fetishising rather than flattering.", "confidence": "low" }
+      { "sense": "skin-tone compliment", "gloss": "Used as a compliment about complexion in flirtation; read by many as fetishising rather than flattering.", "confidence": "low", "keywords": ["skin tone compliment", "complexion"] }
     ]
   }
 }

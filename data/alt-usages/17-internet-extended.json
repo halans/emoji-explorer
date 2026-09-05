@@ -4,124 +4,124 @@
   "provenance": "Second pass on meme-derived senses, covering formats and coinages not in 03-internet-slang.json. Where a sense originates in a datable event or platform behaviour it is named.",
   "entries": {
     "🗿": [
-      { "sense": "the moai reaction", "gloss": "Deadpan non-response, and in some corners an aggressively stoic 'gigachad' posture.", "confidence": "high" }
+      { "sense": "the moai reaction", "gloss": "Deadpan non-response, and in some corners an aggressively stoic 'gigachad' posture.", "confidence": "high", "keywords": ["moai", "deadpan", "gigachad"] }
     ],
     "🥩": [
-      { "sense": "carnivore-diet posting", "gloss": "In bios, signals a whole cluster of online health and masculinity positions.", "confidence": "low" }
+      { "sense": "carnivore-diet posting", "gloss": "In bios, signals a whole cluster of online health and masculinity positions.", "confidence": "low", "keywords": ["carnivore diet", "steak", "meat"] }
     ],
     "🧌": [
-      { "sense": "trolling behaviour", "gloss": "Applied to a person's posting style rather than to folklore.", "confidence": "medium" }
+      { "sense": "trolling behaviour", "gloss": "Applied to a person's posting style rather than to folklore.", "confidence": "medium", "keywords": ["troll", "trolling"] }
     ],
     "📼": [
-      { "sense": "nostalgia marker", "gloss": "Signals a retro or analogue aesthetic rather than the medium.", "confidence": "medium" }
+      { "sense": "nostalgia marker", "gloss": "Signals a retro or analogue aesthetic rather than the medium.", "confidence": "medium", "keywords": ["nostalgia", "retro", "vhs"] }
     ],
     "☎️": [
-      { "sense": "dated deliberately", "gloss": "The rotary phone is used to mark something as old-fashioned on purpose.", "confidence": "low" }
+      { "sense": "dated deliberately", "gloss": "The rotary phone is used to mark something as old-fashioned on purpose.", "confidence": "low", "keywords": ["old fashioned", "rotary phone", "retro"] }
     ],
     "🛎️": [
-      { "sense": "attention-seeking", "gloss": "'Ding' for a notification, or mocking someone ringing for service.", "confidence": "low" }
+      { "sense": "attention-seeking", "gloss": "'Ding' for a notification, or mocking someone ringing for service.", "confidence": "low", "keywords": ["ding", "notification", "attention"] }
     ],
     "🚀": [
-      { "sense": "shipping a product", "gloss": "In tech and startup posting the rocket means launch, quite separate from the crypto price sense.", "confidence": "high" }
+      { "sense": "shipping a product", "gloss": "In tech and startup posting the rocket means launch, quite separate from the crypto price sense.", "confidence": "high", "keywords": ["launch", "ship it", "startup"] }
     ],
     "🫵": [
-      { "sense": "the pointing meme", "gloss": "Accusatory 'you' with a laughing face, from the Spider-Man pointing format.", "confidence": "high" }
+      { "sense": "the pointing meme", "gloss": "Accusatory 'you' with a laughing face, from the Spider-Man pointing format.", "confidence": "high", "keywords": ["pointing meme", "spiderman pointing", "you"] }
     ],
     "🤡": [
-      { "sense": "clown-to-clown communication", "gloss": "Framing a whole exchange as farcical.", "confidence": "medium" }
+      { "sense": "clown-to-clown communication", "gloss": "Framing a whole exchange as farcical.", "confidence": "medium", "keywords": ["clown to clown", "farcical", "absurd exchange"] }
     ],
     "🎪": [
-      { "sense": "a spectacle or shambles", "gloss": "'A whole circus', applied to institutions and comment sections.", "confidence": "medium" }
+      { "sense": "a spectacle or shambles", "gloss": "'A whole circus', applied to institutions and comment sections.", "confidence": "medium", "keywords": ["circus", "shambles", "spectacle"] }
     ],
     "🍽️": [
-      { "sense": "she ate", "gloss": "'Ate and left no crumbs' as high praise for a performance; the cutlery completes the phrase.", "confidence": "high" }
+      { "sense": "she ate", "gloss": "'Ate and left no crumbs' as high praise for a performance; the cutlery completes the phrase.", "confidence": "high", "keywords": ["she ate", "no crumbs", "high praise"] }
     ],
     "🧂": [
-      { "sense": "bitterness", "gloss": "'Salty', for someone visibly aggrieved about losing.", "confidence": "high" }
+      { "sense": "bitterness", "gloss": "'Salty', for someone visibly aggrieved about losing.", "confidence": "high", "keywords": ["salty", "bitter", "sore loser"] }
     ],
     "🐟": [
-      { "sense": "something suspicious", "gloss": "'Fishy'; also a low insult in some gaming and drag contexts.", "confidence": "low" }
+      { "sense": "something suspicious", "gloss": "'Fishy'; also a low insult in some gaming and drag contexts.", "confidence": "low", "keywords": ["fishy", "suspicious"] }
     ],
     "🦐": [
-      { "sense": "shrimp as an insult or self-deprecation", "gloss": "Small and inconsequential; overlaps with the crypto wallet-size tier.", "confidence": "low" }
+      { "sense": "shrimp as an insult or self-deprecation", "gloss": "Small and inconsequential; overlaps with the crypto wallet-size tier.", "confidence": "low", "keywords": ["shrimp", "small", "insignificant"] }
     ],
     "🐖": [
-      { "sense": "greed", "gloss": "Applied to corporate behaviour and consumption.", "confidence": "low" }
+      { "sense": "greed", "gloss": "Applied to corporate behaviour and consumption.", "confidence": "low", "keywords": ["greed", "pig", "corporate greed"] }
     ],
     "🦆": [
-      { "sense": "the duck test", "gloss": "'If it looks like a duck' — invoking obviousness in an argument.", "confidence": "low" }
+      { "sense": "the duck test", "gloss": "'If it looks like a duck' — invoking obviousness in an argument.", "confidence": "low", "keywords": ["duck test", "obvious"] }
     ],
     "🧻": [
-      { "sense": "2020 panic-buying reference", "gloss": "The toilet roll became a durable shorthand for irrational scarcity behaviour, separate from the finance sense.", "confidence": "medium" }
+      { "sense": "2020 panic-buying reference", "gloss": "The toilet roll became a durable shorthand for irrational scarcity behaviour, separate from the finance sense.", "confidence": "medium", "keywords": ["toilet paper", "panic buying", "hoarding"] }
     ],
     "📺": [
-      { "sense": "brainrot content", "gloss": "Signals passive, low-quality consumption.", "confidence": "low" }
+      { "sense": "brainrot content", "gloss": "Signals passive, low-quality consumption.", "confidence": "low", "keywords": ["brainrot", "passive consumption"] }
     ],
     "🧠": [
-      { "sense": "brainrot", "gloss": "The 2024 Oxford word of the year, referring to degraded attention from low-quality feeds.", "confidence": "high" }
+      { "sense": "brainrot", "gloss": "The 2024 Oxford word of the year, referring to degraded attention from low-quality feeds.", "confidence": "high", "keywords": ["brainrot", "degraded attention"] }
     ],
     "🪫": [
-      { "sense": "no social energy", "gloss": "The low-battery emoji, added in 2021, was adopted almost immediately for personal exhaustion.", "confidence": "high" }
+      { "sense": "no social energy", "gloss": "The low-battery emoji, added in 2021, was adopted almost immediately for personal exhaustion.", "confidence": "high", "keywords": ["low battery", "drained", "exhausted"] }
     ],
     "🔋": [
-      { "sense": "recharged", "gloss": "The positive counterpart to 🪫.", "confidence": "medium" }
+      { "sense": "recharged", "gloss": "The positive counterpart to 🪫.", "confidence": "medium", "keywords": ["recharged", "full energy", "rested"] }
     ],
     "🫙": [
-      { "sense": "emptiness", "gloss": "The empty jar used for having nothing left to give.", "confidence": "low" }
+      { "sense": "emptiness", "gloss": "The empty jar used for having nothing left to give.", "confidence": "low", "keywords": ["empty", "nothing left", "drained"] }
     ],
     "🎢": [
-      { "sense": "emotional volatility", "gloss": "'A rollercoaster', for a situation or a person.", "confidence": "medium" }
+      { "sense": "emotional volatility", "gloss": "'A rollercoaster', for a situation or a person.", "confidence": "medium", "keywords": ["rollercoaster", "emotional volatility", "ups and downs"] }
     ],
     "🧩": [
-      { "sense": "things clicking into place", "gloss": "Realising how facts connect; also, contentiously, an autism-awareness symbol many autistic people reject.", "confidence": "medium" }
+      { "sense": "things clicking into place", "gloss": "Realising how facts connect; also, contentiously, an autism-awareness symbol many autistic people reject.", "confidence": "medium", "keywords": ["clicking into place", "autism symbol", "puzzle piece"] }
     ],
     "♾️": [
-      { "sense": "neurodiversity", "gloss": "The rainbow infinity symbol is the neurodiversity movement's preferred emblem, explicitly offered as an alternative to the puzzle piece.", "confidence": "high" }
+      { "sense": "neurodiversity", "gloss": "The rainbow infinity symbol is the neurodiversity movement's preferred emblem, explicitly offered as an alternative to the puzzle piece.", "confidence": "high", "keywords": ["neurodiversity", "infinity symbol", "autism pride"] }
     ],
     "🎭": [
-      { "sense": "performativity", "gloss": "Accusing someone of putting on an act.", "confidence": "medium" }
+      { "sense": "performativity", "gloss": "Accusing someone of putting on an act.", "confidence": "medium", "keywords": ["fake", "performative", "putting on an act"] }
     ],
     "📎": [
-      { "sense": "intrusive assistant", "gloss": "Clippy, invoked whenever software helps unasked.", "confidence": "medium" }
+      { "sense": "intrusive assistant", "gloss": "Clippy, invoked whenever software helps unasked.", "confidence": "medium", "keywords": ["clippy", "intrusive help", "unwanted assistant"] }
     ],
     "🫧": [
-      { "sense": "clean-girl aesthetic", "gloss": "A visual register marker in beauty and lifestyle posting.", "confidence": "low" }
+      { "sense": "clean-girl aesthetic", "gloss": "A visual register marker in beauty and lifestyle posting.", "confidence": "low", "keywords": ["clean girl", "aesthetic", "bubbles"] }
     ],
     "🎀": [
-      { "sense": "coquette aesthetic", "gloss": "The bow became a whole visual subculture marker from 2023.", "confidence": "medium" }
+      { "sense": "coquette aesthetic", "gloss": "The bow became a whole visual subculture marker from 2023.", "confidence": "medium", "keywords": ["coquette", "bow aesthetic", "girly"] }
     ],
     "🪞": [
-      { "sense": "self-examination, or vanity", "gloss": "Both the introspective and the narcissistic reading.", "confidence": "low" }
+      { "sense": "self-examination, or vanity", "gloss": "Both the introspective and the narcissistic reading.", "confidence": "low", "keywords": ["self reflection", "vanity", "mirror"] }
     ],
     "🛼": [
-      { "sense": "pandemic-era hobby signifier", "gloss": "Roller skating as a 2020 lockdown trend marker.", "confidence": "low" }
+      { "sense": "pandemic-era hobby signifier", "gloss": "Roller skating as a 2020 lockdown trend marker.", "confidence": "low", "keywords": ["roller skating", "lockdown hobby"] }
     ],
     "🪱": [
-      { "sense": "worms as absurdist affection", "gloss": "Part of a genre of deliberately strange creature-posting.", "confidence": "low" }
+      { "sense": "worms as absurdist affection", "gloss": "Part of a genre of deliberately strange creature-posting.", "confidence": "low", "keywords": ["worms", "absurdist", "weird affection"] }
     ],
     "🦝": [
-      { "sense": "trash-panda chaos", "gloss": "Self-applied for someone thriving in mess.", "confidence": "medium" }
+      { "sense": "trash-panda chaos", "gloss": "Self-applied for someone thriving in mess.", "confidence": "medium", "keywords": ["trash panda", "chaotic", "raccoon"] }
     ],
     "🐈‍⬛": [
-      { "sense": "goth or chaotic-cat energy", "gloss": "The black cat has its own aesthetic register distinct from 🐈.", "confidence": "low" }
+      { "sense": "goth or chaotic-cat energy", "gloss": "The black cat has its own aesthetic register distinct from 🐈.", "confidence": "low", "keywords": ["goth", "black cat", "chaotic energy"] }
     ],
     "🦖": [
-      { "sense": "outdated but proud", "gloss": "Self-deprecating admission of being behind the times.", "confidence": "low" }
+      { "sense": "outdated but proud", "gloss": "Self-deprecating admission of being behind the times.", "confidence": "low", "keywords": ["dinosaur", "outdated", "behind the times"] }
     ],
     "🫠": [
-      { "sense": "the melting reaction", "gloss": "The single most-adopted new emoji of the 2020s for describing one's own state.", "confidence": "high" }
+      { "sense": "the melting reaction", "gloss": "The single most-adopted new emoji of the 2020s for describing one's own state.", "confidence": "high", "keywords": ["melting", "overwhelmed", "dying inside"] }
     ],
     "📌": [
-      { "sense": "for the record", "gloss": "Marking a statement to be remembered against someone later.", "confidence": "low" }
+      { "sense": "for the record", "gloss": "Marking a statement to be remembered against someone later.", "confidence": "low", "keywords": ["for the record", "receipts", "pinned"] }
     ],
     "🔗": [
-      { "sense": "link in bio", "gloss": "Platform convention for circumventing link restrictions.", "confidence": "medium" }
+      { "sense": "link in bio", "gloss": "Platform convention for circumventing link restrictions.", "confidence": "medium", "keywords": ["link in bio", "check bio"] }
     ],
     "🤖": [
-      { "sense": "AI-generated accusation", "gloss": "Applied to text or images suspected of being machine-made.", "confidence": "high" }
+      { "sense": "AI-generated accusation", "gloss": "Applied to text or images suspected of being machine-made.", "confidence": "high", "keywords": ["ai generated", "bot", "fake content"] }
     ],
     "🥸": [
-      { "sense": "an alt account", "gloss": "Admitting or accusing someone of posting under a second identity.", "confidence": "low" }
+      { "sense": "an alt account", "gloss": "Admitting or accusing someone of posting under a second identity.", "confidence": "low", "keywords": ["alt account", "disguise", "second identity"] }
     ]
   }
 }

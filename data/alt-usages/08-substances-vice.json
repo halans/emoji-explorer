@@ -4,79 +4,79 @@
   "provenance": "Drug-trade and substance senses. Documented publicly by the US Drug Enforcement Administration's emoji reference card for parents (2021 onward) and by platform trust-and-safety guidance. Included because these are the codes moderation systems actually look for; hidden by default in the UI.",
   "entries": {
     "🍁": [
-      { "sense": "cannabis", "gloss": "The maple leaf substitutes for a cannabis leaf, which has no emoji of its own. Also simply Canada.", "confidence": "high" }
+      { "sense": "cannabis", "gloss": "The maple leaf substitutes for a cannabis leaf, which has no emoji of its own. Also simply Canada.", "confidence": "high", "keywords": ["weed", "marijuana", "pot"] }
     ],
     "🌿": [
-      { "sense": "cannabis", "gloss": "The most common herb-based substitute.", "confidence": "high" }
+      { "sense": "cannabis", "gloss": "The most common herb-based substitute.", "confidence": "high", "keywords": ["weed", "marijuana", "pot"] }
     ],
     "🍀": [
-      { "sense": "cannabis", "gloss": "Another leaf substitute, used where 🌿 is filtered.", "confidence": "medium" }
+      { "sense": "cannabis", "gloss": "Another leaf substitute, used where 🌿 is filtered.", "confidence": "medium", "keywords": ["weed", "marijuana", "pot"] }
     ],
     "🌲": [
-      { "sense": "cannabis", "gloss": "'Tree' as long-standing cannabis slang.", "confidence": "medium" }
+      { "sense": "cannabis", "gloss": "'Tree' as long-standing cannabis slang.", "confidence": "medium", "keywords": ["tree", "weed", "marijuana"] }
     ],
     "🔌": [
-      { "sense": "supplier", "gloss": "'Plug', the person who sources a substance.", "confidence": "high" }
+      { "sense": "supplier", "gloss": "'Plug', the person who sources a substance.", "confidence": "high", "keywords": ["plug", "dealer", "supplier"] }
     ],
     "❄️": [
-      { "sense": "cocaine", "gloss": "'Snow'; among the oldest emoji drug codes.", "confidence": "high" }
+      { "sense": "cocaine", "gloss": "'Snow'; among the oldest emoji drug codes.", "confidence": "high", "keywords": ["snow", "cocaine", "coke"] }
     ],
     "⛄": [
-      { "sense": "cocaine", "gloss": "Variant of the ❄️ code.", "confidence": "medium" }
+      { "sense": "cocaine", "gloss": "Variant of the ❄️ code.", "confidence": "medium", "keywords": ["snow", "cocaine", "coke"] }
     ],
     "💊": [
-      { "sense": "illicit pills", "gloss": "Ambiguous between legitimate medication and street pills; also the 'redpill' political metaphor.", "confidence": "high" }
+      { "sense": "illicit pills", "gloss": "Ambiguous between legitimate medication and street pills; also the 'redpill' political metaphor.", "confidence": "high", "keywords": ["pills", "molly", "drugs"] }
     ],
     "🧪": [
-      { "sense": "synthetic drugs", "gloss": "Lab-made substances.", "confidence": "medium" }
+      { "sense": "synthetic drugs", "gloss": "Lab-made substances.", "confidence": "medium", "keywords": ["synthetic drugs", "lab made"] }
     ],
     "🍄": [
-      { "sense": "psilocybin mushrooms", "gloss": "Overwhelmingly the psychedelic reading in drug contexts, though the glyph depicts a fly agaric.", "confidence": "high" }
+      { "sense": "psilocybin mushrooms", "gloss": "Overwhelmingly the psychedelic reading in drug contexts, though the glyph depicts a fly agaric.", "confidence": "high", "keywords": ["shrooms", "psilocybin", "psychedelic"] }
     ],
     "🐴": [
-      { "sense": "heroin", "gloss": "'Horse', a decades-old slang term predating emoji.", "confidence": "medium" }
+      { "sense": "heroin", "gloss": "'Horse', a decades-old slang term predating emoji.", "confidence": "medium", "keywords": ["horse", "heroin"] }
     ],
     "🎈": [
-      { "sense": "nitrous oxide, or heroin balloon", "gloss": "Two distinct drug references depending on region.", "confidence": "medium" }
+      { "sense": "nitrous oxide, or heroin balloon", "gloss": "Two distinct drug references depending on region.", "confidence": "medium", "keywords": ["nitrous", "balloon", "heroin"] }
     ],
     "🚀": [
-      { "sense": "high-potency substance", "gloss": "In drug contexts signals strength, entirely separate from the finance sense.", "confidence": "medium" }
+      { "sense": "high-potency substance", "gloss": "In drug contexts signals strength, entirely separate from the finance sense.", "confidence": "medium", "keywords": ["strong", "potent", "high potency"] }
     ],
     "🍫": [
-      { "sense": "edibles or hash", "gloss": "Chocolate as a delivery form.", "confidence": "low" }
+      { "sense": "edibles or hash", "gloss": "Chocolate as a delivery form.", "confidence": "low", "keywords": ["edibles", "hash", "chocolate weed"] }
     ],
     "🍪": [
-      { "sense": "edibles", "gloss": "Same substitution logic as 🍫.", "confidence": "low" }
+      { "sense": "edibles", "gloss": "Same substitution logic as 🍫.", "confidence": "low", "keywords": ["edibles", "weed cookie"] }
     ],
     "🧁": [
-      { "sense": "edibles", "gloss": "Baked-goods code for cannabis products.", "confidence": "low" }
+      { "sense": "edibles", "gloss": "Baked-goods code for cannabis products.", "confidence": "low", "keywords": ["edibles", "weed cupcake"] }
     ],
     "🛢️": [
-      { "sense": "cannabis oil", "gloss": "Concentrate reference.", "confidence": "low" }
+      { "sense": "cannabis oil", "gloss": "Concentrate reference.", "confidence": "low", "keywords": ["cannabis oil", "concentrate"] }
     ],
     "💨": [
-      { "sense": "smoking", "gloss": "Accompanies cannabis or vape references; separately means 'leaving fast'.", "confidence": "medium" }
+      { "sense": "smoking", "gloss": "Accompanies cannabis or vape references; separately means 'leaving fast'.", "confidence": "medium", "keywords": ["smoking", "vape", "puff"] }
     ],
     "🚬": [
-      { "sense": "smoking generally", "gloss": "Not confined to tobacco in slang usage.", "confidence": "medium" }
+      { "sense": "smoking generally", "gloss": "Not confined to tobacco in slang usage.", "confidence": "medium", "keywords": ["smoking", "cigarette"] }
     ],
     "🍯": [
-      { "sense": "concentrate", "gloss": "'Honey oil' or wax.", "confidence": "low" }
+      { "sense": "concentrate", "gloss": "'Honey oil' or wax.", "confidence": "low", "keywords": ["honey oil", "wax", "concentrate"] }
     ],
     "🥃": [
-      { "sense": "drinking as coping", "gloss": "Frequently signals stress rather than a drink order.", "confidence": "low" }
+      { "sense": "drinking as coping", "gloss": "Frequently signals stress rather than a drink order.", "confidence": "low", "keywords": ["stress drinking", "coping", "whiskey"] }
     ],
     "🍻": [
-      { "sense": "celebration", "gloss": "Congratulation marker independent of actual alcohol.", "confidence": "medium" }
+      { "sense": "celebration", "gloss": "Congratulation marker independent of actual alcohol.", "confidence": "medium", "keywords": ["cheers", "celebrate", "congrats"] }
     ],
     "🥴": [
-      { "sense": "intoxicated", "gloss": "The clearest single glyph for drunkenness.", "confidence": "high" }
+      { "sense": "intoxicated", "gloss": "The clearest single glyph for drunkenness.", "confidence": "high", "keywords": ["drunk", "intoxicated", "tipsy"] }
     ],
     "💀": [
-      { "sense": "dangerously strong", "gloss": "In substance contexts a potency warning rather than a laughter marker.", "confidence": "low" }
+      { "sense": "dangerously strong", "gloss": "In substance contexts a potency warning rather than a laughter marker.", "confidence": "low", "keywords": ["strong", "dangerous", "potent"] }
     ],
     "🍺": [
-      { "sense": "informal meetup", "gloss": "Proposes a social occasion rather than a specific drink.", "confidence": "low" }
+      { "sense": "informal meetup", "gloss": "Proposes a social occasion rather than a specific drink.", "confidence": "low", "keywords": ["drinks", "meetup", "hangout"] }
     ]
   }
 }

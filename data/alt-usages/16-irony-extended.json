@@ -4,109 +4,109 @@
   "provenance": "Second pass on the tone-marking register: faces and gestures whose conventional online reading has drifted from their CLDR name, beyond the core set in 02-irony-tone.json.",
   "entries": {
     "😃": [
-      { "sense": "unsettling over-enthusiasm", "gloss": "The wide-open smile reads as slightly manic next to the softer 😊, so it is often used for forced cheer.", "confidence": "medium" }
+      { "sense": "unsettling over-enthusiasm", "gloss": "The wide-open smile reads as slightly manic next to the softer 😊, so it is often used for forced cheer.", "confidence": "medium", "keywords": ["forced cheer", "manic", "overenthusiastic"] }
     ],
     "😁": [
-      { "sense": "gritted endurance", "gloss": "The visible clenched teeth push this towards strain rather than delight.", "confidence": "medium" }
+      { "sense": "gritted endurance", "gloss": "The visible clenched teeth push this towards strain rather than delight.", "confidence": "medium", "keywords": ["gritted teeth", "strained smile", "enduring"] }
     ],
     "🤗": [
-      { "sense": "smothering or condescending warmth", "gloss": "Frequently read as insincere or patronising, which is why sincere comfort has migrated to 🫂.", "confidence": "medium" }
+      { "sense": "smothering or condescending warmth", "gloss": "Frequently read as insincere or patronising, which is why sincere comfort has migrated to 🫂.", "confidence": "medium", "keywords": ["condescending", "insincere", "patronizing"] }
     ],
     "😉": [
-      { "sense": "dated flirtation", "gloss": "Now reads as slightly seedy or generationally marked; 😏 has taken its place.", "confidence": "high" }
+      { "sense": "dated flirtation", "gloss": "Now reads as slightly seedy or generationally marked; 😏 has taken its place.", "confidence": "high", "keywords": ["dated wink", "old flirting", "seedy"] }
     ],
     "😜": [
-      { "sense": "dated zaniness", "gloss": "Belongs to an earlier era of internet register; using it now reads as either ironic or out of touch.", "confidence": "medium" }
+      { "sense": "dated zaniness", "gloss": "Belongs to an earlier era of internet register; using it now reads as either ironic or out of touch.", "confidence": "medium", "keywords": ["dated", "old internet", "cheugy"] }
     ],
     "🤭": [
-      { "sense": "mock discretion", "gloss": "Pretending to have said something one shouldn't, while fully intending to.", "confidence": "high" }
+      { "sense": "mock discretion", "gloss": "Pretending to have said something one shouldn't, while fully intending to.", "confidence": "high", "keywords": ["oops", "mock discretion", "faux shy"] }
     ],
     "😒": [
-      { "sense": "unimpressed judgement", "gloss": "Harsher in text than the face suggests; often ends a conversation.", "confidence": "high" }
+      { "sense": "unimpressed judgement", "gloss": "Harsher in text than the face suggests; often ends a conversation.", "confidence": "high", "keywords": ["unimpressed", "annoyed", "over it"] }
     ],
     "😠": [
-      { "sense": "performed rather than real anger", "gloss": "Genuine anger is more often conveyed by flat text or 🙂; the angry face has become theatrical.", "confidence": "medium" }
+      { "sense": "performed rather than real anger", "gloss": "Genuine anger is more often conveyed by flat text or 🙂; the angry face has become theatrical.", "confidence": "medium", "keywords": ["fake anger", "theatrical", "performed"] }
     ],
     "😡": [
-      { "sense": "comic rage", "gloss": "The intensified form is even more clearly a performance.", "confidence": "medium" }
+      { "sense": "comic rage", "gloss": "The intensified form is even more clearly a performance.", "confidence": "medium", "keywords": ["comic rage", "exaggerated anger"] }
     ],
     "🤬": [
-      { "sense": "censored swearing", "gloss": "Stands in for profanity, letting the writer swear without typing it.", "confidence": "high" }
+      { "sense": "censored swearing", "gloss": "Stands in for profanity, letting the writer swear without typing it.", "confidence": "high", "keywords": ["censored swear", "cursing", "profanity"] }
     ],
     "😱": [
-      { "sense": "mock horror", "gloss": "The Home Alone face, used for exaggerated surprise at trivia.", "confidence": "medium" }
+      { "sense": "mock horror", "gloss": "The Home Alone face, used for exaggerated surprise at trivia.", "confidence": "medium", "keywords": ["mock horror", "exaggerated shock", "home alone"] }
     ],
     "🥶": [
-      { "sense": "cold-blooded, or brutal", "gloss": "Praise for something ruthless, alongside the literal 'I'm freezing'.", "confidence": "medium" }
+      { "sense": "cold-blooded, or brutal", "gloss": "Praise for something ruthless, alongside the literal 'I'm freezing'.", "confidence": "medium", "keywords": ["ruthless", "brutal", "savage"] }
     ],
     "🤔": [
-      { "sense": "insinuation", "gloss": "Rarely genuine thought; usually implies the reader should draw an unflattering conclusion.", "confidence": "high" }
+      { "sense": "insinuation", "gloss": "Rarely genuine thought; usually implies the reader should draw an unflattering conclusion.", "confidence": "high", "keywords": ["insinuation", "suspicious", "implying"] }
     ],
     "🧐": [
-      { "sense": "affected scrutiny", "gloss": "The monocle performs examination rather than doing any.", "confidence": "medium" }
+      { "sense": "affected scrutiny", "gloss": "The monocle performs examination rather than doing any.", "confidence": "medium", "keywords": ["monocle", "affected scrutiny", "pretend examining"] }
     ],
     "😮": [
-      { "sense": "low-effort acknowledgement", "gloss": "Often a reaction that signals nothing more than 'seen'.", "confidence": "low" }
+      { "sense": "low-effort acknowledgement", "gloss": "Often a reaction that signals nothing more than 'seen'.", "confidence": "low", "keywords": ["seen", "low effort", "acknowledgement"] }
     ],
     "🫢": [
-      { "sense": "gossip reaction", "gloss": "Genuine or performed shock at something scandalous.", "confidence": "medium" }
+      { "sense": "gossip reaction", "gloss": "Genuine or performed shock at something scandalous.", "confidence": "medium", "keywords": ["gossip", "shocked", "scandalized"] }
     ],
     "🫣": [
-      { "sense": "watching something go wrong", "gloss": "Peeking through fingers at an unfolding disaster, frequently one's own.", "confidence": "high" }
+      { "sense": "watching something go wrong", "gloss": "Peeking through fingers at an unfolding disaster, frequently one's own.", "confidence": "high", "keywords": ["peeking", "cringe watching", "disaster"] }
     ],
     "🙅": [
-      { "sense": "flat refusal", "gloss": "Read as sassy dismissal rather than a neutral 'no'.", "confidence": "high" }
+      { "sense": "flat refusal", "gloss": "Read as sassy dismissal rather than a neutral 'no'.", "confidence": "high", "keywords": ["no", "refusal", "sassy no"] }
     ],
     "💁": [
-      { "sense": "breezy dismissal", "gloss": "The tossed-hair pose conveys 'obviously' or 'not my problem'.", "confidence": "high" }
+      { "sense": "breezy dismissal", "gloss": "The tossed-hair pose conveys 'obviously' or 'not my problem'.", "confidence": "high", "keywords": ["obviously", "not my problem", "sassy"] }
     ],
     "🤦": [
-      { "sense": "exasperation at stupidity", "gloss": "Directed at others or at oneself; one of the least ambiguous glyphs in the set.", "confidence": "high" }
+      { "sense": "exasperation at stupidity", "gloss": "Directed at others or at oneself; one of the least ambiguous glyphs in the set.", "confidence": "high", "keywords": ["facepalm", "exasperation", "why"] }
     ],
     "🙆": [
-      { "sense": "the Japanese OK gesture", "gloss": "Arms crossed overhead means 'correct' in Japan; outside it, the pose is often misread as celebration.", "confidence": "medium" }
+      { "sense": "the Japanese OK gesture", "gloss": "Arms crossed overhead means 'correct' in Japan; outside it, the pose is often misread as celebration.", "confidence": "medium", "keywords": ["japanese ok", "correct", "arms crossed"] }
     ],
     "🫥": [
-      { "sense": "deliberately absent", "gloss": "Signalling withdrawal from a conversation rather than an inability to participate.", "confidence": "medium" }
+      { "sense": "deliberately absent", "gloss": "Signalling withdrawal from a conversation rather than an inability to participate.", "confidence": "medium", "keywords": ["withdrawn", "absent", "checked out"] }
     ],
     "😵": [
-      { "sense": "overwhelmed to the point of shutdown", "gloss": "Read as burnout rather than injury.", "confidence": "medium" }
+      { "sense": "overwhelmed to the point of shutdown", "gloss": "Read as burnout rather than injury.", "confidence": "medium", "keywords": ["burnout", "overwhelmed", "shutdown"] }
     ],
     "🤯": [
-      { "sense": "devalued astonishment", "gloss": "So overused in marketing copy that sincere use now needs support from context.", "confidence": "medium" }
+      { "sense": "devalued astonishment", "gloss": "So overused in marketing copy that sincere use now needs support from context.", "confidence": "medium", "keywords": ["mind blown", "overused", "astonishment"] }
     ],
     "🥳": [
-      { "sense": "obligatory celebration", "gloss": "Frequently the emoji of a birthday message someone was reminded to send.", "confidence": "medium" }
+      { "sense": "obligatory celebration", "gloss": "Frequently the emoji of a birthday message someone was reminded to send.", "confidence": "medium", "keywords": ["obligatory", "birthday message", "forced celebration"] }
     ],
     "😬": [
-      { "sense": "bracing for a reply", "gloss": "Sent after a message the writer suspects will land badly.", "confidence": "medium" }
+      { "sense": "bracing for a reply", "gloss": "Sent after a message the writer suspects will land badly.", "confidence": "medium", "keywords": ["bracing", "anticipating backlash", "yikes"] }
     ],
     "🫤": [
-      { "sense": "polite disagreement", "gloss": "The softest available way to signal 'I don't think so'.", "confidence": "medium" }
+      { "sense": "polite disagreement", "gloss": "The softest available way to signal 'I don't think so'.", "confidence": "medium", "keywords": ["polite disagreement", "not sure about that"] }
     ],
     "😶": [
-      { "sense": "conspicuous no comment", "gloss": "Declining to respond, loudly.", "confidence": "medium" }
+      { "sense": "conspicuous no comment", "gloss": "Declining to respond, loudly.", "confidence": "medium", "keywords": ["no comment", "pointed silence"] }
     ],
     "🤥": [
-      { "sense": "calling out a lie", "gloss": "Pinocchio's nose; competes with 🧢 and is losing.", "confidence": "medium" }
+      { "sense": "calling out a lie", "gloss": "Pinocchio's nose; competes with 🧢 and is losing.", "confidence": "medium", "keywords": ["lying", "pinocchio", "liar"] }
     ],
     "😗": [
-      { "sense": "awkward whistling", "gloss": "Feigning innocence about something just mentioned.", "confidence": "low" }
+      { "sense": "awkward whistling", "gloss": "Feigning innocence about something just mentioned.", "confidence": "low", "keywords": ["whistling", "feigned innocence"] }
     ],
     "🤷‍♀️": [
-      { "sense": "gendered shrug as a tone", "gloss": "The gendered variants carry slightly different registers in practice, the feminine reading as more pointedly unbothered.", "confidence": "low" }
+      { "sense": "gendered shrug as a tone", "gloss": "The gendered variants carry slightly different registers in practice, the feminine reading as more pointedly unbothered.", "confidence": "low", "keywords": ["shrug", "unbothered", "idk"] }
     ],
     "🧎‍♂️": [
-      { "sense": "comic desperation", "gloss": "Begging, played for laughs.", "confidence": "low" }
+      { "sense": "comic desperation", "gloss": "Begging, played for laughs.", "confidence": "low", "keywords": ["begging", "comic desperation", "kneeling"] }
     ],
     "💁‍♂️": [
-      { "sense": "camp dismissal", "gloss": "The masculine variant is often used for deliberately camp effect.", "confidence": "low" }
+      { "sense": "camp dismissal", "gloss": "The masculine variant is often used for deliberately camp effect.", "confidence": "low", "keywords": ["camp", "dismissal", "sassy"] }
     ],
     "🫸": [
-      { "sense": "setting a boundary", "gloss": "The pushing hand, added in Emoji 15.0, was adopted quickly for 'absolutely not'.", "confidence": "medium" }
+      { "sense": "setting a boundary", "gloss": "The pushing hand, added in Emoji 15.0, was adopted quickly for 'absolutely not'.", "confidence": "medium", "keywords": ["pushing away", "boundary", "absolutely not"] }
     ],
     "🫷": [
-      { "sense": "holding something back", "gloss": "The mirror-image hand, used in the same register.", "confidence": "low" }
+      { "sense": "holding something back", "gloss": "The mirror-image hand, used in the same register.", "confidence": "low", "keywords": ["holding back", "pushing hand"] }
     ]
   }
 }

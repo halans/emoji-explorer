@@ -4,118 +4,118 @@
   "provenance": "Tone-marking and ironic senses. This is the largest single source of drift between an emoji's CLDR name and its actual use, and the reason literal-name search fails so often. Attested through platform-level usage shifts widely covered in the press (the 💀/😭 displacement of 😂, the generational reading of 🙂 and 👍).",
   "entries": {
     "💀": [
-      { "sense": "dying of laughter", "gloss": "The dominant reading since roughly 2020. 'I'm dead' compressed into a glyph; almost never signals actual death or danger.", "confidence": "high" },
-      { "sense": "mortified", "gloss": "Secondary sense of cringing embarrassment.", "confidence": "medium" }
+      { "sense": "dying of laughter", "gloss": "The dominant reading since roughly 2020. 'I'm dead' compressed into a glyph; almost never signals actual death or danger.", "confidence": "high", "keywords": ["dead", "im dead", "dying", "lol"] },
+      { "sense": "mortified", "gloss": "Secondary sense of cringing embarrassment.", "confidence": "medium", "keywords": ["cringe", "embarrassed"] }
     ],
     "😭": [
-      { "sense": "laughing hard", "gloss": "Displaced 😂 as the standard laughter marker among younger users, despite depicting sobbing.", "confidence": "high" },
-      { "sense": "sincere distress", "gloss": "The literal reading survives, and the ambiguity between the two is itself a common source of misfire.", "confidence": "high" }
+      { "sense": "laughing hard", "gloss": "Displaced 😂 as the standard laughter marker among younger users, despite depicting sobbing.", "confidence": "high", "keywords": ["lol", "lmao", "crying laughing"] },
+      { "sense": "sincere distress", "gloss": "The literal reading survives, and the ambiguity between the two is itself a common source of misfire.", "confidence": "high", "keywords": ["crying", "sad", "upset"] }
     ],
     "😂": [
-      { "sense": "dated laughter", "gloss": "Oxford's 2015 Word of the Year, now widely read as a marker of being older or out of touch. Its decline is generational, not semantic.", "confidence": "high" }
+      { "sense": "dated laughter", "gloss": "Oxford's 2015 Word of the Year, now widely read as a marker of being older or out of touch. Its decline is generational, not semantic.", "confidence": "high", "keywords": ["lol", "boomer", "cheugy", "outdated"] }
     ],
     "🙂": [
-      { "sense": "passive aggression", "gloss": "Read as strained, disappointed or thinly veiled contempt rather than happy. The most reliable tonal inversion in the set.", "confidence": "high" }
+      { "sense": "passive aggression", "gloss": "Read as strained, disappointed or thinly veiled contempt rather than happy. The most reliable tonal inversion in the set.", "confidence": "high", "keywords": ["fine", "sure", "passive aggressive"] }
     ],
     "🙃": [
-      { "sense": "resigned exasperation", "gloss": "'This is fine' while it is plainly not fine.", "confidence": "high" }
+      { "sense": "resigned exasperation", "gloss": "'This is fine' while it is plainly not fine.", "confidence": "high", "keywords": ["this is fine", "cope", "ugh"] }
     ],
     "😊": [
-      { "sense": "sincere warmth", "gloss": "Occupies the slot 🙂 vacated; the emoji people reach for when they actually mean to be pleasant.", "confidence": "high" }
+      { "sense": "sincere warmth", "gloss": "Occupies the slot 🙂 vacated; the emoji people reach for when they actually mean to be pleasant.", "confidence": "high", "keywords": ["nice", "kind", "wholesome"] }
     ],
     "👍": [
-      { "sense": "dismissive or hostile acknowledgement", "gloss": "Read by many younger users as curt, sarcastic or conversation-ending. Repeatedly the subject of workplace-communication news coverage.", "confidence": "high" }
+      { "sense": "dismissive or hostile acknowledgement", "gloss": "Read by many younger users as curt, sarcastic or conversation-ending. Repeatedly the subject of workplace-communication news coverage.", "confidence": "high", "keywords": ["k", "fine", "curt", "cold"] }
     ],
     "🫡": [
-      { "sense": "resigned compliance", "gloss": "'Understood, I hate it.' Deference performed with visible reluctance; rarely a sincere salute.", "confidence": "high" }
+      { "sense": "resigned compliance", "gloss": "'Understood, I hate it.' Deference performed with visible reluctance; rarely a sincere salute.", "confidence": "high", "keywords": ["salute", "understood", "fml"] }
     ],
     "🤡": [
-      { "sense": "self-directed foolishness", "gloss": "Marks the speaker, or their target, as having behaved absurdly. 'Clown behaviour'.", "confidence": "high" }
+      { "sense": "self-directed foolishness", "gloss": "Marks the speaker, or their target, as having behaved absurdly. 'Clown behaviour'.", "confidence": "high", "keywords": ["clown", "dumb", "embarrassing"] }
     ],
     "🤪": [
-      { "sense": "unhinged enthusiasm", "gloss": "Deliberately performed chaos rather than literal zaniness.", "confidence": "medium" }
+      { "sense": "unhinged enthusiasm", "gloss": "Deliberately performed chaos rather than literal zaniness.", "confidence": "medium", "keywords": ["chaotic", "unhinged", "silly"] }
     ],
     "😅": [
-      { "sense": "concealed panic", "gloss": "A smile over genuine discomfort; often signals that something has gone wrong.", "confidence": "high" }
+      { "sense": "concealed panic", "gloss": "A smile over genuine discomfort; often signals that something has gone wrong.", "confidence": "high", "keywords": ["nervous laugh", "awkward", "oh no"] }
     ],
     "😬": [
-      { "sense": "awkward acknowledgement", "gloss": "Marks a social misstep, usually the speaker's own.", "confidence": "high" }
+      { "sense": "awkward acknowledgement", "gloss": "Marks a social misstep, usually the speaker's own.", "confidence": "high", "keywords": ["yikes", "cringe", "oof"] }
     ],
     "🥲": [
-      { "sense": "smiling through pain", "gloss": "Cheerfulness maintained over evident distress. Rapidly adopted after its 2020 release.", "confidence": "high" }
+      { "sense": "smiling through pain", "gloss": "Cheerfulness maintained over evident distress. Rapidly adopted after its 2020 release.", "confidence": "high", "keywords": ["bittersweet", "forced smile"] }
     ],
     "😌": [
-      { "sense": "smugness", "gloss": "Self-satisfaction rather than the CLDR reading of relief.", "confidence": "medium" }
+      { "sense": "smugness", "gloss": "Self-satisfaction rather than the CLDR reading of relief.", "confidence": "medium", "keywords": ["smug", "satisfied"] }
     ],
     "🥹": [
-      { "sense": "moved, or pleading", "gloss": "Splits between genuine emotion and manipulative cuteness.", "confidence": "medium" }
+      { "sense": "moved, or pleading", "gloss": "Splits between genuine emotion and manipulative cuteness.", "confidence": "medium", "keywords": ["touched", "tearing up", "pleading"] }
     ],
     "🥺": [
-      { "sense": "wheedling", "gloss": "The 'puppy eyes' request. Read as manipulative-cute rather than sad.", "confidence": "high" }
+      { "sense": "wheedling", "gloss": "The 'puppy eyes' request. Read as manipulative-cute rather than sad.", "confidence": "high", "keywords": ["puppy eyes", "begging", "pleading"] }
     ],
     "✨": [
-      { "sense": "sarcasm quotes", "gloss": "Bracketing a word in sparkles marks it as ironic: 'a ✨great✨ idea'. A genuine punctuation innovation with no literal counterpart.", "confidence": "high" },
-      { "sense": "emphasis or specialness", "gloss": "Non-ironic decorative emphasis, the older sense.", "confidence": "high" }
+      { "sense": "sarcasm quotes", "gloss": "Bracketing a word in sparkles marks it as ironic: 'a ✨great✨ idea'. A genuine punctuation innovation with no literal counterpart.", "confidence": "high", "keywords": ["sarcastic", "ironic", "air quotes"] },
+      { "sense": "emphasis or specialness", "gloss": "Non-ironic decorative emphasis, the older sense.", "confidence": "high", "keywords": ["special", "fancy", "sparkle"] }
     ],
     "🧍": [
-      { "sense": "stunned inaction", "gloss": "'I just stood there'. Marks a moment of social paralysis.", "confidence": "medium" }
+      { "sense": "stunned inaction", "gloss": "'I just stood there'. Marks a moment of social paralysis.", "confidence": "medium", "keywords": ["frozen", "standing there", "awkward"] }
     ],
     "🗿": [
-      { "sense": "stoic indifference", "gloss": "Deadpan non-reaction; in some corners a marker of aggressive stoicism.", "confidence": "medium" }
+      { "sense": "stoic indifference", "gloss": "Deadpan non-reaction; in some corners a marker of aggressive stoicism.", "confidence": "medium", "keywords": ["moai", "deadpan", "unbothered"] }
     ],
     "😐": [
-      { "sense": "pointed non-reaction", "gloss": "Silence used as judgement.", "confidence": "high" }
+      { "sense": "pointed non-reaction", "gloss": "Silence used as judgement.", "confidence": "high", "keywords": ["blank stare", "judging", "silence"] }
     ],
     "😑": [
-      { "sense": "exhausted patience", "gloss": "An intensified 😐.", "confidence": "high" }
+      { "sense": "exhausted patience", "gloss": "An intensified 😐.", "confidence": "high", "keywords": ["done", "over it", "blank"] }
     ],
     "🫠": [
-      { "sense": "overwhelmed dissolution", "gloss": "'I am melting'. Burnout or embarrassment rendered physically.", "confidence": "high" }
+      { "sense": "overwhelmed dissolution", "gloss": "'I am melting'. Burnout or embarrassment rendered physically.", "confidence": "high", "keywords": ["melting", "burnout", "overwhelmed"] }
     ],
     "😶‍🌫️": [
-      { "sense": "dissociating", "gloss": "Brain fog or checked-out numbness.", "confidence": "medium" }
+      { "sense": "dissociating", "gloss": "Brain fog or checked-out numbness.", "confidence": "medium", "keywords": ["brain fog", "checked out", "numb"] }
     ],
     "🤨": [
-      { "sense": "suspicion of innuendo", "gloss": "Frequently flags that the previous message could be read sexually.", "confidence": "high" }
+      { "sense": "suspicion of innuendo", "gloss": "Frequently flags that the previous message could be read sexually.", "confidence": "high", "keywords": ["suspicious", "side eye", "innuendo"] }
     ],
     "😳": [
-      { "sense": "scandalised delight", "gloss": "Performed shock at something risqué.", "confidence": "high" }
+      { "sense": "scandalised delight", "gloss": "Performed shock at something risqué.", "confidence": "high", "keywords": ["shook", "scandalized", "omg"] }
     ],
     "🫥": [
-      { "sense": "feeling invisible", "gloss": "Social erasure or wanting to disappear.", "confidence": "medium" }
+      { "sense": "feeling invisible", "gloss": "Social erasure or wanting to disappear.", "confidence": "medium", "keywords": ["invisible", "disappear", "erased"] }
     ],
     "🙄": [
-      { "sense": "contempt", "gloss": "Considerably harsher in text than a physical eye-roll usually is.", "confidence": "high" }
+      { "sense": "contempt", "gloss": "Considerably harsher in text than a physical eye-roll usually is.", "confidence": "high", "keywords": ["eye roll", "annoyed", "whatever"] }
     ],
     "😏": [
-      { "sense": "innuendo", "gloss": "Marks the preceding statement as suggestive.", "confidence": "high" }
+      { "sense": "innuendo", "gloss": "Marks the preceding statement as suggestive.", "confidence": "high", "keywords": ["smirk", "suggestive", "innuendo"] }
     ],
     "🤠": [
-      { "sense": "grim cheerfulness", "gloss": "Used when a situation is bad and the speaker has decided to be weird about it instead.", "confidence": "medium" }
+      { "sense": "grim cheerfulness", "gloss": "Used when a situation is bad and the speaker has decided to be weird about it instead.", "confidence": "medium", "keywords": ["yeehaw", "coping", "weird about it"] }
     ],
     "🫤": [
-      { "sense": "unconvinced", "gloss": "Mild scepticism, softer than 🤨.", "confidence": "medium" }
+      { "sense": "unconvinced", "gloss": "Mild scepticism, softer than 🤨.", "confidence": "medium", "keywords": ["skeptical", "meh", "unsure"] }
     ],
     "😮‍💨": [
-      { "sense": "relief or exasperation", "gloss": "The exhale is ambiguous between the two by design.", "confidence": "medium" }
+      { "sense": "relief or exasperation", "gloss": "The exhale is ambiguous between the two by design.", "confidence": "medium", "keywords": ["exhale", "phew", "exhausted"] }
     ],
     "🫨": [
-      { "sense": "rattled", "gloss": "Shaken by news; the shaking face was added in Emoji 15.0 and took this sense immediately.", "confidence": "medium" }
+      { "sense": "rattled", "gloss": "Shaken by news; the shaking face was added in Emoji 15.0 and took this sense immediately.", "confidence": "medium", "keywords": ["shook", "shaking", "stunned"] }
     ],
     "🥴": [
-      { "sense": "overwhelmed", "gloss": "Non-sexual reading: dazed by workload or exhaustion.", "confidence": "medium" }
+      { "sense": "overwhelmed", "gloss": "Non-sexual reading: dazed by workload or exhaustion.", "confidence": "medium", "keywords": ["dazed", "exhausted", "overwhelmed"] }
     ],
     "😤": [
-      { "sense": "determined indignation", "gloss": "Read as huffy resolve rather than literal triumph, despite the CLDR name 'face with steam from nose'.", "confidence": "high" }
+      { "sense": "determined indignation", "gloss": "Read as huffy resolve rather than literal triumph, despite the CLDR name 'face with steam from nose'.", "confidence": "high", "keywords": ["huffy", "determined", "proud"] }
     ],
     "🤧": [
-      { "sense": "emotionally overcome", "gloss": "Detached from illness; signals being touched by something sweet.", "confidence": "low" }
+      { "sense": "emotionally overcome", "gloss": "Detached from illness; signals being touched by something sweet.", "confidence": "low", "keywords": ["touched", "sneeze", "overcome"] }
     ],
     "😔": [
-      { "sense": "performative disappointment", "gloss": "Often mock-sad rather than sad.", "confidence": "medium" }
+      { "sense": "performative disappointment", "gloss": "Often mock-sad rather than sad.", "confidence": "medium", "keywords": ["sad", "disappointed", "mock sad"] }
     ],
     "🤷": [
-      { "sense": "refusal of responsibility", "gloss": "Sharper than a literal shrug; declines to engage.", "confidence": "high" }
+      { "sense": "refusal of responsibility", "gloss": "Sharper than a literal shrug; declines to engage.", "confidence": "high", "keywords": ["shrug", "idk", "not my problem"] }
     ]
   }
 }

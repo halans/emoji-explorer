@@ -8,7 +8,7 @@
 //   "red flag"             quoted phrase, matched as a unit
 //   name:fox               scope a term to one field
 //   kw:ocean               CLDR keyword
-//   alt:lying              curated alternate sense
+//   alt:lying              curated alternate sense (sense, gloss, or keywords)
 //   group:food             emoji group
 //   sub:face-smiling       subgroup
 //   v:17                   version added
@@ -191,7 +191,11 @@ const norm = (s) => String(s ?? '').toLowerCase();
  */
 export function buildIndex(records) {
   const senseView = (senses) => ({
-    alt: [...senses.map((a) => a.sense), ...senses.map((a) => a.gloss ?? '')].map(norm),
+    alt: [
+      ...senses.map((a) => a.sense),
+      ...senses.map((a) => a.gloss ?? ''),
+      ...senses.flatMap((a) => a.keywords ?? []),
+    ].map(norm),
     altSenses: senses.map((a) => norm(a.sense)),
     register: [...new Set(senses.map((a) => norm(a.register)))],
   });
