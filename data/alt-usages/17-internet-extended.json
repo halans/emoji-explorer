@@ -4,7 +4,7 @@
   "provenance": "Second pass on meme-derived senses, covering formats and coinages not in 03-internet-slang.json. Where a sense originates in a datable event or platform behaviour it is named.",
   "entries": {
     "🗿": [
-      { "sense": "the moai reaction", "gloss": "Deadpan non-response, and in some corners an aggressively stoic 'gigachad' posture.", "confidence": "high", "keywords": ["moai", "deadpan", "gigachad"] }
+      { "sense": "the moai reaction", "gloss": "Deadpan non-response, and in some corners an aggressively stoic 'gigachad' posture. Overwhelmingly a Gen Alpha marker: it jumped from the 482nd most-used emoji in 2021 to 33rd in 2025, and Reddit data shows it used in fits and starts in Gen Alpha spaces but almost never elsewhere.", "confidence": "high", "keywords": ["moai", "deadpan", "gigachad", "gen alpha"] }
     ],
     "🥩": [
       { "sense": "carnivore-diet posting", "gloss": "In bios, signals a whole cluster of online health and masculinity positions.", "confidence": "low", "keywords": ["carnivore diet", "steak", "meat"] }
