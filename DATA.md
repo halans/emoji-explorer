@@ -177,10 +177,10 @@ Treat this as a curated reference, not a corpus measurement.
 
 | Register | Emoji | Senses | Files | What it covers |
 |---|---|---|---|---|
-| `internet` | 92 | 95 | 2 | meme-derived senses: 🚩 red flag, 🧢 cap/lying, 🐐 GOAT, 🍵 tea, 🧠 brainrot, 🪫 no social energy |
+| `internet` | 94 | 97 | 2 | meme-derived senses: 🚩 red flag, 🧢 cap/lying, 🐐 GOAT, 🍵 tea, 🧠 brainrot, 🪫 no social energy, 🥀 forced-emoji heartbreak, 🫩 exhausted composure |
 | `misread` | 84 | 84 | 2 | official names nobody recognises: 😤 is "face with steam from nose", 🍢 is oden, ♨️ is an onsen, 🩸 began as a period-stigma campaign |
 | `sexual` | 78 | 78 | 3 | **gated.** Euphemism, anatomy and acts, and algospeak — the register moderation systems treat as primary |
-| `irony` | 72 | 75 | 2 | tone inversion, the largest source of name/meaning drift: 💀 laughter, 🙂 passive aggression, ✨sarcasm quotes✨, 🤔 insinuation |
+| `irony` | 72 | 76 | 2 | tone inversion, the largest source of name/meaning drift: 💀 laughter, 🙂 passive aggression, ✨sarcasm quotes✨, 🤔 insinuation, 👍 post-ironic revival |
 | `workplace` | 62 | 62 | 2 | protocol use in Slack, code review and on-call: ✅ done, 👀 reviewing, 💥 breaking change, 📟 being paged, 🪄 AI feature |
 | `subculture` | 46 | 48 | 1 | in-group markers: fandom, programming-language mascots (🦀 Rust, 🐧 Linux, 🐳 Docker), platform logos |
 | `nonenglish` | 45 | 47 | 1 | senses from non-anglophone internet: 🍐 goodbye in Mandarin homophone slang, 🙇 a real apology in Japanese, 🫰 the Korean finger heart |
@@ -195,7 +195,7 @@ Treat this as a curated reference, not a corpus measurement.
 | `substances` | 25 | 25 | 1 | **gated.** Drug-trade codes, as published in DEA and platform trust-and-safety guidance |
 | `platform` | 22 | 22 | 1 | vendor-dependent meaning: 🔫 became a water pistol everywhere, ❤️ needs `U+FE0F` |
 
-**823 senses across 570 emoji in 17 registers.** Three senses attach to
+**830 senses across 572 emoji in 17 registers.** Three senses attach to
 two-emoji combos rather than single glyphs. Tone variants inherit their
 parent's senses.
 

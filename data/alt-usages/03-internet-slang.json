@@ -126,6 +126,12 @@
     "🫰": [
       { "sense": "affection, or money", "gloss": "The Korean finger heart, mainstreamed globally by K-pop; also a 'cash' gesture in some contexts.", "confidence": "high", "keywords": ["finger heart", "money", "cash"] }
     ],
+    "🥀": [
+      { "sense": "mock-heartbreak, Gen Alpha", "gloss": "A 'forced emoji' — one assigned meaning deliberately rather than picked up intuitively — pushed by TikTok's ironic 'JuggTok' scene in early 2025 as a replacement for 💔, on the claim the broken heart had gone stale and mainstream. Became 2025's fastest-rising emoji by share; Reddit forum data shows it near 8% of emoji-using comments in Gen Alpha spaces versus roughly 2% for Gen Z and negligible for Millennials and Gen X, making it a clean generational marker.", "confidence": "high", "keywords": ["wilting rose", "broken heart replacement", "juggtok", "forced emoji", "gen alpha"] }
+    ],
+    "🫩": [
+      { "sense": "exhausted composure", "gloss": "'Face with bags under eyes', added in 2024 and taken up almost exclusively by Gen Z and Gen Alpha; reads as 'running on empty but still functioning' rather than a literal complaint about sleep.", "confidence": "medium", "keywords": ["tired", "exhausted", "done", "bags under eyes"] }
+    ],
     "🤟": [
       { "sense": "I love you in ASL", "gloss": "A genuine sign-language letterform, distinct from 🤘 which is a rock-music horns gesture.", "confidence": "high", "keywords": ["ily", "love you", "asl"] }
     ],
