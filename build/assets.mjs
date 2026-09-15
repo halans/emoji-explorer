@@ -92,8 +92,8 @@ a.ghost:hover{border-color:var(--accent2);color:var(--accent2)}
 </style>
 </head>
 <body>
-<div class="glyph">🔎🦖❓</div>
-<h1>404 — no emoji lives at this address</h1>
+<div class="glyph">🦖❓</div>
+<h1>404 — 🔎 no emoji lives at this address</h1>
 <p>There's no page at that path. Try searching for a meaning instead, or read what Emojisaurus actually is.</p>
 <div class="links">
   <a class="cta" href="/">Search Emojisaurus →</a>
