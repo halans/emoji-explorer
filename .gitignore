@@ -4,3 +4,4 @@ data/dataset.json
 dist/
 .serena/*
 .vscode/*
+.wrangler/
