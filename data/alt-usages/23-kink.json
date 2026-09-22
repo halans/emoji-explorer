@@ -98,6 +98,9 @@
     ],
     "🔨": [
       { "sense": "impact play", "gloss": "Gear reference; the hammer otherwise means West Ham or plain construction.", "confidence": "low", "keywords": ["impact play"] }
+    ],
+    "🍍": [
+      { "sense": "swinger, non-monogamous", "gloss": "An upside-down pineapple displayed on a cruise-ship cabin door or a real one worn/placed at home is a known signal for swinging or open-relationship interest, popularised on cruises and later carried into bios and dating-app profiles as 'pineapple friendly'.", "confidence": "medium", "keywords": ["swinger", "swinging", "non-monogamous", "pineapple friendly", "open relationship"] }
     ]
   }
 }
